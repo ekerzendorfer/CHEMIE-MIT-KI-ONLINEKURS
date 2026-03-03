@@ -1,4 +1,4 @@
-# Willkommen im Chemie-Kurs!
+# Willkommen im Chemie-Online-Kurs!
 
 Dies ist eine einfache, KI-generierte Kursseite. Du kannst den Text einfach im Browser ändern!
 
