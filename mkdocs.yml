@@ -1,5 +1,5 @@
-site_name: Mein Chemie-Kurs
-site_description: Interaktive Materialien für den Chemieunterricht
+site_name: CHEMIE mit KI Online-Kurs
+site_description: Begleitkurs zur VCÖ CHemie & Schule Artikelserie 
 theme:
   name: material
   language: de
@@ -17,3 +17,9 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Startseite: index.md
+  - Modul 1 - KI im Alltag: modul1.md
+  - Modul 2 - Die Basis-Tools: modul2.md
+  - App-Entwicklung für Lehrkräfte: workflow.md
