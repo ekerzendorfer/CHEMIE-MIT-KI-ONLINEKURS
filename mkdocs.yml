@@ -1,8 +1,10 @@
-site_name: CHEMIE mit KI Online-Kurs
-site_description: Begleitkurs zur VCÖ CHemie & Schule Artikelserie 
+site_name: Mein Chemie-Kurs
+site_description: Interaktive Materialien für den Chemieunterricht
 theme:
   name: material
   language: de
+  features:
+    - content.code.copy
   palette:
     primary: indigo
     accent: deep orange
