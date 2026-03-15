@@ -36,6 +36,91 @@ Dieser Assistent ist Ihr digitaler Sicherheitsbeauftragter. Er nimmt Ihnen das m
     3. Durchführung: Eine Schritt-für-Schritt-Anleitung, formuliert in direkter, verständlicher Sprache für SchülerInnen. Hebe Sicherheitswarnungen (wie "Schutzbrille aufsetzen!") fett und prominent hervor.
     4. Entsorgung: Ein kurzer, fachlich korrekter Hinweis zur umweltgerechten Entsorgung der Chemikalienabfälle am Ende der Stunde.
     ```
+    <br>
+
+??? example "Praxis-Test: Den LABOR-Assistenten in Aktion sehen (Hier klicken!)"
+    **Ihre Eingabe (Prompt):** *„Reaktion der Alkalimetalle Li, Na und K mit Wasser im Vergleich“*
+
+    ---
+
+    **Antwort des Assistenten:**
+    
+    Hallo! Das ist ein absolut essenzieller Versuch für den Chemieunterricht, um die Gesetzmäßigkeiten innerhalb einer Elementgruppe (hier die Alkalimetalle) zu verdeutlichen. Da die Reaktivität nach unten hin massiv zunimmt, ist hier höchste Vorsicht geboten.
+    
+    Hier ist die strukturierte Labor-Ausarbeitung für den Vergleich von Lithium, Natrium und Kalium:
+
+    ### ⚠️ GEFÄHRDUNGSBEURTEILUNG
+    
+    | Stoff | GHS-Symbole | H-Sätze (zusammengefasst) |
+    |-------|-------------|---------------------------|
+    | **Lithium** ($Li$) | 🔥 🧪 | **H260:** In Berührung mit Wasser entstehen entzündbare Gase, die sich spontan entzünden können.<br>**H314:** Verursacht schwere Verätzungen. |
+    | **Natrium** ($Na$) | 🔥 🧪 | **H260:** Reagiert heftig mit Wasser unter Bildung entzündbarer Gase.<br>**H314:** Verursacht schwere Verätzungen. |
+    | **Kalium** ($K$) | 🔥 🧪 | **H260:** Reagiert extrem heftig mit Wasser; Entzündungsgefahr.<br>**H314:** Verursacht schwere Verätzungen. |
+    | **Alkalilaugen** | 🧪 | **H314:** Die entstehenden Lösungen sind stark ätzend. |
+
+    **Schutzmaßnahmen:**
+    
+    * **Schutzbrille & Laborkittel:** Absolute Pflicht für alle Personen im Raum.
+    * **Lehrerversuch:** In der Sekundarstufe 1 sollte dieser Versuch aufgrund des Explosionsrisikos (besonders bei Kalium) nur als Lehrer-Demonstration hinter einer Schutzscheibe oder im Abzug durchgeführt werden.
+    * **Mengenbegrenzung:** Nur linsengroße Stücke verwenden!
+    * **Werkzeug:** Metalle niemals mit den Fingern berühren (Hautfeuchtigkeit!), immer eine Pinzette benutzen.
+
+    ---
+
+    ### 🧪 VERSUCHSANLEITUNG
+    
+    **Materialliste**
+    
+    * **Geräte:** 3 Kristallisierschalen (oder große Bechergläser), Pinzette, Messer, Filterpapier, Schutzscheibe.
+    * **Chemikalien:** Lithium, Natrium, Kalium (unter Paraffinöl gelagert), destilliertes Wasser, Indikator (Phenolphthalein).
+
+    **Durchführung**
+    
+    1. Fülle die drei Kristallisierschalen mit Wasser und gib jeweils 2–3 Tropfen Phenolphthalein hinzu.
+    2. Nimm nacheinander ein kleines Stück der Metalle aus dem Vorratsglas, tupfe das Öl mit Filterpapier ab und schneide ein linsengroßes Stück ab. Beobachte dabei die frische Schnittfläche.
+    3. Gib zuerst das Lithium auf die Wasseroberfläche.
+    4. Wiederhole den Vorgang mit Natrium und zuletzt (unter besonderer Vorsicht) mit Kalium.
+    
+    🛑 **Sicherheits-Checkpoint:** Halte nach dem Einwerfen sofort Sicherheitsabstand oder schließe die Frontscheibe des Abzugs. Kalium kann am Ende der Reaktion spritzen!
+
+    ---
+
+    ### 📊 BEOBACHTUNG & AUSWERTUNG
+    
+    **Beobachtungen im Vergleich**
+    
+    | Metall | Verhalten auf dem Wasser | Flamme / Reaktion | Indikator-Färbung |
+    |--------|--------------------------|-------------------|-------------------|
+    | **Lithium** | Schwimmt, zischt leise, löst sich langsam auf. | Keine Flamme sichtbar. | Pink |
+    | **Natrium** | Schwimmt, schmilzt zu glänzender Kugel, flitzt umher. | Kann sich gelb entzünden. | Pink |
+    | **Kalium** | Schwimmt, reagiert sofort extrem heftig. | Sofortige violette Flamme, kleine Explosion am Ende. | Pink |
+
+    **Chemische Reaktionsgleichung (beispielhaft für Natrium)**
+    
+    Die Alkalimetalle ($M$) reagieren mit Wasser zu Alkalihydroxiden und Wasserstoff:
+    
+    $$2 M_{(s)} + 2 H_2O_{(l)} \longrightarrow 2 M^+_{(aq)} + 2 OH^-_{(aq)} + H_{2(g)}$$
+
+    **Fachliche Deutung**
+    
+    Es handelt sich um eine Redoxreaktion. Die Alkalimetalle geben ein Elektron ab (Oxidation), während Wasser zu Wasserstoff und Hydroxid-Ionen reduziert wird.
+    * **Trend:** Die Reaktivität nimmt von Lithium zu Kalium stark zu.
+    * **Grund:** Mit zunehmender Periode steigt der Atomradius. Das Valenzelektron ist weiter vom Kern entfernt und wird weniger stark angezogen (sinkende Ionisierungsenergie). Daher wird es bei Kalium viel leichter abgegeben als bei Lithium.
+
+    ---
+
+    ### 💡 LEHRER-BONUS
+    
+    **Tipps für die Praxis & Fehlvorstellungen**
+    
+    * **Die Oxidschicht:** Zeige den Schülern die frische Schnittfläche. Sie glänzt metallisch, läuft aber innerhalb von Sekunden grau an. Das verdeutlicht die hohe Reaktivität gegenüber Luftsauerstoff.
+    * **Fehlvorstellung "Dichte":** Viele Schüler denken, Metalle müssten sinken. Da Alkalimetalle aber eine geringere Dichte als Wasser haben ($\rho < 1 \, \text{g/cm}^3$), schwimmen sie. Das ist eine hervorragende Gelegenheit, den Begriff der Dichte zu wiederholen.
+    * **Knallgas:** Erkläre, dass die Flamme beim Kalium nicht das Metall selbst ist, das brennt, sondern der entstehende Wasserstoff, der sich durch die enorme Reaktionswärme entzündet.
+
+    **Entsorgung**
+    
+    Die entstandenen Lösungen in den Behälter für saure und alkalische Abfälle geben.
+    **Wichtig:** Eventuelle kleine Metallreste im Filterpapier niemals in den Mülleimer werfen! Vernichte Reste sicher in einem Becherglas mit Propan-2-ol (Isopropanol), bis keine Gasentwicklung mehr sichtbar ist.
 
 ### Praxisbeispiel 2: Die PHARMA-KI (Fokus: Biochemie & Sek 2)
 Dieser Assistent ist für die Oberstufe gedacht. Er schlägt die Brücke zwischen der reinen Strukturchemie und der realen Anwendung in der Medizin und Biologie.
