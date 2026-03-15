@@ -139,3 +139,41 @@ Dieser Assistent ist für die Oberstufe gedacht. Er schlägt die Brücke zwische
     3. Synthese-Idee: Eine stark vereinfachte retrosynthetische Betrachtung (aus welchen Grundbausteinen wird es hergestellt?).
     4. IT-Bonus: Liefere mir am Ende zwingend den exakten SMILES-Code des Moleküls, damit meine SchülerInnen diesen Code kopieren und in einem 3D-Molecular-Modelling-Tool (wie Mol_Lab) direkt visualisieren können.
     ```
+<br>
+
+??? example "Praxis-Test: Die PHARMA-KI in Aktion sehen (Hier klicken!)"
+    **Ihre Eingabe (Prompt):** *„Paxlovid“*
+
+    ---
+
+    **Antwort des Assistenten:**
+    
+    Bei „Paxlovid“ handelt es sich um den Handelsnamen eines antiviralen Kombinationspräparats, das spezifisch zur Behandlung von COVID-19 entwickelt wurde. Es besteht aus zwei unterschiedlichen pharmakologisch aktiven Wirkstoffen (Nirmatrelvir und Ritonavir), die synergistisch zusammenwirken.
+    
+    Hier ist die strukturierte Übersicht für beide Komponenten:
+
+    ### 💊 Hauptkomponente 1: Nirmatrelvir (Das Virostatikum)
+    
+    * **Wirkstoff (Trivialname):** Nirmatrelvir
+    * **Systematischer Name (IUPAC):** (1R,2S,5S)-N-[(1S)-1-Cyano-2-[(3S)-2-oxopyrrolidin-3-yl]ethyl]-3-[(2S)-3,3-dimethyl-2-[(2,2,2-trifluoracetyl)amino]butanoyl]-6,6-dimethyl-3-azabicyclo[3.1.0]hexan-2-carboxamid
+    * **Wirkungsmechanismus:** Nirmatrelvir ist ein peptidomimetischer, kovalenter Inhibitor der viralen 3C-like-Protease (3CLpro / Mpro) von SARS-CoV-2. Es bindet über seine reaktive Nitrilgruppe irreversibel an die katalytische Aminosäure Cystein-145 im aktiven Zentrum des Enzyms, wodurch die Spaltung der viralen Polyproteine blockiert und die intrazelluläre Virusreplikation gestoppt wird.
+    * **Online-Quelle:** PubChem - Nirmatrelvir (CID 155903259)
+    
+    **SMILES-Code zum Kopieren für das Mol_Lab:**
+    `CC1([C@@H]2[C@H]1[C@H](N(C2)C(=O)[C@H](C(C)(C)C)NC(=O)C(F)(F)F)C(=O)N[C@@H](C[C@@H]3CCNC3=O)C#N)C`
+
+    ---
+
+    ### 🛡️ Hauptkomponente 2: Ritonavir (Der pharmakokinetische Booster)
+    
+    * **Wirkstoff (Trivialname):** Ritonavir
+    * **Systematischer Name (IUPAC):** 1,3-Thiazol-5-ylmethyl-N-[(2S,3S,5S)-3-hydroxy-5-[[(2S)-3-methyl-2-[[methyl-[(2-propan-2-yl-1,3-thiazol-4-yl)methyl]carbamoyl]amino]butanoyl]amino]-1,6-diphenylhexan-2-yl]carbamat
+    * **Wirkungsmechanismus:** In der Paxlovid-Kombination dient Ritonavir nicht primär als eigenes Virostatikum, sondern als pharmakokinetischer Verstärker. Es wirkt als hochaffiner, irreversibler Inhibitor des hepatischen und intestinalen Cytochrom-P450-Isoenzyms CYP3A4, wodurch der ansonsten sehr rasche metabolische Abbau von Nirmatrelvir verlangsamt und dessen systemische Konzentration im therapeutisch wirksamen Bereich gehalten wird.
+    * **Online-Quelle:** PubChem - Ritonavir (CID 392622)
+
+    **SMILES-Code zum Kopieren für das Mol_Lab:**
+    `CC(C)C1=NC(=CS1)CN(C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC2=CC=CC=C2)C[C@@H]([C@H](CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O`
+
+    ---
+    
+    *Möchtest du, dass ich dir aufgrund der starken CYP3A4-Hemmung von Ritonavir das komplexe Profil der Wechselwirkungen (Drug-Drug-Interactions) mit anderen Medikamenten aufschlüssele, oder sollen wir uns genauer mit der potenziellen viralen Resistenzbildung gegen Nirmatrelvir befassen?*
