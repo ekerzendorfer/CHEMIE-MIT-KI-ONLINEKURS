@@ -20,6 +20,4 @@ extra_javascript:
 
 nav:
   - Startseite: index.md
-  - Modul 1 - KI im Alltag: modul1.md
-  - Modul 2 - Die Basis-Tools: modul2.md
-  - App-Entwicklung für Lehrkräfte: workflow.md
+  - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
