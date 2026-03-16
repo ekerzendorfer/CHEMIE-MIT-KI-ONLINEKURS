@@ -21,7 +21,7 @@ Die Kenntnis der wichtigsten Elemente und ihrer Position im PSE ist eine fundame
 
 Das Übersetzen von Stoffnamen in die korrekte chemische Formelsprache ist eine der größten Hürden in der anorganischen Chemie.
 
-[Zur App: Formel-Master starten](https://ekerzendorfer.github.io/SALZBENENNUNG/){ .md-button .md-button--primary }
+[Salz - Formeltrainer](https://ekerzendorfer.github.io/SALZFORMELN/){ .md-button .md-button--primary } [Salz - Benennung](https://ekerzendorfer.github.io/SALZBENENNUNG/){ .md-button }
 
 !!! tip "Fokus auf die Nomenklatur-Schnittstelle"
     Das Tool trainiert genau den korrekten Umgang mit Ionenladungen, tiefgestellten Indizes und der richtigen Setzung von Klammern bei mehratomigen Ionen (z.B. bei Sulfaten oder Nitraten). Über einen speziellen Lehrer-Bereich können Sie gezielt steuern, welche Ionenkonfigurationen (z.B. nur einfache Anionen für die Sek 1) abgefragt werden.
