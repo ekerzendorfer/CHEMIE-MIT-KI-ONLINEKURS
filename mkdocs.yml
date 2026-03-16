@@ -24,3 +24,7 @@ nav:
   - Startseite: index.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
   - NotebookLM im NaWi-Alltag: notebooklm.md
+
+plugins:
+  - search
+  - glightbox
