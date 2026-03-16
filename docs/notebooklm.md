@@ -38,3 +38,28 @@ Die Bedienung ist extrem intuitiv und erfordert keine Vorkenntnisse.
 
 !!! tip "Die Quellenangaben prüfen"
     Wenn NotebookLM Ihnen eine Antwort gibt, sehen Sie im Text kleine hochgestellte Zahlen. Klicken Sie darauf! Die KI springt dann exakt zu der Textstelle in Ihrem hochgeladenen Original-PDF, aus der sie diese Information bezogen hat. So behalten Sie als Lehrkraft immer die 100%ige fachliche Kontrolle.
+## 🎓 Der "Studio"-Bereich: Unterrichtsmaterial auf einen Klick
+
+Neben der klassischen Chat-Funktion bietet NotebookLM ein Feature, das für uns Lehrkräfte ein absoluter Gamechanger ist: den **Studio-Bereich** (oft direkt auf der Startseite eines Notebooks oder als "Studienführer" bezeichnet). 
+
+Sobald Sie Ihre Quellen (z.B. ein Kapitel aus dem Schulbuch und Ihre eigenen Notizen) hochgeladen haben, analysiert NotebookLM diese automatisch und generiert im Studio-Bereich auf Knopfdruck fertige didaktische Formate – ganz ohne eigenes Prompting!
+
+*(Fügen Sie hier gerne einen Screenshot ein, wie der Studio-Bereich auf Ihrem Bildschirm aussieht:)*
+`![Screenshot des NotebookLM Studios](images/studio-screenshot.png)`
+
+Hier sind die für die Lehre wertvollsten Auto-Formate:
+
+* **Der Studienführer (Study Guide):**
+  Dieses Format ist perfekt für die Maturavorbereitung oder vor Schularbeiten. Die KI erstellt selbstständig eine strukturierte Übersicht der wichtigsten Konzepte aus Ihren Dokumenten und generiert passend dazu sofort **Multiple-Choice-Fragen** und **Kurzantwort-Fragen**. Sie können diese direkt in Ihr nächstes Arbeitsblatt kopieren.
+
+* **FAQs (Häufig gestellte Fragen):**
+  Ein genialer Perspektivenwechsel! Die KI antizipiert, welche Fragen SchülerInnen zu diesem Textbaustein am wahrscheinlichsten stellen würden, und liefert die kindgerechten Antworten gleich mit. Ideal, um mögliche Verständnisprobleme ("Stolpersteine") schon bei der Unterrichtsplanung aus dem Weg zu räumen.
+
+* **Das Briefing-Dokument:**
+  Haben Sie mehrere Quellen hochgeladen (z. B. drei verschiedene Artikel zur Ammoniak-Synthese)? Das Briefing-Dokument fasst die Kernaussagen aller Quellen in einem einzigen, kompakten Übersichtsdokument zusammen. Das spart Ihnen immens Zeit bei der Einarbeitung in neue Themengebiete.
+
+* **Zeitleiste (Timeline):**
+  Besonders nützlich für die Geschichte der Chemie (z.B. die Entwicklung der Atommodelle von Dalton bis Bohr). Wenn Ihre Texte historische Daten enthalten, ordnet die KI diese automatisch auf einem chronologischen Zeitstrahl an.
+
+!!! success "Praxis-Tipp für Arbeitsblätter"
+    Nutzen Sie den Studio-Bereich als "Steinbruch". Sie können die generierten Quizfragen oder FAQ-Antworten direkt markieren und als feste Notiz an Ihr Notebook anpinnen. So können Sie sich Stück für Stück die besten Bausteine für Ihr nächstes Handout zusammensammeln.
