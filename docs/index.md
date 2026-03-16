@@ -16,7 +16,7 @@ Schon 2015 habe ich in meiner Artikelserie zum computergestützten Unterricht ei
 
 Um Ihnen die Suche nach den richtigen Adressen zu ersparen, dient diese Seite auch als zentraler **Linkhub**. Hier finden Sie alle webbasierten Apps und KI-Tools, die in der Artikelserie besprochen werden, an einem Ort gebündelt. Alle hier verlinkten Eigenentwicklungen sind kostenlos, werbefrei und ohne Installation auf jedem Endgerät nutzbar.
 
-* [LINKHUB - alle Apps auf einen Blick]([DEIN_LINK_HIER](https://ekerzendorfer.github.io/CHEMIE_KI_LINKS/index.html))
+* [LINKHUB - alle Apps auf einen Blick](https://ekerzendorfer.github.io/CHEMIE_KI_LINKS/index.html)
 * [Interaktives Periodensystem (PSE-Trainer)](DEIN_LINK_HIER)
 * [Salzformeln & Nomenklatur-Trainer](DEIN_LINK_HIER)
 * [Stöchiometrie - Master PRO](DEIN_LINK_HIER)
@@ -32,6 +32,6 @@ Sie möchten die Inhalte der Artikelserie in einer Fachkonferenz an Ihrer Schule
 
 Hier können Sie sich meine dazugehörige Präsentation ansehen oder direkt herunterladen. Sie enthält alle wesentlichen Kernpunkte, visualisierte Workflows und die passenden QR-Codes für Ihre KollegInnen.
 
-[Präsentation ansehen (Google Slides)]([DEIN_LINK_HIER](https://docs.google.com/presentation/d/1toaHCfHsOgpVb6t9SOg1yU2f6O_3G723OjRU5sdgrd8/edit?usp=sharing)){ .md-button .md-button--primary } 
+[Präsentation ansehen (Google Slides)](https://docs.google.com/presentation/d/1toaHCfHsOgpVb6t9SOg1yU2f6O_3G723OjRU5sdgrd8/edit?usp=sharing)){ .md-button .md-button--primary } 
 
 [Präsentation als PDF herunterladen](DEIN_LINK_HIER){ .md-button }
