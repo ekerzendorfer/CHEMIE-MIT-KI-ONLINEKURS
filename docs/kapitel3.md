@@ -55,3 +55,16 @@ Um das zu lösen, haben wir die KI gebeten, ein kleines **Content-Management-Sys
 
 ## 👨‍🏫 Fazit: Die neue Lehrerrolle
 Dieses Projekt zeigt eindrucksvoll: Wir müssen keine Programmierer sein, aber wir sind die **Architekten unserer Lernumgebungen**. Die KI senkt die technische Hürde gegen Null, sodass Ihre didaktischen Ideen in der Freistunde Realität werden können!
+
+---
+
+## 🔗 Die App ins Klassenzimmer bringen
+
+Ihre maßgeschneiderte App ist nun online – aber wie kommt sie im Schulalltag am schnellsten auf die Smartphones oder Tablets der SchülerInnen? Die Zeiten, in denen man kryptische Webadressen an die Tafel schreiben oder abtippen musste, sind zum Glück vorbei.
+
+!!! tip "QR-Codes für Arbeitsblätter und Präsentationen"
+    Am effektivsten ist der Einsatz von QR-Codes. Kopieren Sie einfach den Link Ihrer neuen App und fügen Sie ihn in einen kostenlosen QR-Code-Generator ein (viele moderne Browser wie Chrome oder Edge haben diese Funktion zum Teilen von Seiten sogar schon standardmäßig eingebaut!).
+    
+    * **Auf dem Arbeitsblatt:** Drucken Sie den QR-Code einfach in die obere Ecke Ihres analogen Handouts. Die SchülerInnen scannen ihn ab und haben das digitale Werkzeug direkt passend zur haptischen Aufgabe vor sich (Stichwort: *Blended Learning*).
+    * **Am Beamer / Smartboard:** Binden Sie den QR-Code groß auf der Startfolie Ihrer Präsentation ein. Die ganze Klasse kann ihn beim Betreten des Raumes scannen und ist sofort arbeitsbereit.
+    * **Als Web-App auf Schul-Tablets:** Wenn Ihre Schule über Koffer-Tablets verfügt, können Sie den Link im Browser öffnen und "Zum Startbildschirm hinzufügen" wählen. Die Webseite bekommt dann ein eigenes Icon und verhält sich für die Kinder wie eine klassische, installierte App!
