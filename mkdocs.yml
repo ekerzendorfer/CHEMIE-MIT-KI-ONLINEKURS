@@ -24,6 +24,7 @@ nav:
   - Startseite: index.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
   - NotebookLM im NaWi-Alltag: notebooklm.md
+  - Kapitel 2 - Die Basis-Tools: kapitel2.md
 
 plugins:
   - search
