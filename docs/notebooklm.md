@@ -44,8 +44,7 @@ Neben der klassischen Chat-Funktion bietet NotebookLM ein Feature, das für uns 
 
 Sobald Sie Ihre Quellen (z.B. ein Kapitel aus dem Schulbuch und Ihre eigenen Notizen) hochgeladen haben, analysiert NotebookLM diese automatisch und generiert im Studio-Bereich auf Knopfdruck fertige didaktische Formate – ganz ohne eigenes Prompting!
 
-*(Fügen Sie hier gerne einen Screenshot ein, wie der Studio-Bereich auf Ihrem Bildschirm aussieht:)*
-`![Screenshot des NotebookLM Studios](images/studio-screenshot.png)`
+![Screenshot des NotebookLM Studios](images/NotebookLM_screenshot_green_steel.png)`
 
 Hier sind die für die Lehre wertvollsten Auto-Formate:
 
