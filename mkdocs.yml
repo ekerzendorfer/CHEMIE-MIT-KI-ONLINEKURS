@@ -23,4 +23,4 @@ extra_javascript:
 nav:
   - Startseite: index.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
-  - Exkurs - NotebookLM im NaWi-Alltag: notebooklm.md
+  - NotebookLM im NaWi-Alltag: notebooklm.md
