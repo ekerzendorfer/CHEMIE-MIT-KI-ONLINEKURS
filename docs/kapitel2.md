@@ -14,6 +14,9 @@ Die Kenntnis der wichtigsten Elemente und ihrer Position im PSE ist eine fundame
 
 !!! success "Didaktischer Einsatz: Der Misch-Modus"
     Viele Standard-Quiz-Apps nutzen einfache Zufallsgeneratoren, was oft zu Frustration führt, weil manche Elemente dreimal und andere gar nicht abgefragt werden. Der PSE-Trainer nutzt einen speziellen **Misch-Modus**: Jedes Element aus dem gewählten Pool wird exakt einmal abgefragt, bevor Wiederholungen auftreten. Das sorgt für ein systematisches und faires Festigen der Grundlagen.
+
+??? tip "Kurzanleitung: So wechseln Sie den Abfrage-Modus (Video)"
+    Hier sehen Sie, wie einfach sich der Schwierigkeitsgrad für Ihre Klasse anpassen lässt:
     
 ![Modus-Wechsel in der App](images/PSE_Trainer.gif)
 ---
