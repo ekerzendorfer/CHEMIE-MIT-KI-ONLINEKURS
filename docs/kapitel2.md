@@ -18,7 +18,7 @@ Die Kenntnis der wichtigsten Elemente und ihrer Position im PSE ist eine fundame
 ??? tip "Kurzanleitung: So wechseln Sie den Abfrage-Modus (Video)"
     Hier sehen Sie, wie einfach sich der Schwierigkeitsgrad für Ihre Klasse anpassen lässt:
     
-![Modus-Wechsel in der App](images/PSE_Trainer.gif)
+    ![Modus-Wechsel in der App](images/PSE_Trainer.gif)
 ---
 
 ## 🧂 2. Salzbenennung & Salzformeln (Formel-Master)
