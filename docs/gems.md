@@ -51,3 +51,24 @@ Klicken Sie auf die Boxen, um die fertigen "System-Prompts" (Anweisungen) für d
 ## 💡 Tipp für den Unterricht
 
 Sie können diese Assistenten nicht nur für sich selbst nutzen! Bei vielen Plattformen lassen sich selbsterstellte Gems oder GPTs per Link teilen. So können Sie Ihrer Oberstufenklasse für eine Recherche-Hausaufgabe direkt den Link zur "PHARMA-KI" schicken, und die SchülerInnen arbeiten in einer von Ihnen didaktisch vorstrukturierten, sicheren Lernumgebung.
+
+---
+
+## 💡 Keine Pro-Version? So klappt es auch kostenlos!
+
+Die offiziellen "Gems" (bei Gemini Advanced) oder das Erstellen eigener "Custom GPTs" (bei ChatGPT Plus) sind an kostenpflichtige Abonnements gebunden. Doch für den Schulalltag gibt es hervorragende, kostenlose Alternativen, um das gleiche Ziel zu erreichen:
+
+**1. Für SchülerInnen: Teilen macht erfinderisch (ChatGPT)**
+Wenn Sie als Lehrkraft über einen ChatGPT Plus-Account verfügen und dort einen Assistenten (wie die PHARMA-KI) bauen, können Sie den Link dazu generieren. Der große Vorteil: Wenn Sie diesen Link mit Ihrer Klasse teilen, können SchülerInnen mit einem **kostenlosen** ChatGPT-Account diesen Assistenten in vollem Umfang nutzen! 
+
+**2. Der "Copy & Paste"-Trick (Das analoge Gem)**
+Die simpelste und plattformunabhängige Methode: Legen Sie sich ein Word-Dokument, eine OneNote-Seite oder eine einfache Textdatei mit Ihren liebsten System-Prompts an. 
+* Öffnen Sie einen normalen, kostenlosen Chat (z. B. die Gratisversionen von Gemini, ChatGPT oder Claude).
+* Fügen Sie Ihren kopierten System-Prompt (die langen Regieanweisungen aus den Boxen oben) als **allererste Nachricht** in den Chat ein.
+* Senden Sie die Nachricht ab. Die KI schlüpft ab diesem Moment für den Rest der Unterhaltung exakt in diese Rolle!
+
+**3. "ChatGPT anpassen" (Custom Instructions)**
+Auch in der Gratis-Version von ChatGPT gibt es eine versteckte Funktion, die wie ein "Mini-Gem" wirkt: Klicken Sie unten links auf Ihren Namen und wählen Sie **"ChatGPT anpassen" (Custom Instructions)**. Dort können Sie in zwei Textfeldern dauerhaft hinterlegen, dass Sie Chemielehrkraft sind und Antworten z.B. immer strukturiert und altersgerecht für die Sekundarstufe formuliert werden sollen. Das System merkt sich das für jeden zukünftigen Chat.
+
+**4. Echte Bots auf kostenlosen Plattformen bauen**
+Wenn Sie wirklich eigene, anklickbare Assistenten mit System-Prompt bauen wollen, ohne dafür zu bezahlen, sind offene Plattformen wie **[Poe.com](https://poe.com/)** oder **[HuggingChat](https://huggingface.co/chat/)** eine exzellente Wahl. Dort können Sie sich als Lehrkraft kostenlos eigene "Bots" zusammenklicken und diese direkt nutzen.
