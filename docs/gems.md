@@ -72,3 +72,43 @@ Auch in der Gratis-Version von ChatGPT gibt es eine versteckte Funktion, die wie
 
 **4. Echte Bots auf kostenlosen Plattformen bauen**
 Wenn Sie wirklich eigene, anklickbare Assistenten mit System-Prompt bauen wollen, ohne dafür zu bezahlen, sind offene Plattformen wie **[Poe.com](https://poe.com/)** oder **[HuggingChat](https://huggingface.co/chat/)** eine exzellente Wahl. Dort können Sie sich als Lehrkraft kostenlos eigene "Bots" zusammenklicken und diese direkt nutzen.
+
+---
+
+## 🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen
+
+Wenn Sie das Prinzip der "Gems" oder "Custom GPTs" voll ausschöpfen möchten, ohne Geld für ein Pro-Abo in die Hand zu nehmen, empfehle ich Ihnen **HuggingChat** oder **Poe.com**. 
+
+Besonders **HuggingChat** ist für Schulen fantastisch, da es komplett kostenlos ist und auf modernste, offene KI-Modelle zugreift.
+
+### So bauen Sie einen Assistant in HuggingChat:
+
+1. Gehen Sie auf **[huggingface.co/chat](https://huggingface.co/chat/)** (Sie benötigen einen kostenlosen Account).
+2. Klicken Sie in der linken Seitenleiste auf **"Assistants"** und dann oben rechts auf **"Create new assistant"**.
+3. **Avatar & Name:** Geben Sie Ihrem Bot ein Gesicht (Icon hochladen) und einen Namen (z. B. "Redox-Coach").
+4. **Description:** Ein kurzer Satz für die SchülerInnen (z. B. "Ich helfe dir Schritt für Schritt bei Redoxgleichungen").
+5. **System Instructions (Das Wichtigste!):** Hier fügen Sie Ihren Regie-Prompt ein (siehe Beispiel unten).
+6. **Start Messages:** Geben Sie Beispiele vor, auf die SchülerInnen nur noch klicken müssen (z.B. *"Hilf mir bei der Reaktion von Kupfer mit Salpetersäure"*).
+7. Klicken Sie ganz unten auf **"Create"**. 
+
+Ihr Bot ist jetzt fertig! Sie können den Link aus der Adresszeile kopieren und direkt per QR-Code an Ihre SchülerInnen verteilen.
+
+### 🧪 Ein konkretes Beispiel für Ihren neuen Bot
+
+Klicken Sie auf die Box, um einen perfekten System-Prompt für einen interaktiven Schüler-Bot zu kopieren. Dieser Bot löst Aufgaben nicht einfach, sondern fungiert als echter Nachhilfelehrer!
+
+??? success "Der System-Prompt: Der interaktive Redox-Coach"
+    Kopieren Sie diesen Text exakt so in das Feld "System Instructions" bei HuggingChat oder Poe:
+    
+    > "Du bist ein geduldiger, didaktisch hervorragender Chemie-Tutor für die Oberstufe. Deine Aufgabe ist es, SchülerInnen beim Aufstellen komplexer Redoxgleichungen zu helfen.
+    > 
+    > **Deine strikten Regeln:**
+    > 1. Löse die Gleichung NIEMALS sofort komplett! Das ist extrem wichtig.
+    > 2. Führe den Schüler stattdessen sokratisch, Schritt für Schritt, durch den Prozess:
+    >    - Schritt 1: Oxidationszahlen bestimmen lassen.
+    >    - Schritt 2: Oxidation und Reduktion identifizieren.
+    >    - Schritt 3: Teilgleichungen (Elektronenübergang) aufstellen.
+    >    - Schritt 4: Ladungs- und Stoffausgleich (in saurer oder basischer Lösung).
+    > 3. Stelle nach jedem Schritt eine klare Frage an den Schüler und **warte auf seine Antwort**, bevor du zum nächsten Schritt übergehst.
+    > 4. Wenn der Schüler einen Fehler macht, korrigiere ihn sanft, gib einen kleinen Tipp und lass es ihn noch einmal versuchen.
+    > 5. Lobe den Schüler, wenn er einen Zwischenschritt richtig hat!"
