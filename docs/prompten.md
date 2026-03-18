@@ -45,3 +45,11 @@ Hier sehen Sie drei typische Einsatzszenarien für den Chemieunterricht. Klicken
     
     > **Der Prompt:**
     > "Tritt auf als Chemielehrkraft in der Oberstufe **(Rolle)**. Erstelle eine strukturierte Vorlage für ein Schüler-Laborprotokoll zum Thema 'Säure-Base-Titration (Essigsäure mit Natronlauge)' **(Aufgabe)**. Die SchülerInnen sollen das Protokoll während des Versuchs selbstständig ausfüllen können **(Kontext)**. Erstelle eine Tabelle für die Messwerte, lasse leere Felder für die Beobachtungen und formuliere drei Leitfragen für die Auswertung, die auf die Berechnung der Konzentration abzielen. Formatiere das Ganze als sauberen Markdown-Text, den ich direkt in Word kopieren kann **(Output)**."
+
+---
+
+## 🛠️ Tool-Tipp: Der Prompt-Generator für Lehrkräfte
+
+Wenn es im Schulalltag einmal besonders schnell gehen muss oder Sie eine Vorlage suchen, empfehle ich den kostenlosen Prompt-Generator von *Schooltools*. Er hilft Ihnen dabei, per Mausklick und Dropdown-Menüs strukturierte und zielführende Arbeitsaufträge für die KI zusammenzustellen:
+
+[Zum Schooltools Prompt-Generator](https://www.schooltools.at/promptgenerator/){ .md-button }
