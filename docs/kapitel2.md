@@ -52,5 +52,5 @@ Dieses digitale "Chemie-Zentrum" bündelt Aufgaben zur molaren Masse, Stoffmenge
 
 ??? tip "Kurzanleitung: Stöchiometrisches Rechnen in 4 Variationen (Video)"
    Stoffmenge und Masse berechnen, Reaktionsumsätze, Übungsbeispiele und Quiz:
-    
-    ![Stöchiometrieaufgaben](images/Stoechiometriemeister.gif)
+
+   ![Stöchiometrieaufgaben](images/Stoechiometriemeister.gif)
