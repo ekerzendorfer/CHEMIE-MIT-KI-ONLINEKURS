@@ -30,8 +30,14 @@ Das Übersetzen von Stoffnamen in die korrekte chemische Formelsprache ist eine 
 !!! tip "Fokus auf die Nomenklatur-Schnittstelle"
     Das Tool trainiert genau den korrekten Umgang mit Ionenladungen, tiefgestellten Indizes und der richtigen Setzung von Klammern bei mehratomigen Ionen (z.B. bei Sulfaten oder Nitraten). Über einen speziellen Lehrer-Bereich können Sie gezielt steuern, welche Ionenkonfigurationen (z.B. nur einfache Anionen für die Sek 1) abgefragt werden.
 
+??? tip "Kurzanleitung: Bei gegebenen Salznamen die Formel ermitteln (Video)"
+    Schwierigkeitsgrad (SEK1/2) einstellen, Anpassung im Lehrerbereich (unten):
+    
     ![Salzformeln üben](images/Salzformeln.gif)
 
+??? tip "Kurzanleitung: Bei gegebener Salznformel den Namen ermitteln (Video)"
+    Indices korrekt einstellen und Namen eingeben, Schwierigkeitsgrad SEK1/2 auswählen:
+    
     ![Salzbenennung üben](images/Salznamen.gif)
 ---
 
@@ -44,4 +50,7 @@ Dieses digitale "Chemie-Zentrum" bündelt Aufgaben zur molaren Masse, Stoffmenge
 !!! abstract "Gamification & Eigenständigkeit"
     Die App bietet zielgruppenspezifische Module für die Sekundarstufe 1 und 2. Der große Vorteil: Durch sofortige Rückmeldungen zur Richtigkeit der Ergebnisse (Score-Tracking) wird der Gamification-Aspekt bedient. Die SchülerInnen sind motiviert, ihre Fehler eigenständig zu finden und zu korrigieren, was die Lehrkraft bei Übungsphasen enorm entlastet.
 
+??? tip "Kurzanleitung: Stöchiometrisches Rechnen in 4 Variationen (Video)"
+   Stoffmenge und Masse berechnen, Reaktionsumsätze, Übungsbeispiele und Quiz:
+    
     ![Stöchiometrieaufgaben](images/Stoechiometriemeister.gif)
