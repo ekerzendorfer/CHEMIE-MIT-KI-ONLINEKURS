@@ -12,6 +12,8 @@ Schon 2015 habe ich in meiner Artikelserie zum computergestützten Unterricht ei
 
 ![Der Autor](images/KERZ_2020_02.jpg){ width="30" } ![KI-Sucht](images/KERZ_KI.png){ width="30%" } ![Mit Arbeitskollegen](images/KERZ_Schrödinger_Bohr_im_Labor.jpg){ width="30%" }
 
+Von links nach rechts: Der Autor | KI-Montage "KI-Sucht" | KI-Montage: Mit Arbeitskollegen im Labor
+
 ---
 
 ## 🗂️ Der Linkhub: Alle Werkzeuge auf einen Blick
