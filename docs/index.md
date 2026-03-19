@@ -32,6 +32,6 @@ Sie möchten die Inhalte der Artikelserie in einer Fachkonferenz an Ihrer Schule
 
 Hier können Sie sich meine dazugehörige Präsentation ansehen oder direkt herunterladen. Sie enthält alle wesentlichen Kernpunkte, visualisierte Workflows und die passenden QR-Codes für Ihre KollegInnen.
 
-[Präsentation ansehen (Google Slides)](https://docs.google.com/presentation/d/1toaHCfHsOgpVb6t9SOg1yU2f6O_3G723OjRU5sdgrd8/edit?usp=sharing)){ .md-button .md-button--primary } 
+[Präsentation ansehen (Google Slides)](https://docs.google.com/presentation/d/1toaHCfHsOgpVb6t9SOg1yU2f6O_3G723OjRU5sdgrd8/edit?usp=sharing)) .md-button .md-button--primary } 
 
 [Präsentation als PDF herunterladen](DEIN_LINK_HIER){ .md-button }
