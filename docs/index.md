@@ -9,7 +9,7 @@ Herzlich willkommen auf der digitalen Begleitplattform zu meiner neuen Artikelse
 Mein Name ist Erich Kerzendorfer. Ich beschäftige mich seit vielen Jahren leidenschaftlich mit der Frage, wie digitale Medien den naturwissenschaftlichen Unterricht bereichern können. 
 
 Schon 2015 habe ich in meiner Artikelserie zum computergestützten Unterricht ein Credo formuliert, das heute im Zeitalter der Künstlichen Intelligenz (KI) mehr denn je gilt: **Der Computer oder andere digitale Medien sollen und dürfen das reale Experiment nicht ersetzen.** Sie können aber als hochintelligente Assistenten dienen! Die Werkzeuge, die ich Ihnen hier vorstelle, sollen die Unterrichtsvorbereitung massiv erleichtern, die Erkennbarkeit chemischer Phänomene verbessern und den SchülerInnen ein individuelles, motivierendes Üben mit sofortigem Feedback ermöglichen. Kurz gesagt: Die KI soll uns Lehrkräften wertvolle Zeit für das Wesentliche – das Labor und die pädagogische Führung – zurückgeben.
-
+![Der Autor](images/KERZ_2020_02){ width="30%" } ![KI-Sucht](images/KERZ_KI.png){ width="40%" } ![Mit Arbeitskollegen](images/KI_ChatGPT_Nachhilfelehrer_KURIER_2026_02_10.jpg){ width="30%" }
 ---
 
 ## 🗂️ Der Linkhub: Alle Werkzeuge auf einen Blick
