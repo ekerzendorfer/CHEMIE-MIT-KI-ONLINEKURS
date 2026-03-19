@@ -34,6 +34,10 @@ Wir haben die App durch gezielte Folge-Prompts im Chat didaktisch verfeinert:
 ### Schritt 3: Deployment (In 2 Minuten online)
 Die fertigen Dateien (`index.html` und `equations.json`) wurden einfach in ein kostenloses GitHub-Repository hochgeladen. Mit der Aktivierung von "GitHub Pages" war die App sofort und werbefrei über einen Link (oder QR-Code) weltweit erreichbar – und funktioniert einmal geladen sogar komplett offline im Chemiesaal!
 
+??? tip "Kurzanleitung: Chemische Reaktionen ausgleichen (Video)"
+    Schwierigkeitsgrad (SEK1/2) einstellen, Anpassung im Gleichungseditor (unten):
+    
+    ![Reaktionen ausgleichen](images/Gleichungstrainer.gif)
 ---
 
 ## 🛠️ Der Lehrer-Bonus: Das integrierte Admin-Panel
