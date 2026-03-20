@@ -25,6 +25,25 @@ Sie möchten das Leseverständnis zu Ihrem eigenen, mehrseitigen Handout überpr
 Ein besonders motivierendes Feature: NotebookLM kann aus Ihren hochgeladenen Skripten mit einem Klick einen englischsprachigen "Audio Overview" generieren. Zwei lebensechte KI-Stimmen diskutieren darin Ihr Skript wie in einem Radio-Podcast.
 * **Didaktischer Einsatz:** Hervorragend geeignet für den bilingualen Chemieunterricht oder als auditives Lernangebot für SchülerInnen auf dem Schulweg!
 
+Hier können Sie mein fertiges Praxisbeispiel zum Thema "Green Steel" direkt selbst ausprobieren. Klicken Sie einfach auf den Link und stellen Sie der KI Fragen zum Text:
+
+[Zum Green Steel NotebookLM](https://notebooklm.google.com/notebook/103be410-fa2a-412e-a4bf-ef31f0fb0c60){ .md-button .md-button--primary }
+
+??? tip "Exkurs: Eigene Notebooks per Link mit der Klasse teilen"
+    Wenn Sie später eigene Notebooks (z. B. für Projektarbeiten oder als interaktives Skript) erstellen, können Sie diese ganz einfach mit Ihren SchülerInnen oder KollegInnen teilen – völlig ohne das lästige Einsammeln von E-Mail-Adressen!
+    
+    Google bietet dafür eine Freigabe-Funktion, die Sie wahrscheinlich schon von Google Docs kennen:
+    
+    1. Öffnen Sie Ihr fertiges Notizbuch in NotebookLM.
+    2. Klicken Sie ganz oben rechts auf den Button **"Teilen"**.
+    3. Ändern Sie die Zugriffsberechtigung von "Eingeschränkt" auf **"Jeder mit dem Link"**.
+    4. Klicken Sie auf **"Link kopieren"**.
+    
+    Diesen Link können Sie nun per QR-Code an die Tafel werfen oder im Schul-LMS posten. 
+    
+    **Keine Sorge um Ihre Daten:** Personen, die diesen Link öffnen, können nur mit dem Notebook chatten und die Dokumente lesen. Sie haben jedoch **keine Bearbeitungsrechte**. Ihre Originaldokumente oder Ihr privater Chatverlauf können von den Schülern oder Gästen weder gesehen noch verändert werden!
+    
+    *(Hinweis für Schul-Accounts: Falls Sie NotebookLM über ein offizielles Google Workspace-Konto Ihrer Schule nutzen, kann es sein, dass Ihr Schul-Admin die Freigabe nach außen aus Datenschutzgründen blockiert hat. Nutzen Sie für öffentliche Links im Zweifelsfall ein privates, kostenloses Google-Konto).*
 ---
 
 ## 🛠️ Hands-On: So starten Sie Ihr erstes Notebook
