@@ -39,3 +39,22 @@ Hier können Sie sich meine dazugehörige Präsentation ansehen oder direkt heru
 [Präsentation ansehen](https://docs.google.com/presentation/d/1toaHCfHsOgpVb6t9SOg1yU2f6O_3G723OjRU5sdgrd8/edit?usp=sharing){ .md-button .md-button--primary } 
 
 [Präsentation als PDF herunterladen](DEIN_LINK_HIER){ .md-button }
+
+## Der KI-Kompass: Wo fange ich am besten an?
+
+Wenn Sie sich gerade fragen: *"ChatGPT, Claude, Gemini, NotebookLM – wo fange ich eigentlich an und welches Tool ist das beste?"*, dann sind Sie nicht allein. Der aktuelle Markt kann anfangs absolut überwältigend wirken. 
+
+Die wichtigste Erkenntnis vorweg: Es gibt nicht die "eine perfekte" KI. Vielmehr ist es wie bei einem gut sortierten Werkzeugkoffer in der Chemie-Sammlung – für jede Aufgabe gibt es das passende Spezialwerkzeug. Ob Sie ein komplexes PDF auswerten, einen Lückentext differenzieren oder sogar eine kleine Web-App für Ihre SchülerInnen bauen möchten: Je nach Zielsetzung glänzt ein anderes Modell. 
+
+Um Ihnen den Einstieg zu erleichtern, finden Sie hier eine objektive und kompakte Übersicht der aktuell relevantesten KIs für den naturwissenschaftlichen Unterricht:
+
+??? info "Aufklappen: Übersicht – Welche KI für welchen Zweck?"
+    **Die wichtigsten KI-Tools für NaWi-Lehrkräfte im direkten Vergleich**
+
+    | KI-Plattform (Kosten) | Größter Vorteil für NaWi-Lehrkräfte | Warum das so ist (Der konkrete Anwendungsfall) |
+    | :--- | :--- | :--- |
+    | **Claude 3.5 Sonnet**<br>*(Basis kostenlos / Pro ca. 22€)* | **Der App-Baumeister & Didaktiker**<br>Überragend im Programmieren und bei Fachtexten. | Bietet "Artifacts" (Vorschaufenster für Code). Perfekt, um in Freistunden eigene interaktive HTML-Apps (wie den Gleichungstrainer) zu bauen. Formuliert Arbeitsblätter sprachlich extrem natürlich. |
+    | **ChatGPT (OpenAI)**<br>*(Basis kostenlos / Plus ca. 22€)* | **Der Analytiker & Allrounder**<br>Stark in Logik, Mathematik und Bildanalyse. | Kann hochgeladene Fotos von Versuchsplänen, handschriftlichen Formeln oder Diagrammen (z.B. Titrationskurven) exzellent auslesen. Bietet in der Bezahlversion maßgeschneiderte "Custom GPTs". |
+    | **Google Gemini**<br>*(Basis kostenlos / Advanced ca. 22€)* | **Der Rechercheur**<br>Echtzeit-Internetzugriff und YouTube-Integration. | Greift nahtlos auf das aktuelle Netz zu (gut für tagesaktuelle wissenschaftliche Daten). Kann YouTube-Videos von chemischen Experimenten analysieren und zusammenfassen. |
+    | **Google NotebookLM**<br>*(Komplett kostenlos)* | **Der sichere Archivar**<br>Arbeitet komplett ohne "Halluzinationen". | Beantwortet Fragen *ausschließlich* auf Basis Ihrer eigenen Dokumente (z.B. Lehrpläne, Sicherheitsdatenblätter). Erfindet keine chemischen Fakten dazu. |
+    | **HuggingChat / Poe.com**<br>*(Kostenlos nutzbar)* | **Der Schüler-Tutor**<br>Eigene Assistenten ohne Abo-Zwang. | Ideal, um maßgeschneiderte Lern-Bots (z.B. einen "Redox-Coach") mit didaktischen Regeln zu füttern und den Link datenschutzfreundlich an die Klasse zu verteilen. |
