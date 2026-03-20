@@ -1,0 +1,770 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Interaktive Materialien für den Chemieunterricht">
+      
+      
+      
+      
+        <link rel="prev" href="../gems/">
+      
+      
+        <link rel="next" href="../prompten/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>NotebookLM im NaWi-Alltag - CHEMIE mit KI - Onlinekurs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notebooklm-ihr-digitaler-halluzinationsfreier-aktenkoffer" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href=".." title="CHEMIE mit KI - Onlinekurs" class="md-header__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHEMIE mit KI - Onlinekurs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NotebookLM im NaWi-Alltag
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CHEMIE mit KI - Onlinekurs" class="md-nav__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    CHEMIE mit KI - Onlinekurs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Startseite - Linkhub - Kompass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 1 - Eigene KI-Assistenten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten (Gems)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NotebookLM im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NotebookLM im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#drei-geniale-einsatzszenarien-fur-den-chemieunterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔬 Drei geniale Einsatzszenarien für den Chemieunterricht
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔬 Drei geniale Einsatzszenarien für den Chemieunterricht">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-didaktische-reduktion-differenzierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Didaktische Reduktion (Differenzierung)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-arbeitsblatter-auf-knopfdruck" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Arbeitsblätter auf Knopfdruck
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-audio-learning-der-ki-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Audio-Learning (Der KI-Podcast)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-so-starten-sie-ihr-erstes-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Hands-On: So starten Sie Ihr erstes Notebook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-studio-bereich-unterrichtsmaterial-auf-einen-klick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎓 Der "Studio"-Bereich: Unterrichtsmaterial auf einen Klick
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prompten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompten lernen (ROKA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 2 - Die Basis-Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 3 - App in der Freistunde
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#drei-geniale-einsatzszenarien-fur-den-chemieunterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔬 Drei geniale Einsatzszenarien für den Chemieunterricht
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔬 Drei geniale Einsatzszenarien für den Chemieunterricht">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-didaktische-reduktion-differenzierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Didaktische Reduktion (Differenzierung)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-arbeitsblatter-auf-knopfdruck" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Arbeitsblätter auf Knopfdruck
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-audio-learning-der-ki-podcast" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Audio-Learning (Der KI-Podcast)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-so-starten-sie-ihr-erstes-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Hands-On: So starten Sie Ihr erstes Notebook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-studio-bereich-unterrichtsmaterial-auf-einen-klick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎓 Der "Studio"-Bereich: Unterrichtsmaterial auf einen Klick
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="notebooklm-ihr-digitaler-halluzinationsfreier-aktenkoffer">NotebookLM: Ihr digitaler, halluzinationsfreier Aktenkoffer</h1>
+<p>Das wohl größte Problem allgemeiner KI-Chatbots im naturwissenschaftlichen Unterricht ist die fehlende fachliche Zuverlässigkeit. Wenn die KI pKs-Werte erfindet oder komplexe Reaktionsmechanismen falsch wiedergibt (sogenannte "Halluzinationen"), ist sie für uns unbrauchbar. </p>
+<p>Hier bietet das kostenlose Tool <strong>NotebookLM</strong> von Google einen echten Paradigmenwechsel. Es arbeitet nach dem Prinzip des <em>Source-Groundings</em>. </p>
+<div class="admonition info">
+<p class="admonition-title">Was bedeutet Source-Grounding?</p>
+<p>Stellen Sie sich NotebookLM wie einen digitalen Aktenkoffer vor. Sie legen dort Ihre eigenen verifizierten PDFs, Skripten oder Weblinks hinein. Wenn Sie der KI nun eine Frage stellen oder einen Arbeitsauftrag erteilen, sucht sie die Antwort <strong>ausschließlich</strong> in diesen hochgeladenen Dokumenten. Sie erfindet keine Fakten hinzu.</p>
+</div>
+<h2 id="drei-geniale-einsatzszenarien-fur-den-chemieunterricht">🔬 Drei geniale Einsatzszenarien für den Chemieunterricht</h2>
+<p>NotebookLM entfaltet seine wahre Stärke bei der Unterrichtsvorbereitung und der Materialerstellung. Hier sind drei Beispiele, die Ihnen sofort Zeit sparen:</p>
+<h3 id="1-didaktische-reduktion-differenzierung">1. Didaktische Reduktion (Differenzierung)</h3>
+<p>Sie haben einen fachlich hervorragenden, aber viel zu komplexen Text (z.B. ein Universitätsskript zum Orbitalmodell oder einen englischen Fachartikel).
+* <strong>Laden Sie das PDF hoch.</strong>
+* <strong>Prompt:</strong> <em>"Fasse die Kernaussagen dieses Textes für SchülerInnen der 10. Schulstufe zusammen. Verwende einfache Sätze, erkläre alle Fremdwörter und nutze alltagsnahe Analogien."</em></p>
+<h3 id="2-arbeitsblatter-auf-knopfdruck">2. Arbeitsblätter auf Knopfdruck</h3>
+<p>Sie möchten das Leseverständnis zu Ihrem eigenen, mehrseitigen Handout überprüfen.
+* <strong>Laden Sie Ihr Handout hoch.</strong>
+* <strong>Prompt:</strong> <em>"Erstelle basierend auf diesem Dokument ein Lückentext-Arbeitsblatt zu den wichtigsten chemischen Begriffen. Erstelle im Anschluss 5 Multiple-Choice-Fragen. Liefere den Lösungsbogen separat am Ende mit."</em></p>
+<h3 id="3-audio-learning-der-ki-podcast">3. Audio-Learning (Der KI-Podcast)</h3>
+<p>Ein besonders motivierendes Feature: NotebookLM kann aus Ihren hochgeladenen Skripten mit einem Klick einen englischsprachigen "Audio Overview" generieren. Zwei lebensechte KI-Stimmen diskutieren darin Ihr Skript wie in einem Radio-Podcast.
+* <strong>Didaktischer Einsatz:</strong> Hervorragend geeignet für den bilingualen Chemieunterricht oder als auditives Lernangebot für SchülerInnen auf dem Schulweg!</p>
+<p>Hier können Sie mein fertiges Praxisbeispiel zum Thema "Green Steel" direkt selbst ausprobieren. Klicken Sie einfach auf den Link und stellen Sie der KI Fragen zum Text:</p>
+<p><a class="md-button md-button--primary" href="https://notebooklm.google.com/notebook/103be410-fa2a-412e-a4bf-ef31f0fb0c60">Zum Green Steel NotebookLM</a></p>
+<details class="tip">
+<summary>Exkurs: Eigene Notebooks per Link mit der Klasse teilen</summary>
+<p>Wenn Sie später eigene Notebooks (z. B. für Projektarbeiten oder als interaktives Skript) erstellen, können Sie diese ganz einfach mit Ihren SchülerInnen oder KollegInnen teilen – völlig ohne das lästige Einsammeln von E-Mail-Adressen!</p>
+<p>Google bietet dafür eine Freigabe-Funktion, die Sie wahrscheinlich schon von Google Docs kennen:</p>
+<ol>
+<li>Öffnen Sie Ihr fertiges Notizbuch in NotebookLM.</li>
+<li>Klicken Sie ganz oben rechts auf den Button <strong>"Teilen"</strong>.</li>
+<li>Ändern Sie die Zugriffsberechtigung von "Eingeschränkt" auf <strong>"Jeder mit dem Link"</strong>.</li>
+<li>Klicken Sie auf <strong>"Link kopieren"</strong>.</li>
+</ol>
+<p>Diesen Link können Sie nun per QR-Code an die Tafel werfen oder im Schul-LMS posten. </p>
+<p><strong>Keine Sorge um Ihre Daten:</strong> Personen, die diesen Link öffnen, können nur mit dem Notebook chatten und die Dokumente lesen. Sie haben jedoch <strong>keine Bearbeitungsrechte</strong>. Ihre Originaldokumente oder Ihr privater Chatverlauf können von den Schülern oder Gästen weder gesehen noch verändert werden!</p>
+<p><em>(Hinweis für Schul-Accounts: Falls Sie NotebookLM über ein offizielles Google Workspace-Konto Ihrer Schule nutzen, kann es sein, dass Ihr Schul-Admin die Freigabe nach außen aus Datenschutzgründen blockiert hat. Nutzen Sie für öffentliche Links im Zweifelsfall ein privates, kostenloses Google-Konto).</em></p>
+</details>
+<hr>
+<h2 id="hands-on-so-starten-sie-ihr-erstes-notebook">🛠️ Hands-On: So starten Sie Ihr erstes Notebook</h2>
+<p>Die Bedienung ist extrem intuitiv und erfordert keine Vorkenntnisse.</p>
+<ol>
+<li><strong>Anmelden:</strong> Gehen Sie auf <a href="https://notebooklm.google.com/">notebooklm.google.com</a> und melden Sie sich mit einem kostenfreien Google-Konto an.</li>
+<li><strong>Notebook erstellen:</strong> Klicken Sie auf "Neues Notebook" (Sie können für jede Klasse oder jedes Themengebiet, z.B. "Säure-Base-Chemie", ein eigenes Notebook anlegen).</li>
+<li><strong>Quellen hochladen:</strong> Es öffnet sich sofort ein Fenster. Laden Sie hier Ihre PDFs hoch, kopieren Sie Text hinein oder fügen Sie Links zu Webseiten oder YouTube-Videos ein.</li>
+<li><strong>Chatten:</strong> Unten im Bildfeld sehen Sie nun die Chat-Leiste. Stellen Sie der KI Ihre Aufgaben (siehe Prompts oben). </li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Die Quellenangaben prüfen</p>
+<p>Wenn NotebookLM Ihnen eine Antwort gibt, sehen Sie im Text kleine hochgestellte Zahlen. Klicken Sie darauf! Die KI springt dann exakt zu der Textstelle in Ihrem hochgeladenen Original-PDF, aus der sie diese Information bezogen hat. So behalten Sie als Lehrkraft immer die 100%ige fachliche Kontrolle.</p>
+</div>
+<h2 id="der-studio-bereich-unterrichtsmaterial-auf-einen-klick">🎓 Der "Studio"-Bereich: Unterrichtsmaterial auf einen Klick</h2>
+<p>Neben der klassischen Chat-Funktion bietet NotebookLM ein Feature, das für uns Lehrkräfte ein absoluter Gamechanger ist: den <strong>Studio-Bereich</strong> (oft direkt auf der Startseite eines Notebooks oder als "Studienführer" bezeichnet). </p>
+<p>Sobald Sie Ihre Quellen (z.B. ein Kapitel aus dem Schulbuch und Ihre eigenen Notizen) hochgeladen haben, analysiert NotebookLM diese automatisch und generiert im Studio-Bereich auf Knopfdruck fertige didaktische Formate – ganz ohne eigenes Prompting!</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/studio.png" data-desc-position="bottom"><img alt="Das Studio in NotebookLM" src="../images/studio.png"></a></p>
+<p>Hier sind die für die Lehre wertvollsten Auto-Formate:</p>
+<ul>
+<li>
+<p><strong>Der Studienführer (Study Guide):</strong>
+  Dieses Format ist perfekt für die Maturavorbereitung oder vor Schularbeiten. Die KI erstellt selbstständig eine strukturierte Übersicht der wichtigsten Konzepte aus Ihren Dokumenten und generiert passend dazu sofort <strong>Multiple-Choice-Fragen</strong> und <strong>Kurzantwort-Fragen</strong>. Sie können diese direkt in Ihr nächstes Arbeitsblatt kopieren.</p>
+</li>
+<li>
+<p><strong>FAQs (Häufig gestellte Fragen):</strong>
+  Ein genialer Perspektivenwechsel! Die KI antizipiert, welche Fragen SchülerInnen zu diesem Textbaustein am wahrscheinlichsten stellen würden, und liefert die kindgerechten Antworten gleich mit. Ideal, um mögliche Verständnisprobleme ("Stolpersteine") schon bei der Unterrichtsplanung aus dem Weg zu räumen.</p>
+</li>
+<li>
+<p><strong>Das Briefing-Dokument:</strong>
+  Haben Sie mehrere Quellen hochgeladen (z. B. drei verschiedene Artikel zur Ammoniak-Synthese)? Das Briefing-Dokument fasst die Kernaussagen aller Quellen in einem einzigen, kompakten Übersichtsdokument zusammen. Das spart Ihnen immens Zeit bei der Einarbeitung in neue Themengebiete.</p>
+</li>
+<li>
+<p><strong>Zeitleiste (Timeline):</strong>
+  Besonders nützlich für die Geschichte der Chemie (z.B. die Entwicklung der Atommodelle von Dalton bis Bohr). Wenn Ihre Texte historische Daten enthalten, ordnet die KI diese automatisch auf einem chronologischen Zeitstrahl an.</p>
+</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Praxis-Tipp für Arbeitsblätter</p>
+<p>Nutzen Sie den Studio-Bereich als "Steinbruch". Sie können die generierten Quizfragen oder FAQ-Antworten direkt markieren und als feste Notiz an Ihr Notebook anpinnen. So können Sie sich Stück für Stück die besten Bausteine für Ihr nächstes Handout zusammensammeln.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
