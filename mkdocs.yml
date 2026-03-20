@@ -22,7 +22,7 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Startseite: index.md
+  - Startseite - Linkhub - Kompass: index.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
   - Eigene KI-Assistenten (Gems) bauen: gems.md
   - NotebookLM im NaWi-Alltag: notebooklm.md
