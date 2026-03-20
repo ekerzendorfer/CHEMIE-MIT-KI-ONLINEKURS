@@ -24,7 +24,7 @@ extra_javascript:
 nav:
   - Startseite - Linkhub - Kompass: index.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
-  - Eigene KI-Assistenten (Gems) bauen: gems.md
+  - Eigene KI-Assistenten (Gems): gems.md
   - NotebookLM im NaWi-Alltag: notebooklm.md
   - Prompten lernen (ROKA): prompten.md
   - Kapitel 2 - Die Basis-Tools: kapitel2.md
