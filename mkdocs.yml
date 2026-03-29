@@ -23,6 +23,7 @@ extra_javascript:
 
 nav:
   - Startseite - Linkhub - Kompass: index.md
+  - NAWI - KI aktuell 🚀: aktuell.md
   - Kapitel 1 - Eigene KI-Assistenten: kapitel1.md
   - Eigene KI-Assistenten (Gems): gems.md
   - NotebookLM im NaWi-Alltag: notebooklm.md
