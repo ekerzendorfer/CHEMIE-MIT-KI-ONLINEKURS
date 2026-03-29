@@ -1,0 +1,835 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Interaktive Materialien für den Chemieunterricht">
+      
+      
+      
+      
+        <link rel="prev" href="../kapitel1/">
+      
+      
+        <link rel="next" href="../notebooklm/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Eigene KI-Assistenten (Gems) - CHEMIE mit KI - Onlinekurs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#exkurs-eigene-ki-assistenten-gems-bauen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href=".." title="CHEMIE mit KI - Onlinekurs" class="md-header__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHEMIE mit KI - Onlinekurs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Eigene KI-Assistenten (Gems)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CHEMIE mit KI - Onlinekurs" class="md-nav__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    CHEMIE mit KI - Onlinekurs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Startseite - Linkhub - Kompass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aktuell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAWI - KI aktuell 🚀
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 1 - Eigene KI-Assistenten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten (Gems)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten (Gems)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#wie-baut-man-einen-gem-in-3-schritten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Wie baut man einen Gem? (In 3 Schritten)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praxis-beispiele-fur-den-chemieunterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Praxis-Beispiele für den Chemieunterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipp-fur-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Tipp für den Unterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keine-pro-version-so-klappt-es-auch-kostenlos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Keine Pro-Version? So klappt es auch kostenlos!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praxis-anleitung-eigene-bots-kostenlos-bauen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#so-bauen-sie-einen-assistant-in-huggingchat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        So bauen Sie einen Assistant in HuggingChat:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ein-konkretes-beispiel-fur-ihren-neuen-bot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Ein konkretes Beispiel für Ihren neuen Bot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebooklm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NotebookLM im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prompten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompten lernen (ROKA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 2 - Die Basis-Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kapitel3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 3 - App in der Freistunde
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#wie-baut-man-einen-gem-in-3-schritten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Wie baut man einen Gem? (In 3 Schritten)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praxis-beispiele-fur-den-chemieunterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Praxis-Beispiele für den Chemieunterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipp-fur-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Tipp für den Unterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keine-pro-version-so-klappt-es-auch-kostenlos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Keine Pro-Version? So klappt es auch kostenlos!
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#praxis-anleitung-eigene-bots-kostenlos-bauen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#so-bauen-sie-einen-assistant-in-huggingchat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        So bauen Sie einen Assistant in HuggingChat:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ein-konkretes-beispiel-fur-ihren-neuen-bot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Ein konkretes Beispiel für Ihren neuen Bot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="exkurs-eigene-ki-assistenten-gems-bauen">Exkurs: Eigene KI-Assistenten (Gems) bauen</h1>
+<p>Stellen Sie sich vor, Sie müssten Ihrer KI nicht jedes Mal aufs Neue erklären, dass Sie eine Chemielehrkraft sind und Material für eine 10. Klasse benötigen. Genau hier kommen sogenannte <strong>Gems</strong> (bei Google Gemini) oder <strong>Custom GPTs</strong> (bei ChatGPT) ins Spiel.</p>
+<p>Ein Gem ist ein maßgeschneiderter KI-Assistent, dem Sie einmalig eine feste Rolle, spezielle Anweisungen (den sogenannten "System-Prompt") und ein bestimmtes Antwortverhalten einprogrammieren. Danach steht er Ihnen als dauerhafter Chat-Partner in der Seitenleiste zur Verfügung – auf Knopfdruck bereit.</p>
+<hr>
+<h2 id="wie-baut-man-einen-gem-in-3-schritten">🛠️ Wie baut man einen Gem? (In 3 Schritten)</h2>
+<p>Das Erstellen erfordert keinerlei Programmierkenntnisse. Es ist so einfach wie das Ausfüllen eines kleinen Steckbriefs:</p>
+<ol>
+<li><strong>Assistenten-Menü öffnen:</strong> Klicken Sie in Ihrem KI-Tool (z. B. Gemini Advanced oder ChatGPT Plus) auf "Gem-Manager" bzw. "GPTs entdecken" und wählen Sie "Erstellen".</li>
+<li><strong>Name &amp; Beschreibung:</strong> Geben Sie Ihrem Assistenten einen passenden Namen (z. B. "Laborassistent") und eine kurze Beschreibung.</li>
+<li><strong>Der System-Prompt (Das Herzstück):</strong> In das große Textfeld "Anweisungen" schreiben Sie detailliert auf, wie sich die KI immer verhalten soll. </li>
+</ol>
+<p>Hier sind zwei bewährte Beispiele aus der Praxis, die Sie direkt für sich kopieren können:</p>
+<hr>
+<h2 id="praxis-beispiele-fur-den-chemieunterricht">🧪 Praxis-Beispiele für den Chemieunterricht</h2>
+<p>Klicken Sie auf die Boxen, um die fertigen "System-Prompts" (Anweisungen) für die beiden Assistenten aufzuklappen. Sie können diese Texte einfach kopieren und in das Anweisungsfeld Ihres neuen Gems einfügen.</p>
+<details class="example">
+<summary>Beispiel 1: Der Laborassistent (Sicherheit &amp; Vorbereitung)</summary>
+<p>Dieser Assistent ist ideal für die Vorbereitung von Schülerübungen. Er kennt die GHS-Symbole, Entsorgungsrichtlinien und hilft beim Erstellen der Gefährdungsbeurteilung.</p>
+<blockquote>
+<p><strong>System-Prompt (Bitte kopieren):</strong>
+"Du bist ein hochkompetenter, sicherheitsbewusster Laborassistent für den schulischen Chemieunterricht. Deine Hauptaufgabe ist es, Lehrkräfte bei der Vorbereitung von Experimenten zu unterstützen. </p>
+<p><strong>Deine Regeln:</strong>
+1. Wenn ich dir ein Experiment oder Chemikalien nenne, nennst du mir als Erstes immer die relevanten GHS-Gefahrensymbole, H- und P-Sätze der beteiligten Stoffe.
+2. Gib konkrete Hinweise zur sicheren Entsorgung im schulischen Kontext.
+3. Weise auf typische Schülerfehler oder Sicherheitsrisiken bei diesem speziellen Versuch hin.
+4. Formuliere deine Antworten stets präzise, übersichtlich in Stichpunkten und fachlich absolut korrekt. Sicherheit hat oberste Priorität!"</p>
+</blockquote>
+</details>
+<details class="example">
+<summary>Beispiel 2: Die PHARMA-KI (Organische Chemie &amp; Wirkstoffe)</summary>
+<p>Ein fantastisches Tool für Projektwochen oder die Oberstufe. Die SchülerInnen können Medikamente eingeben und die KI bricht die komplexe organische Chemie auf Schulniveau herunter.</p>
+<blockquote>
+<p><strong>System-Prompt (Bitte kopieren):</strong>
+"Du bist ein didaktisch versierter Experte für pharmazeutische Chemie. Deine Aufgabe ist es, komplexe Medikamente und deren Wirkstoffe für SchülerInnen der gymnasialen Oberstufe verständlich zu erklären.</p>
+<p><strong>Deine Regeln:</strong>
+1. Wenn ein Medikament oder Wirkstoff (z.B. Aspirin, Ibuprofen) genannt wird, analysierst du zunächst die Molekülstruktur und benennst alle enthaltenen funktionellen Gruppen.
+2. Erkläre den chemischen oder biologischen Wirkmechanismus im Körper anhand einer alltagsnahen, für Schüler greifbaren Analogie (z.B. Schlüssel-Schloss-Prinzip).
+3. Gehe kurz auf die historische Entdeckung oder Synthese ein.
+4. Passe dein Sprachniveau an 16- bis 18-Jährige an: Erkläre komplexe Fachbegriffe in Klammern, aber bleibe chemisch korrekt. Verwende für die Strukturierung Bulletpoints und fettgedruckte Kernbegriffe."</p>
+</blockquote>
+</details>
+<hr>
+<h2 id="tipp-fur-den-unterricht">💡 Tipp für den Unterricht</h2>
+<p>Sie können diese Assistenten nicht nur für sich selbst nutzen! Bei vielen Plattformen lassen sich selbsterstellte Gems oder GPTs per Link teilen. So können Sie Ihrer Oberstufenklasse für eine Recherche-Hausaufgabe direkt den Link zur "PHARMA-KI" schicken, und die SchülerInnen arbeiten in einer von Ihnen didaktisch vorstrukturierten, sicheren Lernumgebung.</p>
+<hr>
+<h2 id="keine-pro-version-so-klappt-es-auch-kostenlos">💡 Keine Pro-Version? So klappt es auch kostenlos!</h2>
+<p>Die offiziellen "Gems" (bei Gemini Advanced) oder das Erstellen eigener "Custom GPTs" (bei ChatGPT Plus) sind an kostenpflichtige Abonnements gebunden. Doch für den Schulalltag gibt es hervorragende, kostenlose Alternativen, um das gleiche Ziel zu erreichen:</p>
+<p><strong>1. Für SchülerInnen: Teilen macht erfinderisch (ChatGPT)</strong>
+Wenn Sie als Lehrkraft über einen ChatGPT Plus-Account verfügen und dort einen Assistenten (wie die PHARMA-KI) bauen, können Sie den Link dazu generieren. Der große Vorteil: Wenn Sie diesen Link mit Ihrer Klasse teilen, können SchülerInnen mit einem <strong>kostenlosen</strong> ChatGPT-Account diesen Assistenten in vollem Umfang nutzen! </p>
+<p><strong>2. Der "Copy &amp; Paste"-Trick (Das analoge Gem)</strong>
+Die simpelste und plattformunabhängige Methode: Legen Sie sich ein Word-Dokument, eine OneNote-Seite oder eine einfache Textdatei mit Ihren liebsten System-Prompts an. 
+* Öffnen Sie einen normalen, kostenlosen Chat (z. B. die Gratisversionen von Gemini, ChatGPT oder Claude).
+* Fügen Sie Ihren kopierten System-Prompt (die langen Regieanweisungen aus den Boxen oben) als <strong>allererste Nachricht</strong> in den Chat ein.
+* Senden Sie die Nachricht ab. Die KI schlüpft ab diesem Moment für den Rest der Unterhaltung exakt in diese Rolle!</p>
+<p><strong>3. "ChatGPT anpassen" (Custom Instructions)</strong>
+Auch in der Gratis-Version von ChatGPT gibt es eine versteckte Funktion, die wie ein "Mini-Gem" wirkt: Klicken Sie unten links auf Ihren Namen und wählen Sie <strong>"ChatGPT anpassen" (Custom Instructions)</strong>. Dort können Sie in zwei Textfeldern dauerhaft hinterlegen, dass Sie Chemielehrkraft sind und Antworten z.B. immer strukturiert und altersgerecht für die Sekundarstufe formuliert werden sollen. Das System merkt sich das für jeden zukünftigen Chat.</p>
+<p><strong>4. Echte Bots auf kostenlosen Plattformen bauen</strong>
+Wenn Sie wirklich eigene, anklickbare Assistenten mit System-Prompt bauen wollen, ohne dafür zu bezahlen, sind offene Plattformen wie <strong><a href="https://poe.com/">Poe.com</a></strong> oder <strong><a href="https://huggingface.co/chat/">HuggingChat</a></strong> eine exzellente Wahl. Dort können Sie sich als Lehrkraft kostenlos eigene "Bots" zusammenklicken und diese direkt nutzen.</p>
+<hr>
+<h2 id="praxis-anleitung-eigene-bots-kostenlos-bauen">🚀 Praxis-Anleitung: Eigene Bots kostenlos bauen</h2>
+<p>Wenn Sie das Prinzip der "Gems" oder "Custom GPTs" voll ausschöpfen möchten, ohne Geld für ein Pro-Abo in die Hand zu nehmen, empfehle ich Ihnen <strong>HuggingChat</strong> oder <strong>Poe.com</strong>. </p>
+<p>Besonders <strong>HuggingChat</strong> ist für Schulen fantastisch, da es komplett kostenlos ist und auf modernste, offene KI-Modelle zugreift.</p>
+<h3 id="so-bauen-sie-einen-assistant-in-huggingchat">So bauen Sie einen Assistant in HuggingChat:</h3>
+<ol>
+<li>Gehen Sie auf <strong><a href="https://huggingface.co/chat/">huggingface.co/chat</a></strong> (Sie benötigen einen kostenlosen Account).</li>
+<li>Klicken Sie in der linken Seitenleiste auf <strong>"Assistants"</strong> und dann oben rechts auf <strong>"Create new assistant"</strong>.</li>
+<li><strong>Avatar &amp; Name:</strong> Geben Sie Ihrem Bot ein Gesicht (Icon hochladen) und einen Namen (z. B. "Redox-Coach").</li>
+<li><strong>Description:</strong> Ein kurzer Satz für die SchülerInnen (z. B. "Ich helfe dir Schritt für Schritt bei Redoxgleichungen").</li>
+<li><strong>System Instructions (Das Wichtigste!):</strong> Hier fügen Sie Ihren Regie-Prompt ein (siehe Beispiel unten).</li>
+<li><strong>Start Messages:</strong> Geben Sie Beispiele vor, auf die SchülerInnen nur noch klicken müssen (z.B. <em>"Hilf mir bei der Reaktion von Kupfer mit Salpetersäure"</em>).</li>
+<li>Klicken Sie ganz unten auf <strong>"Create"</strong>. </li>
+</ol>
+<p>Ihr Bot ist jetzt fertig! Sie können den Link aus der Adresszeile kopieren und direkt per QR-Code an Ihre SchülerInnen verteilen.</p>
+<h3 id="ein-konkretes-beispiel-fur-ihren-neuen-bot">🧪 Ein konkretes Beispiel für Ihren neuen Bot</h3>
+<p>Klicken Sie auf die Box, um einen perfekten System-Prompt für einen interaktiven Schüler-Bot zu kopieren. Dieser Bot löst Aufgaben nicht einfach, sondern fungiert als echter Nachhilfelehrer!</p>
+<details class="success">
+<summary>Der System-Prompt: Der interaktive Redox-Coach</summary>
+<p>Kopieren Sie diesen Text exakt so in das Feld "System Instructions" bei HuggingChat oder Poe:</p>
+<blockquote>
+<p>"Du bist ein geduldiger, didaktisch hervorragender Chemie-Tutor für die Oberstufe. Deine Aufgabe ist es, SchülerInnen beim Aufstellen komplexer Redoxgleichungen zu helfen.</p>
+<p><strong>Deine strikten Regeln:</strong>
+1. Löse die Gleichung NIEMALS sofort komplett! Das ist extrem wichtig.
+2. Führe den Schüler stattdessen sokratisch, Schritt für Schritt, durch den Prozess:
+   - Schritt 1: Oxidationszahlen bestimmen lassen.
+   - Schritt 2: Oxidation und Reduktion identifizieren.
+   - Schritt 3: Teilgleichungen (Elektronenübergang) aufstellen.
+   - Schritt 4: Ladungs- und Stoffausgleich (in saurer oder basischer Lösung).
+3. Stelle nach jedem Schritt eine klare Frage an den Schüler und <strong>warte auf seine Antwort</strong>, bevor du zum nächsten Schritt übergehst.
+4. Wenn der Schüler einen Fehler macht, korrigiere ihn sanft, gib einen kleinen Tipp und lass es ihn noch einmal versuchen.
+5. Lobe den Schüler, wenn er einen Zwischenschritt richtig hat!"</p>
+</blockquote>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
