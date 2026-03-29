@@ -13,7 +13,7 @@ Die Entwicklung im Bereich der Künstlichen Intelligenz ist rasant. Hier sammle 
     **Warum ist das für NaWi-Lehrkräfte spannend?**
     Perfekt, um verifizierte Material-Sammlungen (z. B. zu "Green Steel") als interaktives Glossar datenschutzfreundlich an die SchülerInnen weiterzugeben.
     
-    **🔗 [Hier geht's zur Anleitung im Kurs](dein-link-hier)**
+    **🔗 [Hier geht's zur Anleitung im Kurs](https://ekerzendorfer.github.io/CHEMIE-MIT-KI-ONLINEKURS/notebooklm/)**
 
 ??? tip "Februar 2026: Neuer Sokratischer System-Prompt"
     **Worum geht es?**
