@@ -32,6 +32,7 @@ nav:
   - Prompten lernen (ROKA): prompten.md
   - Kapitel 2 - Die Basis-Tools: kapitel2.md
   - Kapitel 3 - App in der Freistunde: kapitel3.md
+  - Viewer für Strukturdateien: viewer.md
 
 plugins:
   - search
