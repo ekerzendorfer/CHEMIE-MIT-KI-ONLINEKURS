@@ -45,6 +45,7 @@ Wichtig sind dabei vor allem:
 
 **Link:**  
 [Mol* – Einstieg / Getting Started](https://www.rcsb.org/docs/3d-viewers/mol*/getting-started)
+[Mol* – Startseite](https://molstar.org/)
 
 ---
 
