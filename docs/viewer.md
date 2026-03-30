@@ -44,7 +44,7 @@ Wichtig sind dabei vor allem:
 - sinnvoll für **SEK II**, aber auch für motivierende Demonstrationen in **SEK I**
 
 **Link:**  
-[Mol\* / RCSB 3D Viewer Dokumentation](https://www.rcsb.org/docs/3d-viewers/mol%2A/managing-the-display)
+[Mol* – Einstieg / Getting Started](https://www.rcsb.org/docs/3d-viewers/mol*/getting-started)
 
 ---
 
