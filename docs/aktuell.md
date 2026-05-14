@@ -1,6 +1,6 @@
 # NAWI - KI aktuell 🚀
 
-Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, **Molekularbiologie** und **schulischer Relevanz**.
+Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, **Molekularbiologie**, **neuen Werkzeugen** und **schulischer Relevanz**.
 
 === "Forschung & Anwendung"
 
@@ -57,6 +57,30 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
         **Quelle:** [Nature Communications – Mechanistic artificial intelligence for designing peptides that target MRSA persisters](https://www.nature.com/articles/s41467-026-70348-9)
 
+=== "Tools & Praxis"
+
+    ### Der Siegeszug der Multimodalität
+    Modelle wie ChatGPT-4o oder Gemini Advanced sind zu echten Experten der Bildanalyse gereift.
+    
+    ??? tip "Praxis-Anwendung: Spektren und Diagramme"
+        Während frühere KIs bei komplexen Abbildungen oft rieten, können die aktuellen Modelle nun Titrationskurven, Phasendiagramme oder Spektren aus alten Lehrbüchern präzise auslesen und in skalierbare Vektorgrafiken (SVG) oder Excel-Wertetabellen übersetzen.
+
+    ---
+
+    ### "Single-File-Coding" als neuer Standard
+    Funktionen wie **"Artifacts" (bei Claude 3.5)** revolutionieren die Erstellung von Lehrmaterial. Die KI generiert nicht mehr nur passiven Code, sondern liefert direkt im Browser voll funktionsfähige, interaktive HTML-Simulationen.
+    
+    ??? info "Mehrwert für den Unterricht"
+        Lehrkräfte ohne Programmierkenntnisse können in Freistunden maßgeschneiderte, interaktive Apps (wie den Gleichungstrainer) für ihre Klassen prompten. Da diese Apps lokal im Browser laufen, ist zudem maximaler Datenschutz gewährleistet.
+
+    ---
+
+    ### NotebookLM: Sicherer Hafen für Fachtexte
+    Google NotebookLM hat sich als eines der sichersten Tools für den Unterricht etabliert, da es **ausschließlich** auf hochgeladenen Dokumenten (Skripte, Sicherheitsdatenblätter) basiert. "Halluzinationen" von chemischen Fakten sind damit praktisch ausgeschlossen.
+    
+    ??? success "Audio-Overviews (Podcast-Funktion)"
+        Eine faszinierende neue Funktion ist die Möglichkeit, aus trockenen Fachtexten auf Knopfdruck einen dynamischen, KI-generierten Audio-Dialog erstellen zu lassen – ein hervorragendes Mittel zur Binnendifferenzierung.
+
 === "Schule & Didaktik"
 
     ### 19.01.2026 — OECD: Generative KI wirkt nur mit klarer didaktischer Führung
@@ -64,7 +88,7 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
     Freies „Herumprobieren“ reicht nicht.
 
     ??? info "Mehr lesen"
-        Das stützt sehr deutlich einen Ansatz wie deinen Onlinekurs: KI sollte nicht nur „verwendet“ werden, sondern in **klaren fachlichen Workflows** eingebettet sein. Für Chemie und Biologie heißt das: strukturierte Aufgaben, erkennbare Modelle, fachliche Reflexion und kritische Auswertung. Genau das unterscheidet sinnvollen KI-Einsatz von bloßer Tool-Euphorie. Für Lehrer:innen ist diese Quelle sehr brauchbar, weil sie den pädagogischen Rahmen liefert.
+        Das stützt sehr deutlich einen Ansatz wie diesen Onlinekurs: KI sollte nicht nur „verwendet“ werden, sondern in **klaren fachlichen Workflows** eingebettet sein. Für Chemie und Biologie heißt das: strukturierte Aufgaben, erkennbare Modelle, fachliche Reflexion und kritische Auswertung. 
 
         **Quelle:** [OECD – Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
 
@@ -75,43 +99,45 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
     Dazu gehören Grundlagenwissen, Pädagogik, Ethik und professionelles Lernen.
 
     ??? info "Mehr lesen"
-        Für deinen Onlinekurs und den geplanten Fachartikel ist das eine sehr starke Referenz: Lehrkräfte sollen KI nicht nur bedienen können, sondern auch **fachlich einbetten, kritisch bewerten und verantwortungsvoll einsetzen**. Besonders in den Naturwissenschaften passt das gut zu Themen wie Modellcharakter, Unsicherheit, Visualisierung und wissenschaftlichem Arbeiten.
+        Lehrkräfte sollen KI nicht nur bedienen können, sondern auch **fachlich einbetten, kritisch bewerten und verantwortungsvoll einsetzen**. Besonders in den Naturwissenschaften passt das gut zu Themen wie Modellcharakter, Unsicherheit, Visualisierung und wissenschaftlichem Arbeiten.
 
         **Quelle:** [UNESCO – AI competency framework for teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers)
 
     ---
 
-    ### 2025/2026 — Chemiedidaktik: KI in Chemie- und Naturwissenschaftsunterricht wird systematischer
-    Aktuelle Übersichten und Seminaransätze zeigen, dass KI in Chemie- und Science Education zunehmend systematisch betrachtet wird.  
-    Sie wird nicht nur als Tool gesehen, sondern auch als Thema von **AI literacy, Differenzierung und Fachlernen**.
+    ### 2025/2026 — Chemiedidaktik & KI-Ethik im Fokus
+    Aktuelle Übersichten zeigen, dass KI in der Science Education zunehmend systematisch als Thema von **AI literacy, Differenzierung und Fachlernen** betrachtet wird.
+    
+    > *"Der Computer oder andere digitale Medien sollen und dürfen das reale Experiment nicht ersetzen. KI ist unser Assistent bei der Vorbereitung und Auswertung, nicht der Ersatz für das naturwissenschaftliche Begreifen."*
+    > — E. Kerzendorfer
 
     ??? info "Mehr lesen"
-        Besonders interessant sind derzeit drei didaktische Linien:  
-        1. **AI literacy** für Lehrkräfte und Lernende,  
-        2. KI-gestützte **Differenzierung und adaptive Unterstützung**,  
-        3. fachlich eingebettete Nutzung im Chemie- und Science-Unterricht.  
-        Für deinen Kurs bedeutet das: Dein Ansatz mit klar geführten Workflows, fachlichen Visualisierungen und Reflexion entspricht ziemlich genau dem, was in der aktuellen Literatur als sinnvoll beschrieben wird.
+        Der Fokus verlagert sich zunehmend vom "Finden der Antwort" hin zum **kritischen Beurteilen** der von der KI generierten Ergebnisse. Geführte Workflows, fachliche Visualisierungen und ständige Reflexion entsprechen exakt dem, was in der aktuellen Literatur als sinnvoll beschrieben wird.
 
         **Quelle:** [Springer – Current Trends in AI for Chemistry and Science Education](https://link.springer.com/article/10.1007/s44217-025-00622-3)
 
 === "Kurzfazit"
 
-    Drei Entwicklungen sind derzeit besonders wichtig:
+    Vier Entwicklungen sind derzeit besonders wichtig:
 
     - **KI macht Unsichtbares sichtbar**  
       z. B. Proteinstruktur, Mutationseffekte, Ligandbindung.
 
     - **KI geht vom Vorhersagen zum Entwerfen über**  
       z. B. neue Verbindungen, Peptide, Protein-Inhibitoren.
+      
+    - **Demokratisierung der Erstellung interaktiver Tools**  
+      Lehrkräfte können durch "Single-File-Coding" komplexe Simulationen selbst bauen.
 
     - **Für den Unterricht ist KI vor allem dann sinnvoll, wenn sie fachlich geführt wird**  
-      nicht als freie Spielerei, sondern als strukturierter Lernprozess.
+      nicht als freie Spielerei, sondern als strukturierter, didaktisch begleiteter Lernprozess.
 
     ??? tip "Didaktische Quintessenz"
         Für den naturwissenschaftlichen Unterricht ist derzeit besonders ergiebig, wenn KI:
         
         - abstrakte molekulare Strukturen sichtbar macht,
         - reale Forschungsprozesse zugänglich macht,
+        - passgenaue, digitale Übungswerkzeuge liefert,
         - und zugleich kritisch reflektiert wird.
 
-        Gerade in Chemie und Molekularbiologie liegt hier derzeit eines der größten Potenziale.
+        Gerade in Chemie und Molekularbiologie liegt hier derzeit eines der größten Potenziale zur Entlastung und Individualisierung.
