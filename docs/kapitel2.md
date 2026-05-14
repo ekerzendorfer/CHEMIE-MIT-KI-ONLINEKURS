@@ -19,6 +19,7 @@ Die Kenntnis der wichtigsten Elemente und ihrer Position im PSE ist eine fundame
     Hier sehen Sie, wie einfach sich der Schwierigkeitsgrad für Ihre Klasse anpassen lässt:
     
     ![Modus-Wechsel in der App](images/PSE_Trainer.gif)
+
 ---
 
 ## 🧂 2. Salzbenennung & Salzformeln (Formel-Master)
@@ -39,6 +40,7 @@ Das Übersetzen von Stoffnamen in die korrekte chemische Formelsprache ist eine 
     Indices korrekt einstellen und Namen eingeben, Schwierigkeitsgrad SEK1/2 auswählen:
     
     ![Salzbenennung üben](images/Salznamen.gif)
+
 ---
 
 ## 🧮 3. Stöchiometrie - Master PRO
@@ -54,3 +56,19 @@ Dieses digitale "Chemie-Zentrum" bündelt Aufgaben zur molaren Masse, Stoffmenge
     Stoffmenge und Masse berechnen, Reaktionsumsätze, Übungsbeispiele und Quiz:
 
     ![Stöchiometrieaufgaben](images/Stoechiometriemeister.gif)
+
+---
+
+## 🔋 4. Redox-Trainer (REDOX-COACH)
+
+Das Aufstellen komplexer Redoxgleichungen gehört zu den fehleranfälligsten Themen im Chemieunterricht. Oft führt ein winziger Fehler bei den Oxidationszahlen zu Beginn dazu, dass am Ende die gesamte Stoff- und Ladungsbilanz nicht aufgeht. 
+
+[Zur App: REDOX-COACH starten](https://ekerzendorfer.github.io/REDOXCOACH/){ .md-button .md-button--primary }
+
+!!! success "Didaktisches Konzept: Der 6-Phasen-Trainer"
+    Der REDOX-COACH begleitet die Lernenden als digitaler Tutor durch einen geführten Lösungsprozess (Oxidationszahlen $\rightarrow$ Redoxpaare $\rightarrow$ Elektronen $\rightarrow$ Faktoren $\rightarrow$ Stoffbilanz $\rightarrow$ Ladungsbilanz). Jeder Teilschritt wird sofort validiert, sodass Folgefehler ausgeschlossen sind. Da das System auch gebrochene Oxidationszahlen (wie beim Tetrathionat) und organische Redoxreaktionen (z.B. Benzylalkohol) meistert, eignet es sich hervorragend für die vertiefende Analytik der Sekundarstufe 2.
+
+??? tip "Kurzanleitung: Eine Redoxgleichung in 6 Phasen lösen (Video)"
+    Schritt-für-Schritt Begleitung von der Oxidationszahl bis zur fertigen Ladungsbilanz:
+
+    ![Redox-Coach Phasen](images/RedoxCoach.gif)
