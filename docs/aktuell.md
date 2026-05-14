@@ -4,58 +4,43 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
 === "Forschung & Anwendung"
 
+    ### Frühjahr 2026 — Durchbruch in der orbitalfreien Quantenchemie
+    Forschende der Universität Heidelberg haben durch Maschinelles Lernen ein seit Jahrzehnten offenes Problem gelöst: die exakte und stabile Berechnung von Molekülenergien und Elektronendichten in einem orbitalfreien Ansatz.
+    
+    ??? info "Mehr lesen"
+        Diese Entwicklung beschleunigt quantenchemische Berechnungen massiv. Für den Unterricht und die Forschung bedeutet das: Was früher Supercomputer wochenlang blockierte, wird zunehmend ressourcenschonend berechenbar. Es zeigt eindrucksvoll, wie KI nicht nur Muster erkennt, sondern fundamentale physikochemische Modelle effizienter macht.
+
+    ---
+
+    ### Frühjahr 2026 — ChemBench: KI im fachlichen Realitätscheck
+    Eine umfangreiche Arbeit der Universität Jena ("ChemBench") hat KI-Modelle mit über 2.700 anspruchsvollen Aufgaben der modernen Chemie getestet. Das Ergebnis: KI ist in vielen Bereichen nicht mehr nur Hilfsmittel, sondern konkurriert auf dem Niveau von Fachleuten.
+    
+    ??? info "Mehr lesen"
+        Besonders spannend für die Sekundarstufe II: Der Fokus der Chemie verschiebt sich spürbar von der reinen Vorhersage hin zum **gezielten Molekül- und Reaktionsdesign**. KI-Modelle wie **TopEC** können mittlerweile aus der Enzymstruktur direkt auf mögliche chemische Reaktionen schließen – ein Meilenstein für die Biokatalyse und synthetische Biologie.
+
+    ---
+
+    ### Frühjahr 2026 — Automatisierte Labore (Self-Driving Labs)
+    KI wird zunehmend mit automatisierten Laboren gekoppelt. Methoden wie *Active Learning* und *Bayessche Optimierung* reduzieren nicht nur den Rechenaufwand, sondern steuern experimentelle Reihenfolgen, Parameterwahl und Prioritäten völlig eigenständig.
+    
+    ??? info "Mehr lesen"
+        Die KI übernimmt den klassischen Labor-Workflow: Sie schlägt Strukturmotive vor, bewertet die Reaktionsfähigkeit und wählt nur die vielversprechendsten Kandidaten für den Syntheseroboter aus. Das senkt Kosten, spart Zeit und ersetzt den klassischen "Trial-and-Error"-Ansatz. Ein starker Diskussionspunkt für die Schule: Wie verändert sich das Berufsbild von ChemikerInnen?
+
+    ---
+
     ### 17.03.2026 — AlphaFold-Datenbank jetzt auch mit Proteinpaaren
-    Die AlphaFold-Datenbank umfasst inzwischen nicht nur Einzelproteine, sondern auch **Homodimere**.  
-    Damit wird KI für Biochemie und Molekularbiologie deutlich biologisch relevanter.
+    Die AlphaFold-Datenbank umfasst inzwischen nicht nur Einzelproteine, sondern auch **Homodimere**. Damit wird KI für Biochemie und Molekularbiologie deutlich biologisch relevanter.
 
     ??? info "Mehr lesen"
-        Bisher stand meist die Struktur einzelner Proteine im Mittelpunkt. Mit der Erweiterung auf **Proteinpaarungen** rückt jetzt stärker in den Fokus, wie Proteine zusammenwirken. Das ist für Unterricht und Fortbildung besonders interessant, weil man damit Themen wie **Rezeptorbindung, Enzyme, Signalübertragung** oder auch **Protein-Protein-Interaktionen** viel anschaulicher aufgreifen kann. Für Oberstufe und Fortbildung ist das ein sehr guter Beleg dafür, dass KI in der Molekularbiologie nicht nur „faltet“, sondern zunehmend **biologisch funktionelle Zusammenhänge** erschließt.
-
-        **Quelle:** [Nature – AlphaFold database hits ‘next level’: the AI system now includes protein pairing](https://www.nature.com/articles/d41586-026-00787-3)
+        Bisher stand meist die Struktur einzelner Proteine im Mittelpunkt. Mit der Erweiterung auf **Proteinpaarungen** rückt jetzt stärker in den Fokus, wie Proteine zusammenwirken (Rezeptorbindung, Signalübertragung). Das belegt, dass KI zunehmend **biologisch funktionelle Zusammenhänge** erschließt.
 
     ---
 
     ### 29.01.2026 — KI hilft bei der Planung neuer chemischer Synthesen
-    Ein aktueller Nature-Bericht zeigt ein KI-System mit chemischer Fachlogik, das zur Synthese **35 neuer Verbindungen** beigetragen hat.  
-    KI wird damit in der Chemie zunehmend zu einem Werkzeug für **echte Forschungsplanung**.
+    Ein Nature-Bericht zeigt ein KI-System mit chemischer Fachlogik, das zur Synthese **35 neuer Verbindungen** beigetragen hat. KI wird damit in der Chemie zunehmend zu einem Werkzeug für **echte Forschungsplanung**.
 
     ??? info "Mehr lesen"
-        Für den Chemieunterricht ist das ein starker Perspektivwechsel: KI ist nicht nur ein Textwerkzeug, sondern kann inzwischen **Reaktionswissen, Synthesestrategie und Planung** unterstützen. Gerade für SEK II, Studium und Lehrer:innenfortbildung ist das wichtig, weil es zeigt, wie sich chemische Forschung gerade verändert: weg von reiner Datenanalyse, hin zu **vorgeschlagenen, priorisierten und teilweise experimentell überprüften Synthesewegen**. Das ist eine sehr gute Quelle, wenn man zeigen möchte, dass KI in der Chemie **materiell wirksam** wird.
-
-        **Quelle:** [Nature – This AI has chemical expertise — and helps synthesize 35 new compounds](https://www.nature.com/articles/d41586-026-00240-5)
-
-    ---
-
-    ### 2026 — KI in der Wirkstoffforschung: Struktur + Ligand + Zielprotein
-    Aktuelle Übersichtsarbeiten zeigen, dass KI inzwischen **3D-Strukturen von Proteinen und Verbindungen** systematisch für die Identifikation „druggable targets“ nutzt.  
-    Das verbindet Proteinstruktur, Docking und Wirkstoffentwicklung direkt miteinander.
-
-    ??? info "Mehr lesen"
-        Für deinen Kurs ist das besonders wertvoll, weil es genau an dein PROTEINLABOR anknüpft: **Proteinstruktur, Mutation, Ligandbindung und medizinische Relevanz** gehören heute in Forschung und Entwicklung eng zusammen. KI wird dabei nicht nur für die Vorhersage von Strukturen genutzt, sondern auch für **Target-Priorisierung, Interaktionsanalyse, virtuelles Screening und Moleküldesign**. Didaktisch ist das eine ideale Brücke zwischen Schulchemie, Biologie und moderner pharmazeutischer Forschung.
-
-        **Quelle:** [npj Precision Oncology – AI accelerate the identification of druggable targets by 3D structures of proteins and compounds](https://www.nature.com/articles/s41698-026-01310-7)
-
-    ---
-
-    ### 2026 — KI entwirft neue Protein-Inhibitoren für CRISPR–Cas13
-    In *Nature Chemical Biology* wurde gezeigt, dass KI-Methoden wie **RFdiffusion** und **ProteinMPNN** neue, nicht natürlich vorkommende Inhibitoren für **CRISPR–Cas13** designen können.  
-    Das ist ein Schritt von der Vorhersage hin zum **gezielten Biomolekül-Design**.
-
-    ??? info "Mehr lesen"
-        Diese Entwicklung ist für Molekularbiologie besonders spannend, weil sie zeigt: KI sagt nicht nur voraus, wie ein Protein aussieht, sondern kann inzwischen helfen, **neue funktionelle Biomoleküle zu entwerfen**. Für Unterricht und Fortbildung ist das eine starke Zukunftsperspektive: Die Lernenden sehen, dass KI in den Naturwissenschaften nicht bloß „Antworten gibt“, sondern zum **Werkzeug für Design, Steuerung und Optimierung biologischer Systeme** wird.
-
-        **Quelle:** [Nature Chemical Biology – De novo design of potent CRISPR–Cas13 inhibitors](https://www.nature.com/articles/s41589-025-02136-3)
-
-    ---
-
-    ### 2026 — KI-Design antimikrobieller Peptide gegen MRSA
-    Mit dem System **CAMPER** wurden gezielt antimikrobielle Peptide gegen MRSA-Persistierer und Biofilme entwickelt.  
-    Das zeigt KI als Werkzeug an der Schnittstelle von Molekularbiologie, Medizin und Biochemie.
-
-    ??? info "Mehr lesen"
-        Für schulische und fortbildnerische Kontexte ist das deshalb stark, weil hier mehrere Themen zusammenlaufen: **Peptidstruktur, Resistenz, Wirkmechanismen, medizinische Relevanz und KI-gestütztes Design**. Gerade für Oberstufe und Lehrer:innenfortbildung ist das ein gutes Beispiel, um zu zeigen, dass KI nicht nur bei klassischen kleinen Molekülen, sondern auch bei **biologisch aktiven Peptiden** immer wichtiger wird.
-
-        **Quelle:** [Nature Communications – Mechanistic artificial intelligence for designing peptides that target MRSA persisters](https://www.nature.com/articles/s41467-026-70348-9)
+        Für den Chemieunterricht ist das ein starker Perspektivwechsel: KI ist nicht nur ein Textwerkzeug, sondern kann Reaktionswissen, Synthesestrategie und Planung unterstützen. Das zeigt, dass KI in der Chemie **materiell wirksam** wird.
 
 === "Tools & Praxis"
 
@@ -68,10 +53,10 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
     ---
 
     ### "Single-File-Coding" als neuer Standard
-    Funktionen wie **"Artifacts" (bei Claude 3.5)** revolutionieren die Erstellung von Lehrmaterial. Die KI generiert nicht mehr nur passiven Code, sondern liefert direkt im Browser voll funktionsfähige, interaktive HTML-Simulationen.
+    Funktionen wie **"Artifacts"** revolutionieren die Erstellung von Lehrmaterial. Die KI generiert nicht mehr nur passiven Code, sondern liefert direkt im Browser voll funktionsfähige, interaktive HTML-Simulationen.
     
     ??? info "Mehrwert für den Unterricht"
-        Lehrkräfte ohne Programmierkenntnisse können in Freistunden maßgeschneiderte, interaktive Apps (wie den Gleichungstrainer) für ihre Klassen prompten. Da diese Apps lokal im Browser laufen, ist zudem maximaler Datenschutz gewährleistet.
+        Lehrkräfte ohne Programmierkenntnisse können maßgeschneiderte, interaktive Apps (wie den Gleichungstrainer) für ihre Klassen prompten. Da diese Apps lokal im Browser laufen, ist zudem maximaler Datenschutz gewährleistet.
 
     ---
 
@@ -79,29 +64,23 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
     Google NotebookLM hat sich als eines der sichersten Tools für den Unterricht etabliert, da es **ausschließlich** auf hochgeladenen Dokumenten (Skripte, Sicherheitsdatenblätter) basiert. "Halluzinationen" von chemischen Fakten sind damit praktisch ausgeschlossen.
     
     ??? success "Audio-Overviews (Podcast-Funktion)"
-        Eine faszinierende neue Funktion ist die Möglichkeit, aus trockenen Fachtexten auf Knopfdruck einen dynamischen, KI-generierten Audio-Dialog erstellen zu lassen – ein hervorragendes Mittel zur Binnendifferenzierung.
+        Eine faszinierende Funktion ist die Möglichkeit, aus trockenen Fachtexten auf Knopfdruck einen dynamischen, KI-generierten Audio-Dialog erstellen zu lassen – ein hervorragendes Mittel zur Binnendifferenzierung.
 
 === "Schule & Didaktik"
 
     ### 19.01.2026 — OECD: Generative KI wirkt nur mit klarer didaktischer Führung
-    Der *OECD Digital Education Outlook 2026* betont, dass generative KI im Lernen dann nützlich wird, wenn sie **didaktisch geführt und strukturiert** eingesetzt wird.  
-    Freies „Herumprobieren“ reicht nicht.
+    Der *OECD Digital Education Outlook 2026* betont, dass generative KI im Lernen dann nützlich wird, wenn sie **didaktisch geführt und strukturiert** eingesetzt wird. Freies „Herumprobieren“ reicht nicht.
 
     ??? info "Mehr lesen"
-        Das stützt sehr deutlich einen Ansatz wie diesen Onlinekurs: KI sollte nicht nur „verwendet“ werden, sondern in **klaren fachlichen Workflows** eingebettet sein. Für Chemie und Biologie heißt das: strukturierte Aufgaben, erkennbare Modelle, fachliche Reflexion und kritische Auswertung. 
-
-        **Quelle:** [OECD – Digital Education Outlook 2026](https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html)
+        Das stützt sehr deutlich einen Ansatz wie diesen Onlinekurs: KI sollte in **klaren fachlichen Workflows** eingebettet sein. Für Chemie und Biologie heißt das: strukturierte Aufgaben, erkennbare Modelle, fachliche Reflexion und kritische Auswertung. 
 
     ---
 
     ### 2026 — UNESCO: Lehrkräfte brauchen definierte KI-Kompetenzen
-    UNESCO beschreibt im **AI Competency Framework for Teachers** 15 KI-Kompetenzen in fünf Bereichen.  
-    Dazu gehören Grundlagenwissen, Pädagogik, Ethik und professionelles Lernen.
+    UNESCO beschreibt im **AI Competency Framework for Teachers** 15 KI-Kompetenzen in fünf Bereichen (Grundlagenwissen, Pädagogik, Ethik, etc.).
 
     ??? info "Mehr lesen"
-        Lehrkräfte sollen KI nicht nur bedienen können, sondern auch **fachlich einbetten, kritisch bewerten und verantwortungsvoll einsetzen**. Besonders in den Naturwissenschaften passt das gut zu Themen wie Modellcharakter, Unsicherheit, Visualisierung und wissenschaftlichem Arbeiten.
-
-        **Quelle:** [UNESCO – AI competency framework for teachers](https://www.unesco.org/en/articles/ai-competency-framework-teachers)
+        Lehrkräfte sollen KI nicht nur bedienen können, sondern auch **fachlich einbetten, kritisch bewerten und verantwortungsvoll einsetzen**. 
 
     ---
 
@@ -112,32 +91,15 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
     > — E. Kerzendorfer
 
     ??? info "Mehr lesen"
-        Der Fokus verlagert sich zunehmend vom "Finden der Antwort" hin zum **kritischen Beurteilen** der von der KI generierten Ergebnisse. Geführte Workflows, fachliche Visualisierungen und ständige Reflexion entsprechen exakt dem, was in der aktuellen Literatur als sinnvoll beschrieben wird.
-
-        **Quelle:** [Springer – Current Trends in AI for Chemistry and Science Education](https://link.springer.com/article/10.1007/s44217-025-00622-3)
+        Der Fokus verlagert sich vom "Finden der Antwort" hin zum **kritischen Beurteilen** der KI-Ergebnisse. Geführte Workflows und ständige Reflexion entsprechen exakt dem, was in der aktuellen Literatur gefordert wird.
 
 === "Kurzfazit"
 
-    Vier Entwicklungen sind derzeit besonders wichtig:
+    Zusammenfassend verändert KI die Naturwissenschaften gerade in **drei zentralen Rollen**:
 
-    - **KI macht Unsichtbares sichtbar**  
-      z. B. Proteinstruktur, Mutationseffekte, Ligandbindung.
-
-    - **KI geht vom Vorhersagen zum Entwerfen über**  
-      z. B. neue Verbindungen, Peptide, Protein-Inhibitoren.
-      
-    - **Demokratisierung der Erstellung interaktiver Tools**  
-      Lehrkräfte können durch "Single-File-Coding" komplexe Simulationen selbst bauen.
-
-    - **Für den Unterricht ist KI vor allem dann sinnvoll, wenn sie fachlich geführt wird**  
-      nicht als freie Spielerei, sondern als strukturierter, didaktisch begleiteter Lernprozess.
+    1. **Als Prädiktor:** KI macht Unsichtbares sichtbar (z. B. Proteinstrukturen, Molekülenergien, Rezeptorbindung).
+    2. **Als Optimierer:** KI steuert Versuchsplanungen in automatisierten Laboren und wertet komplexe Messdaten rasant aus.
+    3. **Als Entwurfssystem:** KI geht vom Vorhersagen zum aktiven Design über (neue Verbindungen, maßgeschneiderte Enzyme, zielgerichtete Medikamente).
 
     ??? tip "Didaktische Quintessenz"
-        Für den naturwissenschaftlichen Unterricht ist derzeit besonders ergiebig, wenn KI:
-        
-        - abstrakte molekulare Strukturen sichtbar macht,
-        - reale Forschungsprozesse zugänglich macht,
-        - passgenaue, digitale Übungswerkzeuge liefert,
-        - und zugleich kritisch reflektiert wird.
-
-        Gerade in Chemie und Molekularbiologie liegt hier derzeit eines der größten Potenziale zur Entlastung und Individualisierung.
+        Für den Unterricht ist KI vor allem dann sinnvoll, wenn sie **fachlich geführt** wird. Die besten Resultate entstehen aus der Kombination von chemischem Domänenwissen und KI-gestützter Optimierung, anstatt sich auf einen reinen „Black-Box“-Ansatz zu verlassen. Die wissenschaftliche Validierung (das reale Experiment) bleibt unverzichtbar.
