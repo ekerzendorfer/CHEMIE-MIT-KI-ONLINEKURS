@@ -48,8 +48,12 @@ Hier sehen Sie drei typische Einsatzszenarien für den Chemieunterricht. Klicken
 
 ---
 
+## 🚀 Vom Prompt zum eigenen Assistenten
+
+Das ROKA-Modell ist nicht nur für schnelle Fragen zwischendurch wichtig. Die Kombination aus *Rolle* und *Kontext* bildet die exakte Grundlage, um im nächsten Schritt dauerhafte, eigene KI-Assistenten (wie Custom GPTs oder Gemini Gems) für Ihren Unterricht zu programmieren.
+
 ## 🛠️ Tool-Tipp: Der Prompt-Generator für Lehrkräfte
 
 Wenn es im Schulalltag einmal besonders schnell gehen muss oder Sie eine Vorlage suchen, empfehle ich den kostenlosen Prompt-Generator von *Schooltools*. Er hilft Ihnen dabei, per Mausklick und Dropdown-Menüs strukturierte und zielführende Arbeitsaufträge für die KI zusammenzustellen:
 
-[Zum Schooltools Prompt-Generator](https://www.schooltools.at/promptgenerator/){ .md-button }
+[Zum Schooltools Prompt-Generator](https://www.schooltools.at/promptgenerator/){ .md-button .md-button--primary }
