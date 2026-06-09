@@ -32,8 +32,13 @@ nav:
   - Prompten lernen (ROKA): prompten.md
   - Kapitel 2 - Die Basis-Tools: kapitel2.md
   - Kapitel 3 - App in der Freistunde: kapitel3.md
+  - Kapteil 4 - Moleküllabore:
+      - Überblick: molekuellabore/index.md
+      - MOL_LAB DIDACTIC: molekuellabore/mol_lab_didactic.md
+      - Lernpfade: molekuellabore/lernpfade.md
+      - MOL_LAB scientific: molekuellabore/mol_lab_scientific.md
   - Viewer für Strukturdateien: viewer.md
-
+  
 plugins:
   - search
   - glightbox
