@@ -1,4 +1,4 @@
-# Kapitel 4 – Moleküllabore
+# Übersicht – Moleküllabore
 
 Moleküle sind mehr als Formeln auf Papier. Ihre räumliche Gestalt, ihre funktionellen Gruppen und ihre polaren oder unpolaren Bereiche bestimmen wesentlich, wie ein Stoff sich verhält: ob er wasserlöslich ist, welche Wechselwirkungen er eingehen kann und warum manche Moleküle deutlich reaktiver sind als andere.
 
