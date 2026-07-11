@@ -68,7 +68,6 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
 === "Schule & Didaktik"
 
-Mühelosigkeit ist ein Warnsignal dafür, dass das Werkzeug die Arbeit erledigt, die eigentlich die neue Fähigkeit aufbauen sollte.
     ### 19.01.2026 — OECD: Generative KI wirkt nur mit klarer didaktischer Führung
     Der *OECD Digital Education Outlook 2026* betont, dass generative KI im Lernen dann nützlich wird, wenn sie **didaktisch geführt und strukturiert** eingesetzt wird. Freies „Herumprobieren“ reicht nicht.
 
