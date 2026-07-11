@@ -68,6 +68,36 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
 === "Schule & Didaktik"
 
+### 07/2026 Kompaktwissen: KI, produktives Ringen und die "Illusion des Lernens"
+
+**Basierend auf dem Artikel:** *The Effortless Trap: Productive Struggle, AI, and the Illusion of Learning* von Mario Brcic & Stjepan Frljic.
+
+## Kernbotschaft
+Die Debatte, ob KI im Unterricht erlaubt oder verboten werden sollte, verfehlt das Ziel. Die entscheidende Frage ist das **"Wo" (die Platzierung)**. Lernen erfordert kognitive Anstrengung (das "produktive Ringen"). Wenn KI den Lernenden diese Denkarbeit abnimmt, entsteht eine gefährliche **Illusion des Lernens**: Ein falsches Gefühl der Kompetenz, das bei ungestützten Prüfungen sofort zusammenbricht.
+
+---
+
+## Das 6-Schritte-Modell des Lernens & der KI-Einsatz
+
+Lernen geschieht in sechs aufeinanderfolgenden Phasen. KI sollte nur in bestimmten Phasen als Werkzeug dienen und in anderen strikt ausgeschlossen bleiben.
+
+### ⛔ KI-Freie Zonen (Die harte Arbeit und der Beweis)
+In diesen Phasen muss die KI draußen bleiben, da sie sonst den Lernprozess zerstört:
+1. **Probe (Erkunden):** Der erste, eigene Versuch, ein schwieriges Problem ohne Hilfe zu lösen. Das Scheitern und Suchen ist hier der eigentliche Lernbeginn.
+2. **Test (Prüfen):** Die abschließende, ungestützte Leistungsüberprüfung. Hier muss der Lernende beweisen, dass er die Fähigkeit ohne Hilfe beherrscht.
+
+### 🟡 Zonen für geführte KI (Die Unterstützung)
+Hier kann KI sinnvoll als Tutor, Feedbackgeber oder Übungspartner unterstützen, *ohne* die finale Antwort einfach vorzugeben:
+* **Prime (Vorbereiten):** Vorwissen wecken und Interesse entfachen (z. B. durch KI-generierte Quizze oder Analogien).
+* **Point (Hinweisen):** Sokratische Führung durch Fragen und Hinweise, nicht durch Lösungen. Die KI hilft dem Lernenden auf die Sprünge, aber der Lernende denkt selbst.
+* **Attach (Verknüpfen):** Die Präsentation eines sauberen Lösungsbeispiels (z. B. maßgeschneiderte Erklärungen durch KI).
+* **Strengthen (Stärken):** Skalierte Übung und sofortiges Feedback, um das neue Wissen zu festigen (z. B. endlos generierte Übungsaufgaben auf passendem Niveau).
+---
+## 💡 Die wichtigste Leitregel für Lehrende
+
+> **„Wenn der Einsatz von KI dazu führt, dass sich eine Aufgabe mühelos anfühlt, ist sie an der falschen Stelle platziert.“**
+
+Mühelosigkeit ist ein Warnsignal dafür, dass das Werkzeug die Arbeit erledigt, die eigentlich die neue Fähigkeit aufbauen sollte.
     ### 19.01.2026 — OECD: Generative KI wirkt nur mit klarer didaktischer Führung
     Der *OECD Digital Education Outlook 2026* betont, dass generative KI im Lernen dann nützlich wird, wenn sie **didaktisch geführt und strukturiert** eingesetzt wird. Freies „Herumprobieren“ reicht nicht.
 
