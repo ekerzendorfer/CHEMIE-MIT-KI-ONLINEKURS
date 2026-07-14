@@ -30,6 +30,14 @@ Nutzen Sie das Menü auf der linken Seite, um zu den detaillierten didaktischen 
 
 ---
 
+## 🗂️ Das Krtikboard: Rückmeldungen, Kritik, Anregungen
+
+Schreiben sie mir ihre Meinung und Kritik in die Taskcards (für jedes Tools gibt es eine eigene Spalte, wird ständig erweitert) - ich werde mich bemühen, Fehler auszubessern und Anregungen zeitnah umzusetzen!
+
+* [KRTIKBOARD] (https://www.taskcards.de/#/board/88f0ae49-9b9c-4129-8446-32bfcf4a271d/view)
+
+---
+
 ## 📊 Präsentations-Material (Slides)
 
 Sie möchten die Inhalte der Artikelserie in einer Fachkonferenz an Ihrer Schule vorstellen oder das Thema in einem Seminar aufgreifen? 
