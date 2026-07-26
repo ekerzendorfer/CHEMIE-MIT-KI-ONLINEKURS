@@ -52,6 +52,10 @@ nav:
       - Lernpfade: molekuellabore/lernpfade.md
       - MOL_LAB scientific: molekuellabore/mol_lab_scientific.md
 
+  - Kapitel 5 - Proteinfaltung:
+      - Überblick: proteinfaltung/index.md
+      - KI-Strukturmodell-Labor: proteinfaltung/KI_Strukturmodelllabor.md
+
   - Viewer für Strukturdateien: viewer.md
 
 plugins:
