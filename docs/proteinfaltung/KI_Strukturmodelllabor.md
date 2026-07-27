@@ -85,3 +85,28 @@ Für den normalen Unterricht reichen Trp-cage und Ubiquitin. Calmodulin ist ein 
 
 Das Tool sollte nicht als „AlphaFold-Test“ verstanden werden, sondern als Training im wissenschaftlichen Modellverständnis.
 
+
+## Erweiterung: Maltose-Bindeprotein als induced-fit-Beispiel
+
+Das vierte Beispiel führt über den reinen Modellvergleich hinaus. Beim **Maltose-Bindeprotein (MBP)** werden zunächst zwei experimentell belegte Zustände verglichen:
+
+- **1OMP**: ligandfreie offene Form
+- **1ANF**: maltosegebundene geschlossene Form
+
+Damit wird das einfache Schlüssel-Schloss-Modell erweitert:
+
+> Nicht nur der Ligand passt in eine starre Tasche. Das Protein kann seine Form ändern und sich um den Liganden schließen.
+
+MBP ist kein Enzym, sondern ein Bindeprotein. Das ist didaktisch vorteilhaft, weil Ligandenbindung und Konformationsänderung sichtbar werden, ohne gleichzeitig Katalyse und Reaktionsmechanismus erklären zu müssen.
+
+### Unterrichtliche Leitfrage
+
+> Wo endet das einfache Schlüssel-Schloss-Modell, und warum beschreibt induced fit die Beobachtung besser?
+
+### Möglicher Arbeitsauftrag
+
+1. Betrachte die offene Struktur 1OMP.
+2. Betrachte die geschlossene Struktur 1ANF mit sichtbarer Maltose.
+3. Überlagere beide Strukturen.
+4. Beschreibe die Domänenbewegung.
+5. Formuliere eine Erklärung, warum die Bindetasche kein starres Schloss ist.
