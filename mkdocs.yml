@@ -49,7 +49,7 @@ nav:
   - Kapitel 4 - Analytische und Physikalische Chemie:
       - TITRATIONS - TOOL: analytik/titrationstool.md
       - Virtuelles PHOTOMETER: analytik/virtuellesphotometer.md
-      - DATEN-LAB: 
+      - DATEN-LAB: messerwert-lab.md
 
   - Kapitel 5 - Moleküllabore:
       - Überblick: molekuellabore/index.md
