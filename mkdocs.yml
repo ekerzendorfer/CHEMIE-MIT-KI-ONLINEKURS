@@ -46,13 +46,18 @@ nav:
   - Kapitel 2 - Die Basis-Tools: kapitel2.md
   - Kapitel 3 - App in der Freistunde: kapitel3.md
 
-  - Kapitel 4 - Moleküllabore:
+  - Kapitel 4 - Analytische und Physikalische Chemie:
+      - TITRATIONS - TOOL: analytik/titrationstool.md
+      - Virtuelles PHOTOMETER: analytik/virtuellesphotometer.md
+      - DATEN-LAB: 
+
+  - Kapitel 5 - Moleküllabore:
       - Überblick: molekuellabore/index.md
       - MOL_LAB DIDACTIC: molekuellabore/mol_lab_didactic.md
       - Lernpfade: molekuellabore/lernpfade.md
       - MOL_LAB scientific: molekuellabore/mol_lab_scientific.md
 
-  - Kapitel 5 - Proteinfaltung:
+  - Kapitel 6 - Proteinfaltung:
       - Überblick: proteinfaltung/index.md
       - KI-Strukturmodell-Labor: proteinfaltung/KI_Strukturmodelllabor.md
 
