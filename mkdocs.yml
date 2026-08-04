@@ -50,7 +50,7 @@ nav:
       - TITRATIONS - TOOL: analytik/titrationstool.md
       - IONENFISCHEN virtuell: analytik/Ionenfischen.md
       
-       - SpektralLab – Virtuelles Photometer:
+      - SpektralLab – Virtuelles Photometer:
           - Überblick: analytik/virtuelles-photometer.md
           - Grundlagen der Photometrie: analytik/photometrie-grundlagen.md
           - Das schematische Photometer: analytik/photometer-geraeteschema.md
@@ -63,7 +63,7 @@ nav:
           - Datenexport und Weiterverarbeitung: analytik/photometrie-datenexport.md
           - Quellen und Modellgrenzen: analytik/photometrie-quellen-modellgrenzen.md
           
-      - DATEN-LAB: messewert-lab.md
+      - DATEN-LAB: analytik/messwert-lab.md
 
   - Kapitel 5 - Moleküllabore:
       - Überblick: molekuellabore/index.md
