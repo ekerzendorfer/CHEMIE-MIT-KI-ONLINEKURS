@@ -1,0 +1,2240 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Interaktive Materialien für den Chemieunterricht">
+      
+      
+      
+      
+        <link rel="prev" href="../../molekuellabore/mol_lab_scientific/">
+      
+      
+        <link rel="next" href="../../viewer/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>KI-Strukturmodell-Labor - CHEMIE mit KI - Onlinekurs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ki-strukturmodell-labor" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-header__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHEMIE mit KI - Onlinekurs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              KI-Strukturmodell-Labor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-nav__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    CHEMIE mit KI - Onlinekurs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Startseite - Linkhub - Kompass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aktuell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAWI - KI aktuell 🚀
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ki-assistenten/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundlagen und Praxis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grundlagen und Praxis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/assistenten-erstellen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten erstellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/gems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Custom GPTs und Gems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat, Assistent oder Agent?
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chat, Assistent oder Agent?
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/chat-assistent-agent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundidee und Einordnung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/elektronegativitaet-bindungspolaritaet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Praxisbeispiel Elektronegativität
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weitere Werkzeuge
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Weitere Werkzeuge
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/notebooklm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NotebookLM im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/prompten-roka/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompten lernen mit ROKA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 2 - Die Basis-Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 3 - App in der Freistunde
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytik/titrationstool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TITRATIONS - TOOL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytik/Ionenfischen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IONENFISCHEN virtuell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytik/virtuellesphotometer.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtuelles PHOTOMETER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messerwert-lab.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DATEN-LAB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../molekuellabore/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 5 - Moleküllabore
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 5 - Moleküllabore
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_didactic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB DIDACTIC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/lernpfade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lernpfade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_scientific/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB scientific
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KI-Strukturmodell-Labor
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KI-Strukturmodell-Labor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#worum-geht-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worum geht es?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empfohlene-reihenfolge-der-beispiele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Empfohlene Reihenfolge der Beispiele
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Empfohlene Reihenfolge der Beispiele">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ubiquitin-ein-stabiles-referenzprotein" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Ubiquitin – ein stabiles Referenzprotein
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-trp-cage-kleines-peptid-groere-beweglichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Trp-cage – kleines Peptid, größere Beweglichkeit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-calmodulin-zustand-ca2-und-kontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Calmodulin – Zustand, Ca²⁺ und Kontext
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-maltose-bindeprotein-vom-schlussel-schloss-modell-zu-induced-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Maltose-Bindeprotein – vom Schlüssel-Schloss-Modell zu induced fit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-modus-unterschiede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Modus „Unterschiede“
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mbp-empfohlener-unterrichtsablauf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MBP: empfohlener Unterrichtsablauf
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MBP: empfohlener Unterrichtsablauf">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-offene-form-betrachten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: Offene Form betrachten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-bindetasche-hervorheben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: Bindetasche hervorheben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-geschlossene-form-mit-maltose-betrachten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: Geschlossene Form mit Maltose betrachten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-offen-geschlossen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: Offen + geschlossen vergleichen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-5-unterschiede-aktivieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 5: Unterschiede aktivieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schlussel-schloss-und-induced-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schlüssel-Schloss und induced fit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alphafold-colabfold-und-af3-im-kontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AlphaFold, ColabFold und AF3 im Kontext
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protokollvorschlag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protokollvorschlag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typische-missverstandnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Typische Missverständnisse
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Typische Missverständnisse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#die-rote-markierung-zeigt-fehler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Die rote Markierung zeigt Fehler.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alphafold-ersetzt-experimente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „AlphaFold ersetzt Experimente.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eine-proteinstruktur-ist-eine-feste-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Eine Proteinstruktur ist eine feste Form.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wenn-zwei-modelle-verschieden-aussehen-ist-eines-falsch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Wenn zwei Modelle verschieden aussehen, ist eines falsch.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#einbettung-in-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Einbettung in den Unterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen-und-weiterfuhrende-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen und weiterführende Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Viewer für Strukturdateien
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#worum-geht-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worum geht es?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empfohlene-reihenfolge-der-beispiele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Empfohlene Reihenfolge der Beispiele
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Empfohlene Reihenfolge der Beispiele">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-ubiquitin-ein-stabiles-referenzprotein" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Ubiquitin – ein stabiles Referenzprotein
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-trp-cage-kleines-peptid-groere-beweglichkeit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Trp-cage – kleines Peptid, größere Beweglichkeit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-calmodulin-zustand-ca2-und-kontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Calmodulin – Zustand, Ca²⁺ und Kontext
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-maltose-bindeprotein-vom-schlussel-schloss-modell-zu-induced-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Maltose-Bindeprotein – vom Schlüssel-Schloss-Modell zu induced fit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-modus-unterschiede" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Modus „Unterschiede“
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mbp-empfohlener-unterrichtsablauf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MBP: empfohlener Unterrichtsablauf
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MBP: empfohlener Unterrichtsablauf">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-offene-form-betrachten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: Offene Form betrachten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-bindetasche-hervorheben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: Bindetasche hervorheben
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-geschlossene-form-mit-maltose-betrachten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: Geschlossene Form mit Maltose betrachten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-offen-geschlossen-vergleichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: Offen + geschlossen vergleichen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-5-unterschiede-aktivieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 5: Unterschiede aktivieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schlussel-schloss-und-induced-fit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schlüssel-Schloss und induced fit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alphafold-colabfold-und-af3-im-kontext" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AlphaFold, ColabFold und AF3 im Kontext
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protokollvorschlag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protokollvorschlag
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typische-missverstandnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Typische Missverständnisse
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Typische Missverständnisse">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#die-rote-markierung-zeigt-fehler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Die rote Markierung zeigt Fehler.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alphafold-ersetzt-experimente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „AlphaFold ersetzt Experimente.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eine-proteinstruktur-ist-eine-feste-form" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Eine Proteinstruktur ist eine feste Form.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wenn-zwei-modelle-verschieden-aussehen-ist-eines-falsch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        „Wenn zwei Modelle verschieden aussehen, ist eines falsch.“
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#einbettung-in-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Einbettung in den Unterricht
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quellen-und-weiterfuhrende-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quellen und weiterführende Links
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Startseite - Linkhub - Kompass
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../index.md" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Kapitel 6 - Proteinfaltung
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ki-strukturmodell-labor">KI-Strukturmodell-Labor</h1>
+<div class="admonition info">
+<p class="admonition-title">Kurzidee</p>
+<p>Das KI-Strukturmodell-Labor zeigt, wie man experimentelle Proteinstrukturen und KI-Strukturmodelle didaktisch sinnvoll vergleicht.<br>
+Im Mittelpunkt steht nicht die Frage „richtig oder falsch?“, sondern: <strong>Was zeigt ein Modell gut – und wo braucht es Kontext?</strong></p>
+</div>
+<h2 id="worum-geht-es">Worum geht es?</h2>
+<p>Proteine sind keine starren Gebilde. Ihre Funktion hängt davon ab,</p>
+<ul>
+<li>wie ihre Aminosäurekette gefaltet ist,</li>
+<li>welche Bereiche beweglich oder geordnet sind,</li>
+<li>ob Ionen, Liganden oder andere Moleküle gebunden sind,</li>
+<li>und welcher experimentelle oder biologische Zustand betrachtet wird.</li>
+</ul>
+<p>KI-Modelle wie AlphaFold oder ColabFold sind sehr leistungsfähig, aber sie ersetzen experimentelle Strukturaufklärung nicht vollständig. Sie liefern Strukturmodelle, die interpretiert werden müssen.</p>
+<p>Das Tool macht diese Unterscheidung sichtbar:</p>
+<div class="highlight"><pre><span></span><code>Sequenz → KI-Strukturmodell → experimentelle Struktur → Overlay → Unterschiede → Modellgrenzen
+</code></pre></div>
+<h2 id="lernziele">Lernziele</h2>
+<p>Nach der Arbeit mit dem Tool sollen Schüler:innen bzw. Kursteilnehmer:innen erklären können:</p>
+<ol>
+<li>Warum die räumliche Struktur eines Proteins für seine Funktion entscheidend ist.</li>
+<li>Was der Unterschied zwischen experimenteller Struktur und Strukturmodell ist.</li>
+<li>Warum ein gutes Overlay hilfreich, aber nicht die ganze Aussage ist.</li>
+<li>Wie der Modus <strong>Unterschiede</strong> zu lesen ist.</li>
+<li>Warum Liganden, Ionen und Konformationszustände für die Interpretation wichtig sind.</li>
+<li>Warum KI-Modelle besonders stark sind, aber fachlich eingeordnet werden müssen.</li>
+</ol>
+<h2 id="empfohlene-reihenfolge-der-beispiele">Empfohlene Reihenfolge der Beispiele</h2>
+<h3 id="1-ubiquitin-ein-stabiles-referenzprotein">1. Ubiquitin – ein stabiles Referenzprotein</h3>
+<p>Ubiquitin eignet sich gut als Einstieg, weil die Grundfaltung sehr stabil und kompakt ist.<br>
+Im Overlay stimmen experimentelle Struktur und gutes KI-Modell meist deutlich überein.</p>
+<p><strong>Didaktische Kernidee:</strong><br>
+Manchmal ist gerade das Fehlen großer Unterschiede die wichtigste Beobachtung.</p>
+<p><strong>Arbeitsauftrag:</strong></p>
+<ol>
+<li>Experiment und bestes Modell vergleichen.</li>
+<li>Danach <strong>Unterschiede</strong> aktivieren.</li>
+<li>Prüfen: Welche Bereiche werden überhaupt markiert?</li>
+<li>Deuten: Ein gutes KI-Modell kann die Grundfaltung sehr gut treffen, sagt aber noch nicht alles über Dynamik, Bindungspartner oder Funktion aus.</li>
+</ol>
+<h3 id="2-trp-cage-kleines-peptid-groere-beweglichkeit">2. Trp-cage – kleines Peptid, größere Beweglichkeit</h3>
+<p>Trp-cage zeigt, dass kleine Peptide und flexible Bereiche schwieriger zu interpretieren sein können.<br>
+Abweichungen bedeuten hier nicht automatisch „falsch“, sondern können auf Beweglichkeit, Randbereiche oder unterschiedliche Modellzustände hinweisen.</p>
+<p><strong>Didaktische Kernidee:</strong><br>
+Ein Strukturmodell ist ein Vorschlag für eine mögliche räumliche Anordnung, nicht immer eine endgültige Form.</p>
+<p><strong>Arbeitsauftrag:</strong></p>
+<ol>
+<li>Gesamtform vergleichen.</li>
+<li>Seitenketten betrachten.</li>
+<li><strong>Unterschiede</strong> aktivieren.</li>
+<li>Markierte Bereiche als Hinweis auf flexible oder unsichere Abschnitte deuten.</li>
+</ol>
+<h3 id="3-calmodulin-zustand-ca2-und-kontext">3. Calmodulin – Zustand, Ca²⁺ und Kontext</h3>
+<p>Calmodulin ist besonders geeignet, um den Begriff <strong>Zustand</strong> zu diskutieren.<br>
+Die experimentelle Struktur 1CLL zeigt den Ca²⁺-gebundenen Zustand. Modelle ohne expliziten Kontext können davon abweichen.</p>
+<p><strong>Didaktische Kernidee:</strong><br>
+Bei Proteinen mit beweglichen Domänen und Ionenbindung reicht die Sequenz allein oft nicht aus, um den betrachteten Zustand vollständig zu verstehen.</p>
+<p><strong>Arbeitsauftrag:</strong></p>
+<ol>
+<li>Ca²⁺-Ionen einschalten und lokalisieren.</li>
+<li>Experimentelle Struktur mit verschiedenen Modellen vergleichen.</li>
+<li><strong>Unterschiede</strong> nutzen, um Endbereiche, Linker und Domänenorientierung sichtbar zu machen.</li>
+<li>Erklären: Die Frage ist nicht nur „Wie faltet sich Calmodulin?“, sondern „In welchem Zustand befindet es sich?“</li>
+</ol>
+<h3 id="4-maltose-bindeprotein-vom-schlussel-schloss-modell-zu-induced-fit">4. Maltose-Bindeprotein – vom Schlüssel-Schloss-Modell zu induced fit</h3>
+<p>Das Maltose-Bindeprotein, kurz MBP, ist das didaktisch stärkste Beispiel für eine Konformationsänderung.<br>
+Es ist kein Enzym, sondern ein Bindeprotein. Gerade deshalb kann man sich auf Bindung und Formänderung konzentrieren.</p>
+<p>Verglichen werden zwei experimentelle Strukturen:</p>
+<div class="highlight"><pre><span></span><code>1OMP → offen / ohne Maltose
+1ANF → geschlossen / mit Maltose
+</code></pre></div>
+<p><strong>Didaktische Kernidee:</strong><br>
+Die Maltose passt nicht einfach in eine starre Tasche. Das Protein verändert seine räumliche Gestalt und schließt sich um den Liganden.</p>
+<h2 id="der-modus-unterschiede">Der Modus „Unterschiede“</h2>
+<p>Der Modus <strong>Unterschiede</strong> ist eine Beobachtungs- und Deutungshilfe.</p>
+<div class="admonition warning">
+<p class="admonition-title">Wichtig</p>
+<p>Die farbigen Markierungen bedeuten nicht automatisch: „Hier ist das Modell falsch.“<br>
+Sie zeigen Bereiche, in denen zwei Strukturen nach der Überlagerung besonders deutlich voneinander abweichen.</p>
+</div>
+<p>Je nach Beispiel hat der Unterschiede-Modus eine etwas andere didaktische Funktion:</p>
+<table>
+<thead>
+<tr>
+<th>Beispiel</th>
+<th>Was der Unterschiede-Modus zeigen soll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ubiquitin</td>
+<td>Geringe Abweichungen als Hinweis auf sehr gute Grundfaltung</td>
+</tr>
+<tr>
+<td>Trp-cage</td>
+<td>Auffällige Bereiche bei einem kleinen, flexiblen Peptid</td>
+</tr>
+<tr>
+<td>Calmodulin</td>
+<td>Zustand, Ca²⁺-Kontext, Endbereiche und Domänenorientierung</td>
+</tr>
+<tr>
+<td>MBP</td>
+<td>Domänenbewegung zwischen offenem und geschlossenem Zustand</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mbp-empfohlener-unterrichtsablauf">MBP: empfohlener Unterrichtsablauf</h2>
+<p>Für MBP hat sich folgende Reihenfolge bewährt:</p>
+<h3 id="schritt-1-offene-form-betrachten">Schritt 1: Offene Form betrachten</h3>
+<p>Zuerst nur die offene Struktur anzeigen.</p>
+<p>Leitfragen:</p>
+<ul>
+<li>Wo erkennt man die beiden Domänen?</li>
+<li>Wie offen wirkt die Spalte zwischen den Domänen?</li>
+<li>Wo liegt die spätere Bindetasche?</li>
+</ul>
+<h3 id="schritt-2-bindetasche-hervorheben">Schritt 2: Bindetasche hervorheben</h3>
+<p>Die offene Bindetasche wird hellviolett markiert.</p>
+<p>Leitfragen:</p>
+<ul>
+<li>Liegt die spätere Bindetasche frei zugänglich?</li>
+<li>Welche Teile des Proteins grenzen die Tasche ein?</li>
+</ul>
+<h3 id="schritt-3-geschlossene-form-mit-maltose-betrachten">Schritt 3: Geschlossene Form mit Maltose betrachten</h3>
+<p>Die Maltose ist hellblau markiert, die geschlossene Bindetasche orange.</p>
+<p>Leitfragen:</p>
+<ul>
+<li>Wo sitzt die Maltose?</li>
+<li>Wie verändert sich die Umgebung der Bindetasche?</li>
+<li>Warum ist hier der Begriff „Bindetasche“ besser als „aktives Zentrum“?</li>
+</ul>
+<h3 id="schritt-4-offen-geschlossen-vergleichen">Schritt 4: Offen + geschlossen vergleichen</h3>
+<p>Nun beide experimentellen Zustände gemeinsam betrachten.</p>
+<p>Leitfragen:</p>
+<ul>
+<li>Welche Domänen liegen in der geschlossenen Form anders?</li>
+<li>Wird die Bindungstasche enger?</li>
+<li>Warum ist die Überlagerung eindrucksvoll, aber für Lernende zunächst schwer zu lesen?</li>
+</ul>
+<h3 id="schritt-5-unterschiede-aktivieren">Schritt 5: Unterschiede aktivieren</h3>
+<p>Im MBP-Unterschiedsmodus wird eine Ankerdomäne als Bezugspunkt verwendet.<br>
+Die bewegte Domäne wird als Bändermodell hervorgehoben, Seitenketten bleiben auf die Bindetasche beschränkt.</p>
+<p>Leitfragen:</p>
+<ul>
+<li>Welche Domäne bewegt sich relativ zur Ankerdomäne?</li>
+<li>In welche Richtung schließt sich das Protein?</li>
+<li>Warum ist das ein Beispiel für <strong>induced fit</strong>?</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Keine Animation</p>
+<p>Die Ansicht <strong>Unterschiede</strong> ist kein Bewegungsfilm.<br>
+Sie zeigt zwei experimentelle Endzustände so, dass die Domänenbewegung besser erkennbar wird.</p>
+</div>
+<h2 id="schlussel-schloss-und-induced-fit">Schlüssel-Schloss und induced fit</h2>
+<p>Das klassische Schlüssel-Schloss-Modell ist als Einstieg hilfreich:</p>
+<div class="highlight"><pre><span></span><code>Ligand passt zur Bindestelle.
+</code></pre></div>
+<p>Bei MBP reicht dieses Bild aber nicht aus. Die bessere Deutung lautet:</p>
+<div class="highlight"><pre><span></span><code>Die Bindung der Maltose stabilisiert eine geschlossene Form des Proteins.
+Das Protein passt seine Gestalt an den Liganden an.
+</code></pre></div>
+<p>Das ist die didaktische Brücke zum Konzept <strong>induced fit</strong>.</p>
+<h2 id="alphafold-colabfold-und-af3-im-kontext">AlphaFold, ColabFold und AF3 im Kontext</h2>
+<p>AlphaFold und ColabFold können sehr gute Strukturmodelle erzeugen.<br>
+Trotzdem muss man unterscheiden:</p>
+<table>
+<thead>
+<tr>
+<th>Modelltyp</th>
+<th>Was es gut zeigt</th>
+<th>Was kritisch bleibt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AlphaFold/ColabFold aus Sequenz</td>
+<td>wahrscheinliche Grundfaltung</td>
+<td>Zustand, Liganden, Ionen, Beweglichkeit</td>
+</tr>
+<tr>
+<td>AlphaFold-DB</td>
+<td>öffentlich verfügbares Proteinmodell</td>
+<td>keine Nicht-Protein-Komponenten</td>
+</tr>
+<tr>
+<td>AF3 mit Kontext</td>
+<td>kann zusätzliche Moleküle berücksichtigen</td>
+<td>öffentlicher Server erlaubt nur ausgewählte Liganden</td>
+</tr>
+<tr>
+<td>Experimentelle Struktur</td>
+<td>konkreter beobachteter Zustand</td>
+<td>abhängig von Methode, Bedingungen und Auflösung</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">AF3 und Liganden</p>
+<p>Der öffentliche AlphaFold Server erlaubt derzeit nur eine begrenzte Auswahl an Liganden. Für Maltose ist daher ohne lokale AlphaFold-3-Installation oder alternative Spezialwerkzeuge kein einfacher Server-Workflow verfügbar.<br>
+Das ist kein Misserfolg, sondern ein guter Anlass, über die Grenzen aktueller Werkzeuge zu sprechen.</p>
+</div>
+<h2 id="protokollvorschlag">Protokollvorschlag</h2>
+<p>Schüler:innen sollten ihre Beobachtungen nicht nur anklicken, sondern schriftlich begründen.</p>
+<p>Ein einfaches Protokollschema:</p>
+<div class="highlight"><pre><span></span><code>1. Welche Strukturen wurden verglichen?
+2. Welche Bereiche stimmen gut überein?
+3. Welche Bereiche werden im Unterschiede-Modus hervorgehoben?
+4. Sind diese Unterschiede eher Hinweis auf Fehler, Beweglichkeit, Zustand oder Kontext?
+5. Welche Modellgrenze lässt sich daraus ableiten?
+</code></pre></div>
+<p>Für MBP zusätzlich:</p>
+<div class="highlight"><pre><span></span><code>6. Wie verändert sich die Bindetasche beim Übergang offen → geschlossen?
+7. Warum zeigt MBP induced fit besser als ein starres Schlüssel-Schloss-Modell?
+</code></pre></div>
+<h2 id="typische-missverstandnisse">Typische Missverständnisse</h2>
+<h3 id="die-rote-markierung-zeigt-fehler">„Die rote Markierung zeigt Fehler.“</h3>
+<p>Nicht unbedingt. Sie zeigt zunächst nur starke geometrische Abweichung nach der Überlagerung.</p>
+<h3 id="alphafold-ersetzt-experimente">„AlphaFold ersetzt Experimente.“</h3>
+<p>Nein. KI-Modelle sind enorm hilfreich, aber experimentelle Strukturen zeigen konkrete Zustände, gebundene Moleküle und reale Bedingungen.</p>
+<h3 id="eine-proteinstruktur-ist-eine-feste-form">„Eine Proteinstruktur ist eine feste Form.“</h3>
+<p>Nur teilweise. Viele Proteine bewegen sich, wechseln Zustände oder werden durch Liganden, Ionen oder Partner stabilisiert.</p>
+<h3 id="wenn-zwei-modelle-verschieden-aussehen-ist-eines-falsch">„Wenn zwei Modelle verschieden aussehen, ist eines falsch.“</h3>
+<p>Nicht automatisch. Sie können unterschiedliche Zustände, Bedingungen oder Modellannahmen widerspiegeln.</p>
+<h2 id="einbettung-in-den-unterricht">Einbettung in den Unterricht</h2>
+<p>Geeignet für:</p>
+<ul>
+<li>SEK II / Oberstufe</li>
+<li>Wahlpflichtfach Chemie oder Biologie</li>
+<li>Chemieolympiade / Begabtenförderung</li>
+<li>Lehrer:innenfortbildung</li>
+<li>Einstieg in Strukturbiologie, Bioinformatik und KI in den Naturwissenschaften</li>
+</ul>
+<p>Mögliche Unterrichtsfrage:</p>
+<blockquote>
+<p>Wie verändert KI die Strukturbiologie – und warum bleibt fachliche Interpretation trotzdem unverzichtbar?</p>
+</blockquote>
+<h2 id="quellen-und-weiterfuhrende-links">Quellen und weiterführende Links</h2>
+<ul>
+<li>RCSB PDB 1OMP – Maltose-Bindeprotein offen: <a href="https://www.rcsb.org/structure/1OMP">https://www.rcsb.org/structure/1OMP</a></li>
+<li>RCSB PDB 1ANF – Maltose-Bindeprotein mit Maltose: <a href="https://www.rcsb.org/structure/1ANF">https://www.rcsb.org/structure/1ANF</a></li>
+<li>AlphaFold Protein Structure Database FAQ: <a href="https://alphafold.ebi.ac.uk/faq">https://alphafold.ebi.ac.uk/faq</a></li>
+<li>AlphaFold 3 Input Documentation: <a href="https://github.com/google-deepmind/alphafold3/blob/main/docs/input.md">https://github.com/google-deepmind/alphafold3/blob/main/docs/input.md</a></li>
+<li>Nobel Prize in Chemistry 2024: <a href="https://www.nobelprize.org/prizes/chemistry/2024/summary/">https://www.nobelprize.org/prizes/chemistry/2024/summary/</a></li>
+<li>Nobel Prize in Chemistry 2017: <a href="https://www.nobelprize.org/prizes/chemistry/2017/summary/">https://www.nobelprize.org/prizes/chemistry/2017/summary/</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.indexes", "navigation.path", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

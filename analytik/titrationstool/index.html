@@ -1,0 +1,2681 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Interaktive Materialien für den Chemieunterricht">
+      
+      
+      
+      
+        <link rel="prev" href="../../kapitel3/">
+      
+      
+        <link rel="next" href="../Ionenfischen/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>TITRATIONS - TOOL - CHEMIE mit KI - Onlinekurs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#titrationskurven-aufnehmen-auswerten-und-verstehen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-header__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHEMIE mit KI - Onlinekurs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TITRATIONS - TOOL
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-nav__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    CHEMIE mit KI - Onlinekurs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Startseite - Linkhub - Kompass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aktuell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAWI - KI aktuell 🚀
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ki-assistenten/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundlagen und Praxis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grundlagen und Praxis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/assistenten-erstellen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten erstellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/gems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Custom GPTs und Gems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat, Assistent oder Agent?
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chat, Assistent oder Agent?
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/chat-assistent-agent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundidee und Einordnung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/elektronegativitaet-bindungspolaritaet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Praxisbeispiel Elektronegativität
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weitere Werkzeuge
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Weitere Werkzeuge
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/notebooklm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NotebookLM im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/prompten-roka/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompten lernen mit ROKA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 2 - Die Basis-Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 3 - App in der Freistunde
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TITRATIONS - TOOL
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TITRATIONS - TOOL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#warum-ein-virtuelles-titrationslabor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warum ein virtuelles Titrationslabor?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zwei-arbeitsbereiche" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zwei Arbeitsbereiche
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei Arbeitsbereiche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#freies-labor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Freies Labor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#begleitende-aufgaben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begleitende Aufgaben
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#die-simulierte-apparatur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Die simulierte Apparatur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unterstutzte-titrationsarten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützte Titrationsarten
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stoffauswahl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stoffauswahl
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stoffauswahl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sauren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Säuren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrationskurven-aufnehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Titrationskurven aufnehmen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-aquivalenzpunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Äquivalenzpunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erste-ableitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erste Ableitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zweite-ableitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zweite Ableitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrationskurve-und-ableitung-uberlagern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Titrationskurve und Ableitung überlagern
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indikatoren-und-umschlagsbereiche" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indikatoren und Umschlagsbereiche
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hagg-diagramme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hägg-Diagramme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-halbaquivalenzpunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Halbäquivalenzpunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge-eine-unbekannte-schwache-saure-bestimmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge: eine unbekannte schwache Säure bestimmen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gefuhrte-quantitative-auswertung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geführte quantitative Auswertung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#die-neun-aufgaben-im-uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Die neun Aufgaben im Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-in-das-messwert_lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export in das MESSWERT_LAB
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorschlage-fur-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorschläge für den Unterricht
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vorschläge für den Unterricht">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstieg-warum-liegt-der-aquivalenzpunkt-nicht-immer-bei-ph-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Einstieg: Warum liegt der Äquivalenzpunkt nicht immer bei pH 7?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ableitungen-als-auswertungswerkzeug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ableitungen als Auswertungswerkzeug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indikatorwahl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indikatorwahl
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-analyse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Analyse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoffidentifikation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stoffidentifikation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hinweise-fur-lehrkrafte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinweise für Lehrkräfte
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fachliche-modellgrenzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fachliche Modellgrenzen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technische-voraussetzungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technische Voraussetzungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zusammenfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zusammenfassung
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ionenfischen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IONENFISCHEN virtuell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtuellesphotometer.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Virtuelles PHOTOMETER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messerwert-lab.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DATEN-LAB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../molekuellabore/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 5 - Moleküllabore
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 5 - Moleküllabore
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_didactic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB DIDACTIC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/lernpfade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lernpfade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_scientific/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB scientific
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proteinfaltung/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proteinfaltung/KI_Strukturmodelllabor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KI-Strukturmodell-Labor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Viewer für Strukturdateien
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#warum-ein-virtuelles-titrationslabor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warum ein virtuelles Titrationslabor?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zwei-arbeitsbereiche" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zwei Arbeitsbereiche
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei Arbeitsbereiche">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#freies-labor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Freies Labor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#begleitende-aufgaben" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begleitende Aufgaben
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#die-simulierte-apparatur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Die simulierte Apparatur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unterstutzte-titrationsarten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützte Titrationsarten
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stoffauswahl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stoffauswahl
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stoffauswahl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sauren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Säuren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrationskurven-aufnehmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Titrationskurven aufnehmen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-aquivalenzpunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Äquivalenzpunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erste-ableitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erste Ableitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zweite-ableitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zweite Ableitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrationskurve-und-ableitung-uberlagern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Titrationskurve und Ableitung überlagern
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indikatoren-und-umschlagsbereiche" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indikatoren und Umschlagsbereiche
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hagg-diagramme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hägg-Diagramme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#der-halbaquivalenzpunkt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Der Halbäquivalenzpunkt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge-eine-unbekannte-schwache-saure-bestimmen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge: eine unbekannte schwache Säure bestimmen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gefuhrte-quantitative-auswertung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geführte quantitative Auswertung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#die-neun-aufgaben-im-uberblick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Die neun Aufgaben im Überblick
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-in-das-messwert_lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export in das MESSWERT_LAB
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorschlage-fur-den-unterricht" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorschläge für den Unterricht
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vorschläge für den Unterricht">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstieg-warum-liegt-der-aquivalenzpunkt-nicht-immer-bei-ph-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Einstieg: Warum liegt der Äquivalenzpunkt nicht immer bei pH 7?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ableitungen-als-auswertungswerkzeug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ableitungen als Auswertungswerkzeug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indikatorwahl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indikatorwahl
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-analyse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Analyse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoffidentifikation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stoffidentifikation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hinweise-fur-lehrkrafte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinweise für Lehrkräfte
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fachliche-modellgrenzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fachliche Modellgrenzen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technische-voraussetzungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technische Voraussetzungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zusammenfassung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zusammenfassung
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Startseite - Linkhub - Kompass
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Kapitel 4 - Analytische und Physikalische Chemie
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="titrationskurven-aufnehmen-auswerten-und-verstehen">Titrationskurven aufnehmen, auswerten und verstehen</h1>
+<p>Das <strong>TITRATIONSTOOL</strong> ist ein browserbasiertes virtuelles Labor für Säure-Base-Titrationen. Es verbindet die Durchführung einer simulierten Titration mit der fachlichen Auswertung der Messdaten: Titrationskurve, erste und zweite Ableitung, Äquivalenzpunkte, Indikatorwahl, Halbäquivalenzpunkt und quantitative Konzentrationsbestimmung stehen in einer gemeinsamen Arbeitsumgebung zur Verfügung.</p>
+<p><a class="md-button md-button--primary" href="https://ekerzendorfer.github.io/TITRATIONSTOOL/"><strong>TITRATIONSTOOL öffnen</strong></a></p>
+<p><a class="md-button" href="https://github.com/ekerzendorfer/TITRATIONSTOOL"><strong>Quellcode auf GitHub</strong></a></p>
+<!-- GIF 01: titrationstool-ueberblick.gif
+     Kurzer Überblick: Stoff auswählen, tropfenweise titrieren, Kurve und Apparatur reagieren.
+     Empfohlene Länge: 8–12 s, 1200–1400 px Breite. -->
+
+<h2 id="warum-ein-virtuelles-titrationslabor">Warum ein virtuelles Titrationslabor?</h2>
+<p>Eine reale Titration verbindet mehrere anspruchsvolle Ebenen:</p>
+<ul>
+<li>eine Apparatur muss korrekt aufgebaut und bedient werden,</li>
+<li>das Volumen der Maßlösung muss zuverlässig abgelesen werden,</li>
+<li>Farbänderungen oder Messwerte müssen beobachtet werden,</li>
+<li>die stöchiometrische Reaktion muss verstanden werden,</li>
+<li>die Messreihe muss grafisch ausgewertet werden,</li>
+<li>aus dem Äquivalenzvolumen wird schließlich eine Konzentration berechnet.</li>
+</ul>
+<p>Im Unterricht bleibt häufig nur wenig Zeit, alle Ebenen gleich gründlich zu behandeln. Das virtuelle Labor ersetzt das reale Experiment nicht. Es erlaubt aber, einzelne Aspekte gezielt zu isolieren, Messreihen beliebig zu wiederholen und die mathematische Auswertung unmittelbar mit dem Verlauf der Titration zu verbinden.</p>
+<div class="admonition info">
+<p class="admonition-title">Didaktische Grundidee</p>
+<p>Das TITRATIONSTOOL ist weder eine reine Animation noch ein automatischer Aufgabenlöser. Die Lernenden erzeugen eine Messreihe, wählen die Auswertungsmethode und tragen Ergebnisse selbst ein. Das Werkzeug übernimmt dort Rechenarbeit, wo sie den Blick auf das chemische Konzept verstellen würde, und fordert eigene Auswertung dort, wo sie fachlich entscheidend ist.</p>
+</div>
+<h2 id="lernziele">Lernziele</h2>
+<p>Mit dem TITRATIONSTOOL können SchülerInnen unter anderem:</p>
+<ul>
+<li>Titrationskurven starker und schwacher Säuren beziehungsweise Basen unterscheiden,</li>
+<li>den Einfluss der Säure- oder Basenstärke auf Anfangs-pH und Äquivalenzbereich erklären,</li>
+<li>Äquivalenzpunkte aus einer Titrationskurve abschätzen,</li>
+<li>erste und zweite Ableitung fachgerecht interpretieren,</li>
+<li>geeignete Indikatoren anhand ihres Umschlagsbereichs auswählen,</li>
+<li>den Halbäquivalenzpunkt bestimmen und <span class="arithmatex">\(pH=pK_\mathrm{s}\)</span> anwenden,</li>
+<li>Stoffmengenverhältnisse aus Reaktionsgleichungen ableiten,</li>
+<li>Konzentrationen in mol/L und g/L berechnen,</li>
+<li>bei zweiprotonigen Säuren zwei Neutralisationsstufen unterscheiden,</li>
+<li>Messdaten für eine weiterführende Auswertung exportieren.</li>
+</ul>
+<h2 id="zwei-arbeitsbereiche">Zwei Arbeitsbereiche</h2>
+<p>Die App besitzt zwei grundsätzlich verschiedene Zugänge.</p>
+<h3 id="freies-labor">Freies Labor</h3>
+<p>Im freien Labor können alle wesentlichen Versuchsparameter selbst gewählt werden:</p>
+<ul>
+<li>Titrationsart</li>
+<li>Analyt</li>
+<li>Probenkonzentration</li>
+<li>Probenvolumen</li>
+<li>Konzentration der Maßlösung</li>
+<li>Tropfengröße</li>
+<li>Indikator</li>
+<li>manuelle oder automatische Zugabe</li>
+</ul>
+<p>Die Stoffdaten können aus den hinterlegten Beispielen übernommen oder für eigene starke beziehungsweise schwache Säuren und Basen eingegeben werden.</p>
+<!-- GIF 02: titrationstool-freies-labor.gif
+     Stoff- und Parameterauswahl, Start der Messung, Wechsel zwischen Einzeltropfen und Auto-Titration. -->
+
+<h3 id="begleitende-aufgaben">Begleitende Aufgaben</h3>
+<p>Der Aufgabenbereich bietet neun sofort einsetzbare Lernaufgaben. Jede Aufgabe enthält:</p>
+<ul>
+<li>ein ausgewiesenes Lernziel,</li>
+<li>eine konkrete Versuchsanweisung,</li>
+<li>passende Voreinstellungen,</li>
+<li>gesperrte Parameter, die nicht verändert werden sollen,</li>
+<li>Eingabefelder für die Ergebnisse,</li>
+<li>gestufte Hinweise,</li>
+<li>eine Prüffunktion,</li>
+<li>eine einblendbare LehrerInnenlösung.</li>
+</ul>
+<p>Bei den quantitativen Aufgaben wird bei jedem neuen Laden eine andere Variante erzeugt. Die zugrunde liegende Probenkonzentration bleibt verborgen. Die Äquivalenzvolumina werden bewusst in einem moderaten Bereich gewählt, damit keine unnötig langen Titrationen entstehen.</p>
+<!-- GIF 03: titrationstool-aufgabenmodus.gif
+     Aufgabe auswählen, Versuch laden, Ergebnisfeld ausfüllen, Hinweis und Rückmeldung zeigen. -->
+
+<h2 id="die-simulierte-apparatur">Die simulierte Apparatur</h2>
+<p>Die schematische Apparatur zeigt:</p>
+<ul>
+<li>eine Bürette mit Maßlösung,</li>
+<li>eine angedeutete Bürettenablesung,</li>
+<li>ein Becherglas mit Analytlösung,</li>
+<li>eine pH-Elektrode,</li>
+<li>einen Magnetrührer mit Rührstäbchen,</li>
+<li>den fallenden Tropfen bei der Zugabe.</li>
+</ul>
+<p>Der aktuelle pH-Wert und das zugegebene Volumen werden zusätzlich in einer digitalen Anzeige dargestellt. Die Apparatur ist bewusst reduziert. Sie dient der Orientierung und der Verknüpfung von Volumenzugabe, pH-Änderung und Kurvenverlauf.</p>
+<div class="admonition warning">
+<p class="admonition-title">Kein Ersatz für die Laborunterweisung</p>
+<p>Die Darstellung zeigt das Prinzip einer Titration. Sicherheitsregeln, korrektes Spülen und Füllen der Bürette, Entfernen von Luftblasen, Ablesen des Meniskus und sachgerechter Umgang mit der pH-Elektrode müssen im realen Labor gesondert erarbeitet werden.</p>
+</div>
+<h2 id="unterstutzte-titrationsarten">Unterstützte Titrationsarten</h2>
+<p>Das Werkzeug deckt vier schulisch zentrale Klassen ab:</p>
+<table>
+<thead>
+<tr>
+<th>Analyt</th>
+<th>Maßlösung</th>
+<th>Verlauf der pH-Kurve</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>starke Säure</td>
+<td>starke Base</td>
+<td>steigend</td>
+</tr>
+<tr>
+<td>schwache Säure, ein- oder zweiprotonig</td>
+<td>starke Base</td>
+<td>steigend</td>
+</tr>
+<tr>
+<td>starke Base</td>
+<td>starke Säure</td>
+<td>fallend</td>
+</tr>
+<tr>
+<td>schwache einprotonige Base</td>
+<td>starke Säure</td>
+<td>fallend</td>
+</tr>
+</tbody>
+</table>
+<p>Damit lassen sich typische Unterschiede systematisch untersuchen:</p>
+<ul>
+<li>Lage des Anfangs-pH-Werts</li>
+<li>Größe und Lage des pH-Sprungs</li>
+<li>pH-Wert am Äquivalenzpunkt</li>
+<li>Ausbildung eines Pufferbereichs bei schwachen Protolyten</li>
+<li>Lage des Halbäquivalenzpunkts</li>
+<li>Eignung verschiedener Indikatoren</li>
+</ul>
+<h2 id="stoffauswahl">Stoffauswahl</h2>
+<p>Die hinterlegten Beispiele wurden so gewählt, dass nicht nur Standardfälle, sondern auch didaktisch interessante Vergleiche möglich sind.</p>
+<h3 id="sauren">Säuren</h3>
+<ul>
+<li>Salzsäure</li>
+<li>Salpetersäure</li>
+<li>Chloressigsäure</li>
+<li>Ameisensäure</li>
+<li>Essigsäure</li>
+<li>Propionsäure</li>
+<li>Milchsäure</li>
+<li>Benzoesäure</li>
+<li>Oxalsäure</li>
+<li>Pyridiniumchlorid beziehungsweise Pyridinium-Ion</li>
+</ul>
+<h3 id="basen">Basen</h3>
+<ul>
+<li>Natronlauge</li>
+<li>Ammoniak</li>
+<li>Methylamin</li>
+<li>Pyridin</li>
+</ul>
+<p>Chloressigsäure erweitert den Bereich zu stärkeren einprotonigen Carbonsäuren. Beim Pyridiniumchlorid wird deutlich, dass ein sauer reagierendes Teilchen nicht zwingend eine Carboxygruppe enthalten muss: Titriert wird das Pyridinium-Ion als konjugierte Säure des Pyridins.</p>
+<h2 id="titrationskurven-aufnehmen">Titrationskurven aufnehmen</h2>
+<p>Nach dem Laden eines Versuchs beginnt die Messreihe bei <span class="arithmatex">\(V=0\)</span>. Jeder weitere Messpunkt besteht aus:</p>
+<ul>
+<li>dem kumulativ zugegebenen Volumen der Maßlösung,</li>
+<li>dem zugehörigen pH-Wert nach vollständiger Durchmischung.</li>
+</ul>
+<p>Die Tropfengröße kann verändert werden. Große Schritte liefern schnell einen Überblick, können aber den steilen Kurvenbereich unzureichend auflösen. Kleine Schritte erhöhen die Messpunktdichte und verbessern insbesondere die Ableitungsauswertung.</p>
+<div class="admonition tip">
+<p class="admonition-title">Bewährter Arbeitsablauf</p>
+<p>Zunächst kann mit größeren Schritten bis in die Nähe des erwarteten Äquivalenzbereichs titriert werden. Dort wird die Tropfengröße reduziert. Im Aufgabenmodus sind geeignete Schrittweiten bereits vorgegeben.</p>
+</div>
+<!-- GIF 04: titrationstool-tropfen-und-kurve.gif
+     Mehrere Tropfen; pH-Anzeige, Flüssigkeitsfarbe und Kurve verändern sich synchron. -->
+
+<h2 id="der-aquivalenzpunkt">Der Äquivalenzpunkt</h2>
+<p>Am Äquivalenzpunkt wurden Analyt und Maßlösung im stöchiometrisch erforderlichen Stoffmengenverhältnis umgesetzt. Bei einer einprotonigen Säure und Natronlauge gilt beispielsweise:</p>
+<div class="arithmatex">\[
+n(HA)=n(OH^-)
+\]</div>
+<p>Daraus folgt:</p>
+<div class="arithmatex">\[
+c(HA)\cdot V(HA)=c(OH^-)\cdot V_\mathrm{ÄP}
+\]</div>
+<p>Der Äquivalenzpunkt ist nicht mit einem bestimmten pH-Wert gleichzusetzen:</p>
+<ul>
+<li>starke Säure + starke Base: im idealisierten Modell ungefähr pH 7,</li>
+<li>schwache Säure + starke Base: Äquivalenzpunkt im basischen Bereich,</li>
+<li>schwache Base + starke Säure: Äquivalenzpunkt im sauren Bereich.</li>
+</ul>
+<p>Diese Unterschiede gehören zu den wichtigsten Lernzielen der App.</p>
+<h2 id="erste-ableitung">Erste Ableitung</h2>
+<p>Die erste Ableitung beschreibt die pH-Änderung pro Volumenänderung. Für zwei aufeinanderfolgende Messpunkte gilt:</p>
+<div class="arithmatex">\[
+D_i^{(1)}=
+\frac{pH_{i+1}-pH_i}{V_{i+1}-V_i}
+\]</div>
+<p>Der Wert wird nicht einem der beiden ursprünglichen Volumenwerte zugeordnet, sondern dem Mittelpunkt:</p>
+<div class="arithmatex">\[
+V_i^{(1)}=\frac{V_i+V_{i+1}}{2}
+\]</div>
+<p>Bei einer steigenden Titrationskurve liegt im steilsten Bereich ein Maximum der ersten Ableitung. Bei einer fallenden Kurve entsteht entsprechend ein Minimum.</p>
+<!-- GIF 05: titrationstool-erste-ableitung.gif
+     Von der Kurve zur ersten Ableitung wechseln und optional die Titrationskurve überlagern. -->
+
+<h2 id="zweite-ableitung">Zweite Ableitung</h2>
+<p>Die zweite Ableitung wird aus benachbarten Punkten der ersten Ableitung berechnet:</p>
+<div class="arithmatex">\[
+D_i^{(2)}=
+\frac{D_{i+1}^{(1)}-D_i^{(1)}}
+{V_{i+1}^{(1)}-V_i^{(1)}}
+\]</div>
+<p>Auch diese Werte werden an den jeweiligen Volumenmittelpunkten eingetragen. Im Bereich des Wendepunkts der Titrationskurve wechselt die zweite Ableitung ihr Vorzeichen. Der Nulldurchgang wird linear interpoliert.</p>
+<p>Das TITRATIONSTOOL akzeptiert nicht jeden beliebigen Nulldurchgang als Äquivalenzpunkt. Es sucht zusätzlich nach einem ausreichend markanten Extremum der ersten Ableitung und ordnet diesem einen nahe gelegenen, zur Kurvenrichtung passenden Nulldurchgang der zweiten Ableitung zu.</p>
+<ul>
+<li>steigende Kurve: positiv-negativer Nulldurchgang nahe einem Maximum der ersten Ableitung</li>
+<li>fallende Kurve: negativ-positiver Nulldurchgang nahe einem Minimum der ersten Ableitung</li>
+</ul>
+<p>Diese Kombination reduziert Fehlzuordnungen durch kleine numerische Schwankungen.</p>
+<!-- GIF 06: titrationstool-zweite-ableitung-aep.gif
+     Zweite Ableitung, Nulllinie und interpolierter Nulldurchgang; Kurve optional überlagert. -->
+
+<div class="admonition note">
+<p class="admonition-title">Keine Glättung</p>
+<p>Die Ableitungen werden unmittelbar aus den aufgenommenen Messwerten berechnet. Es erfolgt keine Glättung, Polynom-Anpassung oder nachträgliche Verdichtung der Messreihe. Dadurch wird der Einfluss der gewählten Tropfengröße sichtbar.</p>
+</div>
+<h2 id="titrationskurve-und-ableitung-uberlagern">Titrationskurve und Ableitung überlagern</h2>
+<p>Bei der ersten und zweiten Ableitung kann die ursprüngliche Titrationskurve eingeblendet werden. Beide Größen verwenden getrennte y-Achsen. So bleibt die pH-Kurve didaktisch dominant, während gleichzeitig sichtbar wird,</p>
+<ul>
+<li>dass das Extremum der ersten Ableitung im steilsten Kurvenbereich liegt,</li>
+<li>dass der Nulldurchgang der zweiten Ableitung mit dem Wendebereich zusammenfällt.</li>
+</ul>
+<p>Diese Darstellung eignet sich besonders für eine gemeinsame Besprechung am Beamer.</p>
+<h2 id="indikatoren-und-umschlagsbereiche">Indikatoren und Umschlagsbereiche</h2>
+<p>Die Auswahl eines Indikators erfolgt nicht nach dem Prinzip „sauer oder basisch“, sondern nach der Lage seines Umschlagsbereichs im steilen Bereich der jeweiligen Titrationskurve.</p>
+<p>Enthalten sind:</p>
+<ul>
+<li>Bromthymolblau: gelb → grün → blau</li>
+<li>Phenolphthalein: farblos → pink</li>
+<li>Methylorange: rot → gelb</li>
+<li>Thymolblau: zwei getrennte Umschlagsbereiche</li>
+<li>Universalindikator: schematische Farbskala über den gesamten pH-Bereich</li>
+</ul>
+<p>Die Umschlagsbereiche werden als dezente Bänder im Diagramm angezeigt. Das Programm vergleicht außerdem den berechneten pH-Wert am Äquivalenzpunkt mit dem gewählten Bereich.</p>
+<!-- GIF 07: titrationstool-indikatoren.gif
+     Bei identischem Versuch mehrere Indikatoren durchschalten; Farbe und Umschlagsband vergleichen. -->
+
+<div class="admonition warning">
+<p class="admonition-title">Universalindikator</p>
+<p>Ein Universalindikator ist ein Indikatorgemisch. Er eignet sich zur groben pH-Abschätzung, besitzt aber keinen einzelnen engen Umschlagsbereich und ist deshalb für eine präzise Endpunkterkennung ungeeignet.</p>
+</div>
+<h2 id="hagg-diagramme">Hägg-Diagramme</h2>
+<p>Für schwache Säuren und Basen kann zusätzlich ein Hägg-Diagramm geöffnet werden. Es zeigt die relativen Anteile der beteiligten Protolyseformen in Abhängigkeit vom pH-Wert.</p>
+<p>Bei einer einprotonigen Säure gilt am <span class="arithmatex">\(pK_\mathrm{s}\)</span>-Wert:</p>
+<div class="arithmatex">\[
+[HA]=[A^-]
+\]</div>
+<p>Bei zweiprotonigen Säuren werden drei Spezies dargestellt. Dadurch lässt sich erklären, warum zwei Neutralisationsstufen grundsätzlich möglich sind und weshalb ein Äquivalenzpunkt unter Umständen weniger deutlich ausgeprägt ist.</p>
+<!-- GIF 08: titrationstool-haegg.gif
+     Hägg-Diagramm öffnen und pKs-Bereich einer ein- oder zweiprotonigen Säure zeigen. -->
+
+<h2 id="der-halbaquivalenzpunkt">Der Halbäquivalenzpunkt</h2>
+<p>Bei der Titration einer einprotonigen schwachen Säure mit einer starken Base gilt am Halbäquivalenzpunkt:</p>
+<div class="arithmatex">\[
+V_\mathrm{HÄP}=\frac{V_\mathrm{ÄP}}{2}
+\]</div>
+<p>Zu diesem Zeitpunkt wurde die Hälfte der ursprünglichen Säuremenge in ihre konjugierte Base umgewandelt. Daher gilt:</p>
+<div class="arithmatex">\[
+[HA]=[A^-]
+\]</div>
+<p>Aus der Henderson-Hasselbalch-Beziehung folgt:</p>
+<div class="arithmatex">\[
+pH=pK_\mathrm{s}
+\]</div>
+<p>Diese Beziehung wird in der abschließenden Identifikationsaufgabe genutzt.</p>
+<h2 id="challenge-eine-unbekannte-schwache-saure-bestimmen">Challenge: eine unbekannte schwache Säure bestimmen</h2>
+<p>Eine unbekannte einprotonige schwache Säure wird mit Natronlauge titriert. Die SchülerInnen müssen:</p>
+<ol>
+<li>den Äquivalenzpunkt bestimmen,</li>
+<li>den Halbäquivalenzpunkt berechnen,</li>
+<li>den pH-Wert an dieser Stelle ablesen,</li>
+<li><span class="arithmatex">\(pH=pK_\mathrm{s}\)</span> anwenden,</li>
+<li>den Stoff anhand einer Kandidatenliste identifizieren.</li>
+</ol>
+<p>Der Kandidatenpool umfasst:</p>
+<table>
+<thead>
+<tr>
+<th>Kandidat</th>
+<th style="text-align: right;"><span class="arithmatex">\(pK_\mathrm{s}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chloressigsäure</td>
+<td style="text-align: right;">2,86</td>
+</tr>
+<tr>
+<td>Ameisensäure</td>
+<td style="text-align: right;">3,75</td>
+</tr>
+<tr>
+<td>Benzoesäure</td>
+<td style="text-align: right;">4,20</td>
+</tr>
+<tr>
+<td>Essigsäure</td>
+<td style="text-align: right;">4,76</td>
+</tr>
+<tr>
+<td>Pyridinium-Ion aus Pyridiniumchlorid</td>
+<td style="text-align: right;">5,23</td>
+</tr>
+</tbody>
+</table>
+<p>Bei jedem Neuladen werden Stoff und Konzentration neu gewählt. Das Äquivalenzvolumen bleibt zwischen 9 und 15 mL. Eine unmittelbare Wiederholung desselben Stoffes wird vermieden.</p>
+<!-- GIF 09: titrationstool-haep-challenge.gif
+     Aufgabe laden, ÄP bestimmen, HÄP berechnen, pH ablesen und Kandidat auswählen. -->
+
+<h2 id="gefuhrte-quantitative-auswertung">Geführte quantitative Auswertung</h2>
+<p>Vier Aufgaben führen schrittweise von der Messung zur Konzentration:</p>
+<ul>
+<li>unbekannte Salzsäure</li>
+<li>unbekannte Essigsäure</li>
+<li>unbekannte Ammoniaklösung</li>
+<li>unbekannte Oxalsäure über den zweiten Äquivalenzpunkt</li>
+</ul>
+<p>Die Lernenden bestimmen nacheinander:</p>
+<ol>
+<li>Äquivalenzvolumen</li>
+<li>Stoffmenge der Maßlösung</li>
+<li>Stoffmengenverhältnis</li>
+<li>Stoffmenge des Analyten</li>
+<li>Konzentration in mol/L</li>
+<li>Massenkonzentration in g/L</li>
+</ol>
+<p>Bei <span class="arithmatex">\(c\)</span> in mol/L und <span class="arithmatex">\(V\)</span> in mL gilt zahlenmäßig:</p>
+<div class="arithmatex">\[
+n\,[\mathrm{mmol}]=c\,[\mathrm{mol\,L^{-1}}]\cdot V\,[\mathrm{mL}]
+\]</div>
+<p>Für eine 1:1-Reaktion folgt:</p>
+<div class="arithmatex">\[
+c_\mathrm{Analyt}=
+\frac{c_\mathrm{Maßlösung}\cdot V_\mathrm{ÄP}}
+{V_\mathrm{Probe}}
+\]</div>
+<p>Allgemein mit dem stöchiometrischen Faktor <span class="arithmatex">\(z\)</span>:</p>
+<div class="arithmatex">\[
+c_\mathrm{Analyt}=
+\frac{c_\mathrm{Maßlösung}\cdot V_\mathrm{ÄP}}
+{z\cdot V_\mathrm{Probe}}
+\]</div>
+<p>Die Massenkonzentration ergibt sich aus:</p>
+<div class="arithmatex">\[
+\beta=c_\mathrm{Analyt}\cdot M_\mathrm{Analyt}
+\]</div>
+<p>Bei Oxalsäure wird ausdrücklich der zweite Äquivalenzpunkt verwendet. Dort wurden zwei Stoffmengen Hydroxidionen pro Stoffmenge Oxalsäure umgesetzt; deshalb ist <span class="arithmatex">\(z=2\)</span>.</p>
+<!-- GIF 10: titrationstool-gefuehrte-auswertung.gif
+     Zufallsvariante, schrittweise Eingaben von V(ÄP) bis g/L, Rückmeldungen zeigen. -->
+
+<h2 id="die-neun-aufgaben-im-uberblick">Die neun Aufgaben im Überblick</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Aufgabe</th>
+<th>Niveau</th>
+<th>Schwerpunkt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A01</td>
+<td>Starke Säure – Äquivalenzpunkt bei pH 7</td>
+<td>Grundlagen</td>
+<td>Kurve und Äquivalenz-pH</td>
+</tr>
+<tr>
+<td>A02</td>
+<td>Essigsäure – ÄP aus der zweiten Ableitung</td>
+<td>SEK II</td>
+<td>Nulldurchgang</td>
+</tr>
+<tr>
+<td>A03</td>
+<td>Pyridin – geeigneten Indikator wählen</td>
+<td>Vertiefung</td>
+<td>Indikatorauswahl</td>
+</tr>
+<tr>
+<td>A04</td>
+<td>Oxalsäure – zwei Äquivalenzpunkte</td>
+<td>SEK II</td>
+<td>zweiprotonige Säure</td>
+</tr>
+<tr>
+<td>A05</td>
+<td>Unbekannte Salzsäure</td>
+<td>geführt</td>
+<td>quantitative Auswertung</td>
+</tr>
+<tr>
+<td>A06</td>
+<td>Unbekannte Essigsäure</td>
+<td>geführt</td>
+<td>schwache Säure</td>
+</tr>
+<tr>
+<td>A07</td>
+<td>Unbekannte Ammoniaklösung</td>
+<td>geführt</td>
+<td>fallende Kurve</td>
+</tr>
+<tr>
+<td>A08</td>
+<td>Oxalsäure über den zweiten ÄP</td>
+<td>geführt</td>
+<td>Faktor 2 : 1</td>
+</tr>
+<tr>
+<td>A09</td>
+<td>Unbekannte schwache Säure aus dem HÄP</td>
+<td>geführt</td>
+<td>Stoffidentifikation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="export-in-das-messwert_lab">Export in das MESSWERT_LAB</h2>
+<p>Die Messreihe kann als CSV-Datei exportiert und im MESSWERT_LAB weiter ausgewertet werden. Der Export enthält ausschließlich die Rohdaten:</p>
+<div class="highlight"><pre><span></span><code>Volumen_Massloesung_mL;pH
+0,0000000000;...
+0,1000000000;...
+...
+</code></pre></div>
+<p>Nach einer Leerzeile folgt ein Metadatenblock mit den Versuchsparametern, beispielsweise:</p>
+<ul>
+<li>Titrationsart</li>
+<li>Analyt und Maßlösung</li>
+<li>Konzentrationen und Probenvolumen</li>
+<li>molare Masse</li>
+<li>Protonenstufen</li>
+<li>pKs-Werte</li>
+<li>Indikator</li>
+<li>Soll-Schrittweite</li>
+<li>Arbeitsbereich und Aufgaben-ID</li>
+</ul>
+<p>Ableitungen und Äquivalenzpunkte werden nicht exportiert. Das MESSWERT_LAB berechnet diese Größen selbst nach demselben verbindlichen Standard <code>TITR_AEP_V1</code>. Dadurch können Simulation und Datenlabor unabhängig voneinander arbeiten und dennoch dieselben Ergebnisse liefern.</p>
+<!-- GIF 11: titrationstool-export-messwertlab.gif
+     CSV exportieren, im MESSWERT_LAB öffnen, Kurve/Ableitungen darstellen. -->
+
+<h2 id="vorschlage-fur-den-unterricht">Vorschläge für den Unterricht</h2>
+<h3 id="einstieg-warum-liegt-der-aquivalenzpunkt-nicht-immer-bei-ph-7">Einstieg: Warum liegt der Äquivalenzpunkt nicht immer bei pH 7?</h3>
+<ol>
+<li>Salzsäure mit Natronlauge titrieren.</li>
+<li>Essigsäure mit Natronlauge titrieren.</li>
+<li>Beide Kurven vergleichen.</li>
+<li>Lage und pH-Wert des Äquivalenzpunkts erklären.</li>
+</ol>
+<p>Zeitbedarf: etwa 20–30 Minuten.</p>
+<h3 id="ableitungen-als-auswertungswerkzeug">Ableitungen als Auswertungswerkzeug</h3>
+<ol>
+<li>Messreihe mit grober Schrittweite aufnehmen.</li>
+<li>Erste und zweite Ableitung betrachten.</li>
+<li>Messung mit kleinerer Schrittweite wiederholen.</li>
+<li>Genauigkeit und Kurvenform vergleichen.</li>
+</ol>
+<p>Zeitbedarf: etwa 30 Minuten.</p>
+<h3 id="indikatorwahl">Indikatorwahl</h3>
+<ol>
+<li>Eine schwache Säure und eine schwache Base titrieren.</li>
+<li>Äquivalenz-pH bestimmen.</li>
+<li>mehrere Indikatoren vergleichen.</li>
+<li>eine begründete Auswahl treffen.</li>
+</ol>
+<p>Zeitbedarf: etwa 20 Minuten.</p>
+<h3 id="quantitative-analyse">Quantitative Analyse</h3>
+<p>Eine der geführten Aufgaben laden und die Konzentration vollständig bis zur Einheit g/L auswerten. Anschließend können die exportierten Daten im MESSWERT_LAB unabhängig kontrolliert werden.</p>
+<p>Zeitbedarf: etwa 30–40 Minuten.</p>
+<h3 id="stoffidentifikation">Stoffidentifikation</h3>
+<p>Die HÄP-Challenge eignet sich als abschließende Anwendung nach der Einführung der Henderson-Hasselbalch-Beziehung.</p>
+<p>Zeitbedarf: etwa 25–30 Minuten.</p>
+<h2 id="hinweise-fur-lehrkrafte">Hinweise für Lehrkräfte</h2>
+<ul>
+<li>Die Titrationskurve sollte zunächst immer qualitativ gelesen werden, bevor die Ableitungen verwendet werden.</li>
+<li>Große Tropfengrößen sind didaktisch nützlich, um den Einfluss der Messpunktdichte sichtbar zu machen.</li>
+<li>Die automatische Äquivalenzpunktbestimmung sollte nicht als „richtige Antwort aus dem Computer“, sondern als nachvollziehbares mathematisches Verfahren behandelt werden.</li>
+<li>Bei schwachen Säuren und Basen sollte der pH-Wert am Äquivalenzpunkt ausdrücklich mit der Protolyse des entstandenen konjugierten Teilchens verknüpft werden.</li>
+<li>Bei Oxalsäure ist der erste Äquivalenzpunkt weniger markant. Dies ist kein Programmfehler, sondern Folge der Gleichgewichtslage und der relativ nahen pKs-Werte.</li>
+<li>Der Universalindikator sollte bewusst als ungeeignetes Werkzeug für eine präzise Endpunkterkennung diskutiert werden.</li>
+<li>Die Apparaturdarstellung unterstützt das Verständnis, ersetzt aber keine praktische Laborübung.</li>
+</ul>
+<h2 id="fachliche-modellgrenzen">Fachliche Modellgrenzen</h2>
+<p>Das TITRATIONSTOOL konzentriert sich bewusst auf den schulischen Kernbereich der Protolyseanalytik. Nicht abgebildet werden unter anderem:</p>
+<ul>
+<li>Aktivitätskoeffizienten und Ionenstärke</li>
+<li>temperaturabhängige Gleichgewichtskonstanten</li>
+<li>gekoppelte Carbonat- oder Sulfitsysteme</li>
+<li>dreiprotonige Säuren</li>
+<li>mehrprotonige schwache Basen</li>
+<li>schwache Säure mit schwacher Base</li>
+<li>Fällungs-, Redox- und komplexometrische Titrationen</li>
+<li>reale Geräte- und Bedienfehler</li>
+</ul>
+<p>Diese Begrenzung hält die Modelle fachlich nachvollziehbar und die Benutzeroberfläche übersichtlich.</p>
+<h2 id="technische-voraussetzungen">Technische Voraussetzungen</h2>
+<ul>
+<li>aktueller Webbrowser</li>
+<li>JavaScript aktiviert</li>
+<li>Internetverbindung zum Laden der Diagrammbibliothek Chart.js</li>
+<li>keine Installation</li>
+<li>keine Anmeldung</li>
+<li>keine Übertragung der Messdaten an einen Server</li>
+</ul>
+<p>Die Berechnungen erfolgen lokal im Browser. Die Anwendung ist responsiv und kann am Computer, Tablet oder Smartphone geöffnet werden; für eine ausführliche Diagrammauswertung ist ein größerer Bildschirm empfehlenswert.</p>
+<h2 id="zusammenfassung">Zusammenfassung</h2>
+<p>Das TITRATIONSTOOL verbindet drei Ebenen, die im Unterricht oft getrennt behandelt werden:</p>
+<ol>
+<li><strong>Versuchsdurchführung:</strong> Maßlösung zugeben, pH-Wert beobachten, Indikatorfarbe verfolgen.</li>
+<li><strong>Messdatenauswertung:</strong> Kurve, erste und zweite Ableitung, Äquivalenzpunkt.</li>
+<li><strong>chemische Interpretation:</strong> Protolysegleichgewichte, Indikatorwahl, Halbäquivalenzpunkt und quantitative Analyse.</li>
+</ol>
+<p>Der freie Laborbereich ermöglicht eigenes Erkunden. Die begleitenden Aufgaben machen daraus ein unmittelbar einsetzbares Unterrichtswerkzeug. Über die CSV-Schnittstelle können die Rohdaten anschließend im MESSWERT_LAB unabhängig weiterverarbeitet werden.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.indexes", "navigation.path", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
