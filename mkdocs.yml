@@ -49,8 +49,21 @@ nav:
   - Kapitel 4 - Analytische und Physikalische Chemie:
       - TITRATIONS - TOOL: analytik/titrationstool.md
       - IONENFISCHEN virtuell: analytik/Ionenfischen.md
-      - Virtuelles PHOTOMETER: analytik/virtuellesphotometer.md
-      - DATEN-LAB: messerwert-lab.md
+      
+       - SpektralLab – Virtuelles Photometer:
+          - Überblick: analytik/virtuelles-photometer.md
+          - Grundlagen der Photometrie: analytik/photometrie-grundlagen.md
+          - Das schematische Photometer: analytik/photometer-geraeteschema.md
+          - Spektren aufnehmen: analytik/photometrie-spektren.md
+          - Eichkurven und unbekannte Proben: analytik/photometrie-eichkurven.md
+          - Messrealismus und Fehlerkultur: analytik/photometrie-fehlerkultur.md
+          - pH-abhängige Spektren: analytik/photometrie-gleichgewicht.md
+          - Photometrische Kinetik: analytik/photometrie-kinetik.md
+          - Aufgaben und Protokoll: analytik/photometrie-aufgaben-protokoll.md
+          - Datenexport und Weiterverarbeitung: analytik/photometrie-datenexport.md
+          - Quellen und Modellgrenzen: analytik/photometrie-quellen-modellgrenzen.md
+          
+      - DATEN-LAB: messewert-lab.md
 
   - Kapitel 5 - Moleküllabore:
       - Überblick: molekuellabore/index.md
