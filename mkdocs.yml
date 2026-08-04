@@ -48,6 +48,7 @@ nav:
 
   - Kapitel 4 - Analytische und Physikalische Chemie:
       - TITRATIONS - TOOL: analytik/titrationstool.md
+      - IONENFISCHEN virtuell: analytik/Ionenfischen.md
       - Virtuelles PHOTOMETER: analytik/virtuellesphotometer.md
       - DATEN-LAB: messerwert-lab.md
 
