@@ -49,7 +49,7 @@ Verwendete Modellmaxima:
 
 Die Schaltfläche **Serie pH 4 / 7 / 10** nimmt drei Spektren nacheinander auf und überlagert sie.
 
-<!-- ANIMATION EQ-01 | DATEI: ../assets/images/analytik/photometer/eq01_btb_ph_serie.gif | MOTIV: automatische Serie pH 4, 7 und 10; Farbfeld, Speziesanteile und wachsendes Spektrum sichtbar | ALT: pH-abhängige Spektren von Bromthymolblau bei pH 4, 7 und 10 | DAUER: 12–16 s | LOOP: ja | PRIORITÄT: A | EINFÜGEN ALS: ![pH-Serie von Bromthymolblau](../assets/images/analytik/photometer/eq01_btb_ph_serie.gif) -->
+![pH-Serie von Bromthymolblau](../assets/images/analytik/photometer/eq01_btb_ph_serie.gif)
 
 ### Erwartete Beobachtungen
 
@@ -67,7 +67,7 @@ Wenn sich zwei absorbierende Spezies direkt ineinander umwandeln und ihre Gesamt
 
 Die App markiert einen annähernden isosbestischen Bereich um etwa 503 nm.
 
-<!-- ABBILDUNG EQ-03 | DATEI: ../assets/images/analytik/photometer/eq03_isosbestischer_bereich.webp | MOTIV: vergrößerter Ausschnitt der überlagerten Spektren mit markiertem gemeinsamen Schnittbereich | ALT: Annähernd isosbestischer Bereich im Zwei-Spezies-Modell von Bromthymolblau | PRIORITÄT: A | EINFÜGEN ALS: ![Isosbestischer Bereich der Bromthymolblau-Spektren](../assets/images/analytik/photometer/eq03_isosbestischer_bereich.webp){ loading=lazy } -->
+![Isosbestischer Bereich der Bromthymolblau-Spektren](../assets/images/analytik/photometer/eq03_isosbestischer_bereich.webp){ loading=lazy }
 
 Ein gemeinsamer Schnittpunkt ist ein starkes Indiz für ein Zwei-Spezies-System, aber kein alleiniger Beweis. Reale Abweichungen können durch Ionenstärke, Nebenformen, Temperatur oder Messfehler entstehen.
 
