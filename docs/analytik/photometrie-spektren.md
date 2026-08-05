@@ -28,8 +28,7 @@ Im Spektrenmodus wird die Absorbanz einer farbigen Lösung über einen Wellenlä
 6. Farbänderung des Lichtstrahls und Abschwächung beobachten.
 7. Lage und Form des Maximums beschreiben.
 8. Messwellenlänge auf das Maximum setzen.
-
-<!-- ANIMATION SP-01 | DATEI: ../assets/images/analytik/photometer/sp01_permanganat_scan.gif | MOTIV: Kaliumpermanganat im Beobachtungsmodus; Diagramm und Geräteschema vollständig sichtbar; deutliche Abschwächung im grün-gelben Bereich | ALT: Spektralscan einer Kaliumpermanganatlösung | DAUER: 9–11 s | LOOP: ja | PRIORITÄT: A | EINFÜGEN ALS: ![Spektralscan von Kaliumpermanganat](../assets/images/analytik/photometer/sp01_permanganat_scan.gif) -->
+![Spektralscan von Kaliumpermanganat](../assets/images/analytik/photometer/sp01_permanganat_scan.gif)
 
 ## Scan-Geschwindigkeit
 
@@ -72,7 +71,7 @@ Bis zu drei Spektren können gespeichert werden. Sinnvolle Vergleiche:
 - Kupfer(II)-Aquoion und Tetraamminkupfer(II),
 - Brillantblau und Fast Green.
 
-<!-- ABBILDUNG SP-02 | DATEI: ../assets/images/analytik/photometer/sp02_spektrenvergleich.webp | MOTIV: überlagerte Spektren von Kaliumpermanganat, Kupfer(II)-Aquoion und Fast Green; Legende vollständig sichtbar | ALT: Vergleich unterschiedlicher Absorptionsspektren im virtuellen Photometer | PRIORITÄT: A | EINFÜGEN ALS: ![Vergleich mehrerer Absorptionsspektren](../assets/images/analytik/photometer/sp02_spektrenvergleich.webp){ loading=lazy } -->
+![Vergleich mehrerer Absorptionsspektren](../assets/images/analytik/photometer/sp02_spektrenvergleich.webp){ loading=lazy }
 
 ## Didaktisch ergiebige Stoffvergleiche
 
