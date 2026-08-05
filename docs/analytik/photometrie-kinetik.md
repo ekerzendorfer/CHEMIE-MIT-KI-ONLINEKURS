@@ -10,7 +10,7 @@ SpektralLab enthält drei unterschiedliche Kinetiksysteme:
 2. Brillantblau + Hypochlorit,
 3. Iod-/Vitamin-C-Uhrreaktion.
 
-<!-- ABBILDUNG KI-01 | DATEI: ../assets/images/analytik/photometer/ki01_kinetikmodule.webp | MOTIV: Auswahl der drei Kinetik-Unterbereiche in einer Collage oder breitem Screenshot | ALT: Drei Kinetikmodule des virtuellen Photometers | PRIORITÄT: A | EINFÜGEN ALS: ![Die drei Kinetikmodule](../assets/images/analytik/photometer/ki01_kinetikmodule.webp){ loading=lazy } -->
+![Die drei Kinetikmodule](../assets/images/analytik/photometer/ki01_kinetikmodule.webp){ loading=lazy }
 
 ## Gemeinsamer Ablauf
 
@@ -46,7 +46,7 @@ Die Messung erfolgt bei 590 nm.
 - Messdauer,
 - Messintervall.
 
-<!-- ANIMATION KI-02 | DATEI: ../assets/images/analytik/photometer/ki02_kristallviolett.gif | MOTIV: vollständiger Kristallviolettlauf mit Diagramm und verblassender Lösungsvorschau; Rohwerttabelle eingeklappt | ALT: Absorbanz-Zeit-Messung der Entfärbung von Kristallviolett | DAUER: 10–12 s | LOOP: ja | PRIORITÄT: A | EINFÜGEN ALS: ![Kristallviolett-Kinetik](../assets/images/analytik/photometer/ki02_kristallviolett.gif) -->
+![Kristallviolett-Kinetik](../assets/images/analytik/photometer/ki02_kristallviolett.gif)
 
 ### Reaktionsordnung prüfen
 
@@ -71,8 +71,7 @@ m=-k_\mathrm{obs}
 \]
 
 Die LehrerInnenansicht kann jeweils ein Kontrolldiagramm mit Regression und \(R^2\) anzeigen.
-
-<!-- ABBILDUNG KI-03 | DATEI: ../assets/images/analytik/photometer/ki03_reaktionsordnung.webp | MOTIV: Collage der drei LehrerInnen-Kontrolldiagramme A, ln(A−A∞), 1/(A−A∞) gegen t; logarithmische Auftragung mit höchstem R² | ALT: Vergleich dreier Linearisierungen zur Bestimmung der Reaktionsordnung | PRIORITÄT: A | EINFÜGEN ALS: ![Linearisierungen zur Bestimmung der Reaktionsordnung](../assets/images/analytik/photometer/ki03_reaktionsordnung.webp){ loading=lazy } -->
+![Linearisierungen zur Bestimmung der Reaktionsordnung](../assets/images/analytik/photometer/ki03_reaktionsordnung.webp){ loading=lazy }
 
 ### Hydroxidkonzentration vergleichen
 
@@ -98,7 +97,7 @@ Gemessen wird bei 630 nm. Hypochlorit liegt im Modell im Überschuss vor, sodass
 - Messdauer,
 - Messintervall.
 
-<!-- ANIMATION KI-05 | DATEI: ../assets/images/analytik/photometer/ki05_brillantblau_bleiche.gif | MOTIV: vollständiger Bleichlauf; blaue Lösung verblasst und Absorbanzkurve fällt | ALT: Photometrische Verfolgung der Entfärbung von Brillantblau durch Hypochlorit | DAUER: 10–12 s | LOOP: ja | PRIORITÄT: A | EINFÜGEN ALS: ![Entfärbung von Brillantblau](../assets/images/analytik/photometer/ki05_brillantblau_bleiche.gif) -->
+![Entfärbung von Brillantblau](../assets/images/analytik/photometer/ki05_brillantblau_bleiche.gif)
 
 ### Auswertungen
 
@@ -131,8 +130,7 @@ Gemessen wird modellhaft bei 600 nm.
 - Vitamin-C-Konzentration,
 - Messdauer,
 - Messintervall.
-
-<!-- ANIMATION KI-06 | DATEI: ../assets/images/analytik/photometer/ki06_uhrreaktion.gif | MOTIV: vollständiger Uhrreaktionslauf vom farblosen Zustand bis zum raschen blauen Signal; Kurve und Lösungsvorschau sichtbar | ALT: Absorbanz-Zeit-Verlauf einer Iod-Vitamin-C-Uhrreaktion | DAUER: 10–14 s | LOOP: ja | PRIORITÄT: A | EINFÜGEN ALS: ![Iod-/Vitamin-C-Uhrreaktion](../assets/images/analytik/photometer/ki06_uhrreaktion.gif) -->
+![Iod-/Vitamin-C-Uhrreaktion](../assets/images/analytik/photometer/ki06_uhrreaktion.gif)
 
 ### Umschlagszeit
 
