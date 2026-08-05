@@ -25,7 +25,7 @@ Laborarbeit besteht nicht nur aus dem Anwenden einer Formel. Messwerte müssen g
 - SchülerInnen müssen Datenmuster untersuchen,
 - Auflösung ist später möglich.
 
-<!-- ABBILDUNG FE-01 | DATEI: ../assets/images/analytik/photometer/fe01_betriebsarten.webp | MOTIV: Bedienpanel Messrealismus mit den drei Betriebsarten und Fehlerhäufigkeit | ALT: Auswahl von Normalbetrieb, Lernmodus und Diagnosemodus | PRIORITÄT: A | EINFÜGEN ALS: ![Betriebsarten der Fehlerkultur](../assets/images/analytik/photometer/fe01_betriebsarten.webp){ loading=lazy } -->
+![Betriebsarten der Fehlerkultur](../assets/images/analytik/photometer/fe01_betriebsarten.webp){ loading=lazy }
 
 ## Fehlerhäufigkeit
 
@@ -67,7 +67,7 @@ Die Prozentwerte sind didaktische Wahrscheinlichkeiten und keine Laborstatistik.
 
 Wird mit einer leicht absorbierenden Blindprobe abgeglichen, werden alle nachfolgenden Signale zu klein. Eine erneute Messung desselben Standards löst das Problem nicht. Erst ein korrekter Nullabgleich beseitigt den systematischen Versatz.
 
-<!-- ABBILDUNG FE-02 | DATEI: ../assets/images/analytik/photometer/fe02_falscher_blindwert.webp | MOTIV: zwei LehrerInnen-Eichdiagramme nebeneinander oder Collage: falscher Blindwert und korrigierte Reihe nach neuem Nullabgleich | ALT: Systematische Verschiebung einer Eichreihe durch einen ungeeigneten Blindwert | PRIORITÄT: A | EINFÜGEN ALS: ![Auswirkung eines ungeeigneten Blindwerts](../assets/images/analytik/photometer/fe02_falscher_blindwert.webp){ loading=lazy } -->
+![Auswirkung eines ungeeigneten Blindwerts](../assets/images/analytik/photometer/fe02_falscher_blindwert.webp){ loading=lazy }
 
 ## Beispiel: Streulicht
 
