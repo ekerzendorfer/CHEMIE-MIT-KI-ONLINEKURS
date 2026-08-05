@@ -4,7 +4,7 @@
 
 [SpektralLab – Virtuelles Photometer öffnen](https://ekerzendorfer.github.io/VIRTUELLES_PHOTOMETER/){ .md-button .md-button--primary }
 
-![Startansicht von SpektralLab](../assets/images/analytik/photometer/vp01_startansicht.webp){ loading=lazy } -->
+![Startansicht von SpektralLab](../assets/images/analytik/photometer/vp01_startansicht.webp){ loading=lazy }
 
 ## Warum ein virtuelles Photometer?
 
