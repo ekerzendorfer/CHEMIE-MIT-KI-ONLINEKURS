@@ -4,7 +4,7 @@
 
 [SpektralLab – Virtuelles Photometer öffnen](https://ekerzendorfer.github.io/VIRTUELLES_PHOTOMETER/){ .md-button .md-button--primary }
 
-<!-- ABBILDUNG VP-01 | DATEI: ../assets/images/analytik/photometer/vp01_startansicht.webp | MOTIV: vollständige Startansicht der App im Spektrenmodus mit Navigation, Parametern und leerem Diagramm | ALT: Startansicht von SpektralLab mit den Bereichen Spektrum, Eichkurve, Dynamische Messung und Aufgaben | PRIORITÄT: A | EINFÜGEN ALS: ![Startansicht von SpektralLab](../assets/images/analytik/photometer/vp01_startansicht.webp){ loading=lazy } -->
+![Startansicht von SpektralLab](../assets/images/analytik/photometer/vp01_startansicht.webp){ loading=lazy } -->
 
 ## Warum ein virtuelles Photometer?
 
