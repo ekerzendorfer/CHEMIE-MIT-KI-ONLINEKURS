@@ -35,7 +35,7 @@ Die App vergibt:
 
 Vor der Messung der Standards muss die Blindprobe gemessen werden.
 
-<!-- ANIMATION EK-01 | DATEI: ../assets/images/analytik/photometer/ek01_blind_standard_unbekannt.gif | MOTIV: Blindprobe messen, einen niedrigen Standard messen, höchsten Standard messen, unbekannte Probe messen; Geräteschema und Anzeige sichtbar | ALT: Ablauf von Blindprobe, Standardmessungen und unbekannter Probe | DAUER: 12–16 s | LOOP: nein oder lange Pause am Ende | PRIORITÄT: A | EINFÜGEN ALS: ![Messablauf einer Eichreihe](../assets/images/analytik/photometer/ek01_blind_standard_unbekannt.gif) -->
+![Messablauf einer Eichreihe](../assets/images/analytik/photometer/ek01_blind_standard_unbekannt.gif)
 
 Ein ungeeigneter Blindwert kann im Lern- oder Diagnosemodus die gesamte Messreihe systematisch verschieben.
 
@@ -73,7 +73,7 @@ Die LehrerInnenansicht zeigt:
 
 Die unbekannte Probe erscheint als eigener Diamant mit Hilfslinien. Sie wird nicht in die Regression der Standards einbezogen.
 
-<!-- ABBILDUNG EK-02 | DATEI: ../assets/images/analytik/photometer/ek02_eichdiagramm_unbekannt.webp | MOTIV: vollständiges LehrerInnen-Eichdiagramm mit Standards, Regressionsgerade, unbekanntem Diamanten und Hilfslinien | ALT: Eichdiagramm mit markierter unbekannter Probe im LehrerInnenmodus | PRIORITÄT: A | EINFÜGEN ALS: ![Eichdiagramm mit unbekannter Probe](../assets/images/analytik/photometer/ek02_eichdiagramm_unbekannt.webp){ loading=lazy } -->
+![Eichdiagramm mit unbekannter Probe](../assets/images/analytik/photometer/ek02_eichdiagramm_unbekannt.webp){ loading=lazy }
 
 ## Messstreuung
 
