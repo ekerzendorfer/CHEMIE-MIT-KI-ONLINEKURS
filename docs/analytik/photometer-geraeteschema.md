@@ -12,8 +12,7 @@ Dargestellt werden:
 4. abgeschwächter austretender Lichtstrahl,
 5. Detektor,
 6. digitale Anzeige.
-
-<!-- ABBILDUNG GE-01 | DATEI: ../assets/images/analytik/photometer/ge01_geraeteschema.webp | MOTIV: statisches vollständiges SVG-Photometer mit beschrifteten Komponenten | ALT: Schematisches Photometer mit LED, Lichtstrahl, Küvette, Detektor und Anzeige | PRIORITÄT: A | EINFÜGEN ALS: ![Schematischer Aufbau des Photometers](../assets/images/analytik/photometer/ge01_geraeteschema.webp){ loading=lazy } -->
+![Schematischer Aufbau des Photometers](../assets/images/analytik/photometer/ge01_geraeteschema.webp){ loading=lazy }
 
 ## Bewusste Vereinfachung
 
@@ -39,7 +38,7 @@ Im Spektren- und Eichkurvenmodus läuft eine kurze kombinierte Animation ab:
 5. Detektor reagiert.
 6. Messwert erscheint auf der Anzeige.
 
-<!-- ANIMATION GE-02 | DATEI: ../assets/images/analytik/photometer/ge02_spektralscan_geraet.gif | MOTIV: vollständiger langsamer Spektralscan im Beobachtungsmodus; Küvette und Diagramm gleichzeitig sichtbar; Farbwechsel und Abschwächung gut erkennbar | ALT: Animierter Spektralscan mit wechselnder Lichtfarbe und unterschiedlicher Abschwächung | DAUER: 8–10 s | LOOP: ja, kurze Pause am Ende | PRIORITÄT: A | EINFÜGEN ALS: ![Animierter Spektralscan im Geräteschema](../assets/images/analytik/photometer/ge02_spektralscan_geraet.gif) -->
+![Animierter Spektralscan im Geräteschema](../assets/images/analytik/photometer/ge02_spektralscan_geraet.gif)
 
 ## Wellenlänge und Lichtfarbe
 
