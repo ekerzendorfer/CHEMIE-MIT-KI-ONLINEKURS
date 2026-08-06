@@ -86,8 +86,7 @@ Ein möglicher Aufbau über mehrere Unterrichtseinheiten:
 5. **Gleichgewicht:** Bromthymolblau bei pH 4, 7 und 10 vergleichen.
 6. **Kinetik:** Kristallviolett oder Brillantblau als Absorbanz-Zeit-Versuch.
 7. **Vertiefung:** Uhrreaktion und offene Aufgaben.
-
-<!-- ABBILDUNG VP-03 | DATEI: ../assets/images/analytik/photometer/vp03_lernweg.svg | MOTIV: selbst erstellte Infografik mit dem Lernweg Gerät → Spektrum → Eichkurve → Fehler → Gleichgewicht → Kinetik | ALT: Lernweg durch die Module des virtuellen Photometers | PRIORITÄT: B | EINFÜGEN ALS: ![Empfohlener Lernweg](../assets/images/analytik/photometer/vp03_lernweg.svg) -->
+![Empfohlener Lernweg](../assets/images/analytik/photometer/vp03_lernweg.png)
 
 ## Technische Voraussetzungen
 
