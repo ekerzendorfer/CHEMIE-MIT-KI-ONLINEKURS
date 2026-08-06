@@ -65,7 +65,7 @@ Der Aufgabenmodus verknüpft die Messfunktionen mit konkreten schulischen Arbeit
 9. Protokoll-Checkliste aktualisieren.
 10. Messübersicht als Markdown exportieren.
 
-<!-- ABBILDUNG AU-02 | DATEI: ../assets/images/analytik/photometer/au02_workflow.svg | MOTIV: selbst erstelltes Ablaufdiagramm Aufgabe wählen → messen → exportieren → extern auswerten → protokollieren | ALT: Arbeitsablauf vom Messauftrag zum externen Protokoll | PRIORITÄT: B | EINFÜGEN ALS: ![Vom Messauftrag zum Protokoll](../assets/images/analytik/photometer/au02_workflow.svg) -->
+![Vom Messauftrag zum Protokoll](../assets/images/analytik/photometer/au02_workflow.png)
 
 ## Protokoll-Checkliste
 
