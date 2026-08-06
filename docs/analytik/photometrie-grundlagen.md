@@ -23,8 +23,7 @@ Die **Absorbanz** beziehungsweise Extinktion ist logarithmisch definiert:
 \[
 A=-\log_{10}(T)=\log_{10}\left(\frac{I_0}{I}\right)
 \]
-
-<!-- ABBILDUNG GR-01 | DATEI: ../assets/images/analytik/photometer/gr01_transmission_absorbanz.svg | MOTIV: einfache selbst erstellte Infografik mit I0, Probe, I sowie Gegenüberstellung Transmission und Absorbanz | ALT: Zusammenhang zwischen eingestrahlter Intensität, durchgelassenem Licht, Transmission und Absorbanz | PRIORITÄT: B | EINFÜGEN ALS: ![Transmission und Absorbanz](../assets/images/analytik/photometer/gr01_transmission_absorbanz.svg) -->
+![Transmission und Absorbanz](../assets/images/analytik/photometer/gr01_transmission_absorbanz.png)
 
 ### Beispiele
 
