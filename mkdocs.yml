@@ -40,7 +40,7 @@ nav:
           - Grundidee und Einordnung: ki-assistenten/chat-assistent-agent.md
           - Praxisbeispiel Elektronegativität: ki-assistenten/elektronegativitaet-bindungspolaritaet.md
       - Weitere Werkzeuge:
-          - NotebookLM im NaWi-Alltag: ki-assistenten/notebooklm.md
+          - Gemini Notebook im NaWi-Alltag: ki-assistenten/notebooklm.md
           - Prompten lernen mit ROKA: ki-assistenten/prompten-roka.md
 
   - Kapitel 2 - Die Basis-Tools: kapitel2.md
