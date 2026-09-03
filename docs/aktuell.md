@@ -44,6 +44,22 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
 === "Tools & Praxis"
 
+    ### Neuer freier Molekülbaukasten: www.valencesim.com
+    ValenceSim ist eine browserbasierte Lern- und Modellierungsanwendung für Chemie. Sie ermöglicht es, Moleküle in einer 2D-Strukturformel zu zeichnen und anschließend als drehbares 3D-Modell darzustellen.
+    
+    ??? info "Mehr lesen"
+       Zu den wichtigsten Funktionen gehören:
+       - Zeichnen von Atomen und Einfach-, Doppel- sowie Dreifachbindungen.
+       - Darstellung als Lewis-Struktur oder Skelettformel.
+       - Automatisches Ergänzen von Wasserstoffatomen.
+       - Erkennen von Resonanzstrukturen und funktionellen Gruppen.
+       - Anzeige von Ladungen und Radikalen.
+       - Generierung beziehungsweise Nutzung von SMILES-Strukturen.
+       - Interaktive 3D-Ansicht zur Veranschaulichung der Molekülgeometrie.
+       Damit eignet sich ValenceSim besonders für den Chemieunterricht, zum selbstständigen Lernen und zur anschaulichen Einführung in Bindungen, funktionelle Gruppen und räumliche Molekülstrukturen. Der Schwerpunkt liegt offenbar weniger auf einer vollständigen professionellen Chemiesoftware als auf einer leicht zugänglichen, intuitiven Lernumgebung.
+
+    --- 
+
     ### Der Siegeszug der Multimodalität
     Modelle wie ChatGPT-4o oder Gemini Advanced sind zu echten Experten der Bildanalyse gereift.
     
