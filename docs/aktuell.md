@@ -44,7 +44,7 @@ Kurz kuratierte Hinweise zu aktuellen Entwicklungen mit Schwerpunkt **Chemie**, 
 
 === "Tools & Praxis"
 
-    ### Neuer freier Molekülbaukasten: [VALENCESIM] (www.valencesim.com)
+    ### Neuer freier Molekülbaukasten: [VALENCESIM](www.valencesim.com)
     ValenceSim ist eine browserbasierte Lern- und Modellierungsanwendung für Chemie. Sie ermöglicht es, Moleküle in einer 2D-Strukturformel zu zeichnen und anschließend als drehbares 3D-Modell darzustellen.
     
     ??? info "Mehr lesen"
