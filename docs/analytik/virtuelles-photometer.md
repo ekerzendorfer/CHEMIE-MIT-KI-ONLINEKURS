@@ -3,6 +3,13 @@
 **SpektralLab** ist ein browserbasiertes virtuelles Photometer für den Chemieunterricht. Die Anwendung verbindet die Aufnahme sichtbarer Absorptionsspektren mit Eichkurven, unbekannten Proben, einer realistischen Fehlerkultur, pH-abhängigen Spektren und drei ausgewählten Kinetikversuchen.
 
 [SpektralLab – Virtuelles Photometer öffnen](https://ekerzendorfer.github.io/VIRTUELLES_PHOTOMETER/){ .md-button .md-button--primary }
+### Vom virtuellen Messgerät zur vollständigen Forschungssequenz
+
+Mit dem **KINETIK-LAB** steht ergänzend ein Best-Practice-Beispiel zur Verfügung, das Beobachtung, präexperimentelle Planung, virtuelle Erprobung, reale Messung und kinetische Auswertung in einem geführten Lernweg verbindet.
+
+[**Beispielapplikation KINETIK-LAB öffnen**](https://ekerzendorfer.github.io/KINETIK_LAB/){ .md-button }
+
+[**Begleitseite zum KINETIK-LAB**](kinetik-lab.md)
 
 ![Startansicht von SpektralLab](../assets/images/analytik/photometer/vp01_startansicht.webp){ loading=lazy }
 
