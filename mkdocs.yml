@@ -60,7 +60,10 @@ nav:
           - pH-abhängige Spektren: analytik/photometrie-gleichgewicht.md
           - Photometrische Kinetik:
               - Überblick: analytik/photometrie-kinetik.md
-              - KINETIK-LAB – Best-Practice-Beispiel: analytik/kinetik-lab.md
+              - KINETIK-LAB – Best-Practice-Beispiel:
+                  - Überblick und Konzept: analytik/kinetik-lab.md
+                  - Kurzanleitung für SchülerInnen: analytik/kinetik-lab-schuelerinnen.md
+                  - Anleitung für LehrerInnen: analytik/kinetik-lab-lehrerinnen.md
           - Aufgaben und Protokoll: analytik/photometrie-aufgaben-protokoll.md
           - Datenexport und Weiterverarbeitung: analytik/photometrie-datenexport.md
           - Quellen und Modellgrenzen: analytik/photometrie-quellen-modellgrenzen.md
