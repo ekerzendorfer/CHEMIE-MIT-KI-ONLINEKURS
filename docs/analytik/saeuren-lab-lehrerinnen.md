@@ -1,5 +1,7 @@
 # SÄUREN_LAB – Hinweise für LehrerInnen
 
+**App starten:** [https://ekerzendorfer.github.io/SAEUREN_LAB/](https://ekerzendorfer.github.io/SAEUREN_LAB/)
+
 ## Einordnung
 
 Das SÄUREN_LAB ist als niederschwelliger Lernweg zur Säure-Base-Titration konzipiert. Das Referenzbeispiel ist **Speiseessig** mit der Leitfrage:

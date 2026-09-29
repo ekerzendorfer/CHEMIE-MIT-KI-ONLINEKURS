@@ -9,7 +9,7 @@ Das **SÄUREN_LAB** ist ein browserbasierter Lernweg zur Säure-Base-Titration. 
 
 Die Anwendung führt schrittweise von einer einfachen pH-Beobachtung über eine selbst erzeugte Titrationskurve bis zur quantitativen Bestimmung des Säuregehalts.
 
-**App:** _Link nach dem Upload des SÄUREN_LAB ergänzen_
+**App starten:** [https://ekerzendorfer.github.io/SAEUREN_LAB/](https://ekerzendorfer.github.io/SAEUREN_LAB/)
 
 ## Was ist das Besondere?
 

@@ -1,5 +1,7 @@
 # SÄUREN_LAB – Kurzanleitung für SchülerInnen
 
+**App starten:** [https://ekerzendorfer.github.io/SAEUREN_LAB/](https://ekerzendorfer.github.io/SAEUREN_LAB/)
+
 ## Ziel
 
 Ihr untersucht am Beispiel von Speiseessig:
