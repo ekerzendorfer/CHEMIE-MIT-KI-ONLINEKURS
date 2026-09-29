@@ -48,6 +48,11 @@ nav:
 
   - Kapitel 4 - Analytische und Physikalische Chemie:
       - TITRATIONS - TOOL: analytik/titrationstool.md
+      - SÄUREN_LAB – Säuren in Lebensmitteln:
+          - Überblick: analytik/saeuren-lab.md
+          - Kurzanleitung für SchülerInnen: analytik/saeuren-lab-schuelerinnen.md
+          - Hinweise für LehrerInnen: analytik/saeuren-lab-lehrerinnen.md
+
       - IONENFISCHEN virtuell: analytik/Ionenfischen.md
       
       - SpektralLab – Virtuelles Photometer:
