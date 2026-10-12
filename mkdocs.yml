@@ -47,6 +47,7 @@ nav:
   - Kapitel 3 - App in der Freistunde: kapitel3.md
 
   - Kapitel 4 - Analytische und Physikalische Chemie:
+      - Digitales Analytiklabor – vernetzte Analysewege: analytik/digitales-analytiklabor.md
       - TITRATIONS - TOOL: analytik/titrationstool.md
       - SÄUREN_LAB – Säuren in Lebensmitteln:
           - Überblick: analytik/saeuren-lab.md
