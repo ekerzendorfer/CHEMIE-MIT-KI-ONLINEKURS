@@ -1,0 +1,2616 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Interaktive Materialien für den Chemieunterricht">
+      
+      
+      
+      
+        <link rel="prev" href="../digitales-analytiklabor/">
+      
+      
+        <link rel="next" href="../titrationstool/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>GC-LAB – Virtueller Gaschromatograph - CHEMIE mit KI - Onlinekurs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gc-lab-gaschromatographie-verstehen-und-methoden-entwickeln" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-header__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHEMIE mit KI - Onlinekurs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              GC-LAB – Virtueller Gaschromatograph
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CHEMIE mit KI - Onlinekurs" class="md-nav__button md-logo" aria-label="CHEMIE mit KI - Onlinekurs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    CHEMIE mit KI - Onlinekurs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Startseite - Linkhub - Kompass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aktuell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAWI - KI aktuell 🚀
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ki-assistenten/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 1 - KI-Assistenten und Agenten
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundlagen und Praxis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Grundlagen und Praxis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/assistenten-erstellen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eigene KI-Assistenten erstellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/gems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Custom GPTs und Gems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat, Assistent oder Agent?
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chat, Assistent oder Agent?
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/chat-assistent-agent/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundidee und Einordnung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/elektronegativitaet-bindungspolaritaet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Praxisbeispiel Elektronegativität
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4">
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weitere Werkzeuge
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Weitere Werkzeuge
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/notebooklm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gemini Notebook im NaWi-Alltag
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ki-assistenten/prompten-roka/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompten lernen mit ROKA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 2 - Die Basis-Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kapitel3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 3 - App in der Freistunde
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 4 - Analytische und Physikalische Chemie
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digitales-analytiklabor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digitales Analytiklabor – vernetzte Analysewege
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GC-LAB – Virtueller Gaschromatograph
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GC-LAB – Virtueller Gaschromatograph
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#warum-ein-virtuelles-gc-labor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warum ein virtuelles GC-Labor?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vom-trennprozess-zum-chromatogramm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vom Trennprozess zum Chromatogramm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-lasst-sich-verandern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was lässt sich verändern?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zwei-lernaufgaben-fur-den-einstieg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zwei Lernaufgaben für den Einstieg
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei Lernaufgaben für den Einstieg">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gc-01-wie-entsteht-eine-gute-trennung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GC-01 · Wie entsteht eine gute Trennung?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gc-02-eine-unbekannte-mischprobe-untersuchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GC-02 · Eine unbekannte Mischprobe untersuchen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unbekannte-proben-und-referenzstandards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unbekannte Proben und Referenzstandards
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolle-im-digitalen-analytiklabor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rolle im Digitalen Analytiklabor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modellgrenzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modellgrenzen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empfohlener-lernweg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Empfohlener Lernweg
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../titrationstool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TITRATIONS - TOOL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4">
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SÄUREN_LAB – Säuren in Lebensmitteln
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SÄUREN_LAB – Säuren in Lebensmitteln
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saeuren-lab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saeuren-lab-schuelerinnen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kurzanleitung für SchülerInnen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saeuren-lab-lehrerinnen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hinweise für LehrerInnen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ionenfischen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IONENFISCHEN virtuell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SpektralLab – Virtuelles Photometer
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SpektralLab – Virtuelles Photometer
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtuelles-photometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-grundlagen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grundlagen der Photometrie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometer-geraeteschema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Das schematische Photometer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-spektren/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spektren aufnehmen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-eichkurven/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eichkurven und unbekannte Proben
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-fehlerkultur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Messrealismus und Fehlerkultur
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-gleichgewicht/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH-abhängige Spektren
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6_8">
+        
+          
+          <label class="md-nav__link" for="__nav_6_6_8" id="__nav_6_6_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Photometrische Kinetik
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Photometrische Kinetik
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-kinetik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6_8_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_6_8_2" id="__nav_6_6_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KINETIK-LAB – Best-Practice-Beispiel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_6_6_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    KINETIK-LAB – Best-Practice-Beispiel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kinetik-lab/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick und Konzept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kinetik-lab-schuelerinnen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kurzanleitung für SchülerInnen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kinetik-lab-lehrerinnen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anleitung für LehrerInnen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-aufgaben-protokoll/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aufgaben und Protokoll
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-datenexport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Datenexport und Weiterverarbeitung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photometrie-quellen-modellgrenzen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quellen und Modellgrenzen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../messwert-lab.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DATEN-LAB
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../molekuellabore/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 5 - Moleküllabore
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 5 - Moleküllabore
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_didactic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB DIDACTIC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/lernpfade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lernpfade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molekuellabore/mol_lab_scientific/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOL_LAB scientific
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Kapitel 6 - Proteinfaltung
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proteinfaltung/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Überblick
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proteinfaltung/KI_Strukturmodelllabor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KI-Strukturmodell-Labor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Viewer für Strukturdateien
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#warum-ein-virtuelles-gc-labor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Warum ein virtuelles GC-Labor?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vom-trennprozess-zum-chromatogramm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vom Trennprozess zum Chromatogramm
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-lasst-sich-verandern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was lässt sich verändern?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zwei-lernaufgaben-fur-den-einstieg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zwei Lernaufgaben für den Einstieg
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zwei Lernaufgaben für den Einstieg">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gc-01-wie-entsteht-eine-gute-trennung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GC-01 · Wie entsteht eine gute Trennung?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gc-02-eine-unbekannte-mischprobe-untersuchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GC-02 · Eine unbekannte Mischprobe untersuchen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unbekannte-proben-und-referenzstandards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unbekannte Proben und Referenzstandards
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolle-im-digitalen-analytiklabor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rolle im Digitalen Analytiklabor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modellgrenzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modellgrenzen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#empfohlener-lernweg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Empfohlener Lernweg
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Startseite - Linkhub - Kompass
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../digitales-analytiklabor/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Kapitel 4 - Analytische und Physikalische Chemie
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gc-lab-gaschromatographie-verstehen-und-methoden-entwickeln">GC-LAB – Gaschromatographie verstehen und Methoden entwickeln</h1>
+<p>Das <strong>GC-LAB</strong> ist ein browserbasiertes virtuelles Gaschromatographie-Labor für den Chemieunterricht. Es verbindet die Beobachtung eines chromatographischen Trennprozesses mit der Entwicklung geeigneter Messbedingungen, der Beurteilung der Trennqualität und der Identifikation unbekannter Komponenten über Referenzstandards.</p>
+<p><a class="md-button md-button--primary" href="https://ekerzendorfer.github.io/GC_LAB/"><strong>GC-LAB öffnen</strong></a></p>
+<p><a class="md-button" href="https://ekerzendorfer.github.io/GC_LAB/?task=GC01"><strong>GC-01 direkt starten</strong></a></p>
+<p><a class="md-button" href="https://ekerzendorfer.github.io/GC_LAB/?task=GC02"><strong>GC-02 direkt starten</strong></a></p>
+<p><a class="md-button" href="https://github.com/ekerzendorfer/GC_LAB"><strong>Quellcode auf GitHub</strong></a></p>
+<!-- ABBILDUNG GC-01
+     DATEI: ../assets/images/analytik/gc-lab/gc01_ueberblick.webp
+     MOTIV: Gesamtansicht des GC-LABs mit Methodenauswahl, Chromatogramm und Messwerten.
+     PRIORITÄT: A
+     EMPFOHLENE BREITE: 1200–1400 px -->
+
+<h2 id="warum-ein-virtuelles-gc-labor">Warum ein virtuelles GC-Labor?</h2>
+<p>Die Gaschromatographie verbindet mehrere Ebenen, die im Unterricht leicht getrennt voneinander betrachtet werden:</p>
+<ul>
+<li>Stoffe werden in einer Säule unterschiedlich stark zurückgehalten,</li>
+<li>aus dieser Trennung entstehen zeitlich versetzte Detektorsignale,</li>
+<li>die Wahl der Methode beeinflusst Retentionszeiten und Auflösung,</li>
+<li>ein gut aussehendes Chromatogramm muss fachlich bewertet werden,</li>
+<li>und die Identifikation eines Peaks erfordert zusätzliche Evidenz.</li>
+</ul>
+<p>Im GC-LAB können diese Zusammenhänge gezielt untersucht werden. Die Lernenden verändern chromatographische Bedingungen, vergleichen mehrere Läufe und beurteilen selbst, ob eine Trennung analytisch brauchbar ist.</p>
+<div class="admonition info">
+<p class="admonition-title">Didaktischer Schwerpunkt</p>
+<p>Im Mittelpunkt steht nicht das Finden einer einzigen „richtigen“ Einstellung. Entscheidend ist die <strong>Methodenentwicklung</strong>: Wie verändern Temperatur, stationäre Phase, Säulenlänge und Gasstrom die Trennung – und welcher Kompromiss aus Auflösung und Laufzeit ist für die jeweilige Fragestellung sinnvoll?</p>
+</div>
+<h2 id="vom-trennprozess-zum-chromatogramm">Vom Trennprozess zum Chromatogramm</h2>
+<p>Ein GC-Lauf entsteht nicht sofort als fertiges Diagramm. Im Beobachtungsmodus wächst das Chromatogramm entlang der chromatographischen Modellzeit.</p>
+<p>Zusätzlich kann ein <strong>schematisches Prinzipmodell</strong> eingeblendet werden. Es zeigt den Weg</p>
+<p><strong>Injektor → Säule → Wechselwirkung mit der stationären Phase → Detektor → elektrisches Signal → A/D → Chromatogramm</strong></p>
+<p>und macht sichtbar, dass die Komponenten die Säule mit unterschiedlichen Retentionszeiten verlassen.</p>
+<p>Die Darstellung ist bewusst ein didaktisches Modell. Sie zeigt keine maßstäbliche Molekülbewegung und legt sich nicht auf einen einzigen physikalischen Retentionsmechanismus fest.</p>
+<!-- GIF GC-02
+     DATEI: ../assets/images/analytik/gc-lab/gc02_trennprozess.gif
+     MOTIV: GC-Lauf mit gleichzeitig sichtbarer Prozessanimation und wachsendem Chromatogramm.
+     PRIORITÄT: A
+     EMPFOHLENE LÄNGE: 10–15 s
+     EMPFOHLENE BREITE: 1200–1400 px -->
+
+<h2 id="was-lasst-sich-verandern">Was lässt sich verändern?</h2>
+<p>Für die Methodenentwicklung stehen vier zentrale Parameter zur Verfügung:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Typische Auswirkung im Modell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stationäre Phase</strong></td>
+<td>verändert die Selektivität und kann damit auch die Elutionsreihenfolge beeinflussen</td>
+</tr>
+<tr>
+<td><strong>Säulenlänge</strong></td>
+<td>längere Säule erhöht meist die Trennleistung, verlängert aber die Laufzeit</td>
+</tr>
+<tr>
+<td><strong>Ofentemperatur</strong></td>
+<td>höhere Temperatur verkürzt die Retention, kann jedoch die Trennung verschlechtern</td>
+</tr>
+<tr>
+<td><strong>Trägergasstrom</strong></td>
+<td>beeinflusst Totzeit und Effizienz; ein sehr hoher Strom ist nicht automatisch günstiger</td>
+</tr>
+</tbody>
+</table>
+<p>Für jeden Lauf werden Retentionszeiten, Peakflächen, Peakbreiten, Laufzeit und – bei mindestens zwei Peaks – die chromatographische Auflösung <span class="arithmatex">\(R_s\)</span> angegeben.</p>
+<p>Als Zielwert für eine analytisch brauchbare Trennung verwendet das Lernmodell</p>
+<div class="arithmatex">\[
+R_s \ge 1{,}5
+\]</div>
+<p>Die Versuchshistorie erlaubt es, mehrere Methoden direkt miteinander zu vergleichen.</p>
+<h2 id="zwei-lernaufgaben-fur-den-einstieg">Zwei Lernaufgaben für den Einstieg</h2>
+<p>Seit Version 0.5 enthält das GC-LAB zwei integrierte Aufgaben. Sie bilden einen kurzen Lernweg vom geführten Parametervergleich bis zur Untersuchung einer unbekannten Probe.</p>
+<h3 id="gc-01-wie-entsteht-eine-gute-trennung">GC-01 · Wie entsteht eine gute Trennung?</h3>
+<p>Diese Aufgabe ist als <strong>geführter Einstieg</strong> gedacht.</p>
+<p>Untersucht wird ein Gemisch aus Ethylacetat und 1-Butanol. Der erste Lauf startet bewusst mit einer ungünstigen Methode:</p>
+<ul>
+<li>unpolare Säule,</li>
+<li>15 m Säulenlänge,</li>
+<li>140 °C,</li>
+<li>hoher Gasstrom.</li>
+</ul>
+<p>Die Peaks sind dabei nur unzureichend getrennt.</p>
+<p>Danach werden die Methodenparameter schrittweise freigegeben:</p>
+<ol>
+<li>zunächst nur die Temperatur,</li>
+<li>anschließend der Gasstrom,</li>
+<li>danach die Säulenlänge.</li>
+</ol>
+<p>Die Lernenden vergleichen jeweils Auflösung und Laufzeit. Am Ende werden die Läufe in der Versuchshistorie gegenübergestellt und eine kurze <strong>Methodenbilanz</strong> formuliert.</p>
+<p><a class="md-button md-button--primary" href="https://ekerzendorfer.github.io/GC_LAB/?task=GC01"><strong>GC-01 starten – Wie entsteht eine gute Trennung?</strong></a></p>
+<!-- GIF GC-03
+     DATEI: ../assets/images/analytik/gc-lab/gc03_gc01_gefuehrt.gif
+     MOTIV: GC-01 – Startlauf, Schrittwechsel und Freigabe eines neuen Parameters; idealerweise anschließend sichtbar verbesserte Trennung.
+     PRIORITÄT: A
+     EMPFOHLENE LÄNGE: 12–18 s -->
+
+<h3 id="gc-02-eine-unbekannte-mischprobe-untersuchen">GC-02 · Eine unbekannte Mischprobe untersuchen</h3>
+<p>GC-02 ist deutlich offener.</p>
+<p>Die Probe <strong>GC-U02</strong> enthält drei unbekannte flüchtige Komponenten. Die Lernenden müssen zunächst selbst eine Methode entwickeln, mit der</p>
+<div class="arithmatex">\[
+R_s \ge 1{,}5
+\]</div>
+<p>erreicht wird.</p>
+<p>Sobald die Trennung ausreichend ist, wird die erfolgreiche Methode für die Identifikation fixiert.</p>
+<p>Anschließend stehen fünf mögliche Referenzstandards zur Verfügung. Drei davon gehören tatsächlich zur Probe, zwei sind bewusst als <strong>Negativkandidaten</strong> enthalten.</p>
+<p>Die Aufgabe ist erst abgeschlossen, wenn</p>
+<ul>
+<li>alle drei Probenpeaks korrekt zugeordnet wurden,</li>
+<li>und auch die beiden nicht passenden Standards als <strong>„kein passender Peak“</strong> erkannt wurden.</li>
+</ul>
+<p>Damit wird ein wichtiger analytischer Gedanke sichtbar: Auch ein negativer Referenzbefund ist Information.</p>
+<p><a class="md-button md-button--primary" href="https://ekerzendorfer.github.io/GC_LAB/?task=GC02"><strong>GC-02 starten – unbekannte Mischprobe</strong></a></p>
+<!-- ABBILDUNG GC-04
+     DATEI: ../assets/images/analytik/gc-lab/gc04_gc02_referenzstandards.webp
+     MOTIV: GC-02 nach ausreichender Trennung: unbekanntes Chromatogramm, Referenzstandard-Bereich und Peakzuordnung sichtbar.
+     PRIORITÄT: A
+     EMPFOHLENE BREITE: 1200–1400 px -->
+
+<h2 id="unbekannte-proben-und-referenzstandards">Unbekannte Proben und Referenzstandards</h2>
+<p>Neben den beiden Aufgaben stehen mehrere unbekannte Dreikomponentenproben <strong>GC-U01 bis GC-U05</strong> zur freien Bearbeitung bereit.</p>
+<p>Sie unterscheiden sich im Anspruch der Methodenentwicklung. Nach einer ausreichend guten Trennung können Referenzstandards unter exakt denselben chromatographischen Bedingungen gemessen werden.</p>
+<p>Die Identifikation erfolgt nicht automatisch:</p>
+<ol>
+<li>Referenzstandard auswählen,</li>
+<li>Referenzlauf durchführen,</li>
+<li>Retentionszeit vergleichen,</li>
+<li>passenden Probenpeak auswählen oder <strong>„kein passender Peak“</strong> angeben,</li>
+<li>Zuordnung prüfen.</li>
+</ol>
+<p>Erst nach korrekter Zuordnung erscheint der Stoffname beim entsprechenden Peak.</p>
+<div class="admonition warning">
+<p class="admonition-title">Retentionszeit ist kein universeller Stoff-Fingerabdruck</p>
+<p>Eine Retentionszeit besitzt nur unter definierten chromatographischen Bedingungen Aussagekraft. Deshalb werden Probe und Referenz im GC-LAB immer unter <strong>derselben Methode</strong> verglichen.</p>
+</div>
+<h2 id="rolle-im-digitalen-analytiklabor">Rolle im Digitalen Analytiklabor</h2>
+<p>Das GC-LAB ist zugleich ein wichtiges Detail-Labor des <strong>Digitalen Analytiklabors</strong>.</p>
+<p>Dort werden nach einer Destillation zunächst unbekannte Fraktionen an den Gaschromatographen übergeben. Der Hub übermittelt die jeweilige Fraktion, die Stoffidentitäten bleiben im GC-LAB jedoch verborgen.</p>
+<p>Ein GC-Lauf liefert zunächst nur chromatographische Evidenz:</p>
+<ul>
+<li>Zahl der Peaks,</li>
+<li>Retentionszeiten,</li>
+<li>Peakflächen,</li>
+<li>Peakbreiten,</li>
+<li>minimale Auflösung.</li>
+</ul>
+<p>Die Peaks bleiben als <strong>P1, P2, ...</strong> unidentifiziert.</p>
+<p>Erst eine anschließende Strukturaufklärung kann eine Stoffhypothese liefern. Danach kann das GC-LAB erneut aufgerufen werden, diesmal zur gezielten Bestätigung mit <strong>Referenzstandard und Aufstockung</strong>.</p>
+<p>Damit übernimmt die Gaschromatographie im Gesamtworkflow zwei unterschiedliche Rollen:</p>
+<p><strong>Trennung unbekannter Komponenten → spätere chromatographische Bestätigung einer bereits begründeten Identität.</strong></p>
+<!-- ABBILDUNG GC-05
+     DATEI: ../assets/images/analytik/gc-lab/gc05_hub_bestaetigung.webp
+     MOTIV: gezielte Identitätsbestätigung aus dem Analytik-Hub mit Referenzstandard und Aufstockung.
+     PRIORITÄT: B
+     EMPFOHLENE BREITE: 1200–1400 px -->
+
+<p><a class="md-button" href="../digitales-analytiklabor/"><strong>Zum Digitalen Analytiklabor im Begleitkurs</strong></a></p>
+<h2 id="modellgrenzen">Modellgrenzen</h2>
+<p>Das GC-LAB ist ein <strong>didaktisches Methodenmodell</strong> und kein universeller Retentionszeit-Rechner.</p>
+<p>Derzeit bewusst nicht enthalten sind unter anderem:</p>
+<ul>
+<li>Temperaturprogramme,</li>
+<li>quantitative GC-Kalibration,</li>
+<li>komplexe Basislinien- und Detektoreffekte,</li>
+<li>reale Peak-Asymmetrien in ihrer gesamten Vielfalt.</li>
+</ul>
+<p>Die kuratierten Stoff- und Retentionsparameter dienen dazu, zentrale Prinzipien der Gaschromatographie systematisch und reproduzierbar untersuchen zu können.</p>
+<h2 id="empfohlener-lernweg">Empfohlener Lernweg</h2>
+<p>Für den Einstieg bietet sich folgende Reihenfolge an:</p>
+<ol>
+<li><strong>GC-01</strong> – Einfluss einzelner Methodenparameter verstehen,</li>
+<li>freies Experimentieren mit bekannten Mischungen,</li>
+<li><strong>GC-02</strong> – unbekannte Probe trennen und mit Referenzstandards identifizieren,</li>
+<li>weitere unbekannte Proben GC-U01 bis GC-U05,</li>
+<li>Einsatz des GC-LABs als Teil einer größeren analytischen Beweiskette im <strong>Digitalen Analytiklabor</strong>.</li>
+</ol>
+<p>So entwickelt sich der Gaschromatograph vom geführten Lernwerkzeug schrittweise zu einem offenen analytischen Instrument.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.indexes", "navigation.path", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
