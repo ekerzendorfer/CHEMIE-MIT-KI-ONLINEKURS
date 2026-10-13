@@ -8,10 +8,9 @@ Der zentrale **Analytik-Hub** verwaltet dabei die Probe und ihre Teilproben, dok
 
 [**Quellcode auf GitHub**](https://github.com/ekerzendorfer/CHEMIE_ANALYTIK_HUB){ .md-button }
 
-<!-- ABBILDUNG DA-01
-     MOTIV: Startansicht des Analytik-Hubs mit unbekannter Ausgangsprobe, Moduswahl und Probenbaum.
-     PRIORITÄT: A
-     EMPFOHLENE BREITE: 1200–1400 px -->
+![Startansicht des Digitalen Analytiklabors mit unbekannter Ausgangsprobe](../assets/images/analytik/analytik-hub/da01_startansicht.webp)
+
+*Startansicht des Analytik-Hubs: Die unbekannte Ausgangsprobe bildet den Ausgangspunkt für den gesamten Analyseweg.*
 
 ## Von der Einzelanwendung zum vernetzten Analyselabor
 
@@ -32,9 +31,9 @@ Dabei entsteht schrittweise ein **Probenbaum**. Aus der Ausgangsprobe werden dur
 !!! info "Didaktische Grundidee"
     Nicht die Bedienung einzelner Apps steht im Mittelpunkt, sondern das **Planen und Begründen eines vollständigen Analysewegs**. Die Lernenden sollen nachvollziehen, welche experimentelle Evidenz hinter einer Stoffidentifikation oder einer quantitativen Aussage steht.
 
-<!-- ABBILDUNG DA-02
-     MOTIV: Probenbaum nach Filtration und Destillation – mehrere Teilproben/Fraktionen sichtbar.
-     PRIORITÄT: A -->
+![Probenbaum nach Trenn- und Aufbereitungsschritten](../assets/images/analytik/analytik-hub/da02_probenbaum.webp)
+
+*Der Probenbaum macht sichtbar, wie aus einer Ausgangsprobe Teilproben, Destillationsfraktionen und unterschiedliche Analysezweige entstehen.*
 
 ## Die Anwendungen arbeiten zusammen
 
@@ -53,10 +52,9 @@ So können beispielsweise Messdaten aus einem virtuellen Photometer anschließen
 
 Die beteiligten Anwendungen bleiben trotzdem eigenständig und können weiterhin auch unabhängig vom Hub verwendet werden.
 
-<!-- GIF DA-03
-     MOTIV: Hub → Detail-Labor → Untersuchung → RESULT zurück an Hub.
-     EMPFOHLENE LÄNGE: 10–15 s
-     PRIORITÄT: A -->
+![Datenaustausch zwischen Analytik-Hub und Detail-Labor](../assets/images/analytik/analytik-hub/da03_hubdetailappresultat.gif)
+
+*Ein Analyseauftrag wird an eine Detail-App übergeben; das dort erzeugte RESULT kehrt anschließend in den Hub zurück und wird in den laufenden Fall integriert.*
 
 ## Keine analytische Blackbox
 
@@ -96,7 +94,14 @@ Die Lernenden übernehmen mehr Verantwortung für
 - das Verknüpfen mehrerer Befunde,
 - und die quantitative Auswertung.
 
-Auch die Detail-Labore können auf diesen Modus reagieren. In der Strukturaufklärung muss beispielsweise die Summenformel zunächst aus Molmasse und Elementaranalyse erschlossen werden, bevor die weiteren spektroskopischen Methoden freigeschaltet werden.
+Auch die Detail-Labore können auf diesen Modus reagieren. In der Strukturaufklärung kann die Summenformel aus Molmasse und Elementaranalyse erschlossen werden.
+
+Für fortgeschrittene Lernende stehen im Expertenmodus zusätzlich zwei bewusste Wahlmöglichkeiten offen:
+
+- Die **klassische organische Feststoff-Voranalyse** kann übersprungen werden. Die instrumentelle Strukturaufklärung beginnt dann ohne die bereits sehr aussagekräftigen Vorbefunde zu funktionellen Gruppen.
+- Auch die **Elementaranalyse** kann bewusst ausgelassen werden. MS, IR und ¹H-NMR werden dann ohne vorab bekannte Summenformel interpretiert; die Summenformel ergibt sich erst aus der später begründeten Strukturhypothese.
+
+Der Verzicht auf diese Informationsquellen wird protokolliert. Damit lässt sich derselbe Analysefall vom schulischen Expertenmodus bis zu einer deutlich offeneren, auch für den Einstieg in FH oder Universität interessanten Variante bearbeiten.
 
 <!-- ABBILDUNG DA-04
      MOTIV: Vergleich eines Hub-Ausschnitts in Geführt und Expert.
@@ -120,7 +125,7 @@ Das organische Filtrat wird fraktionierend destilliert.
 
 Die erhaltenen Fraktionen werden anschließend gaschromatographisch untersucht. Ausreichend reine Fraktionen können zur Strukturaufklärung weitergegeben werden. Eine Stoffidentität wird danach zusätzlich mit Referenzstandard und Aufstockung im Gaschromatographen überprüft.
 
-Der virtuelle Gaschromatograph erhält später noch einen eigenen Eintrag in diesem Begleitkurs.
+Der virtuelle Gaschromatograph wird im nächsten Eintrag dieses Kapitels mit Methodenentwicklung, Lernaufgaben und unbekannten Proben ausführlicher vorgestellt.
 
 ### 3. Nichtflüchtiger organischer Rückstand
 
@@ -162,9 +167,9 @@ Erst wenn die vorgesehenen Beweisketten vollständig sind, kann der gesamte Fall
 
 Die Abschlussansicht fasst den Analyseweg, die identifizierten Komponenten, die quantitativen Ergebnisse und die zugehörigen Beweisketten zusammen. Sie kann anschließend als weiterbearbeitbarer Bericht gespeichert oder über die Druckfunktion als PDF ausgegeben werden.
 
-<!-- ABBILDUNG DA-05
-     MOTIV: Abschlussansicht mit drei Zweigen, Beweisketten und quantitativen Ergebnissen.
-     PRIORITÄT: A -->
+![Abschlussansicht des Analysefalls VCÖ-01](../assets/images/analytik/analytik-hub/da05_abschlussansicht.webp)
+
+*Die Abschlussansicht führt die gesicherten Identitäten, quantitativen Ergebnisse und die zugehörigen analytischen Beweisketten zusammen.*
 
 ## Technische Grundidee
 
@@ -197,4 +202,4 @@ Damit rückt eine zentrale Kompetenz analytischer Chemie in den Vordergrund: nic
 
 Die Probe **VCÖ-01** kann bereits vollständig vom unbekannten Ausgangsgemisch bis zur abschließenden qualitativen und quantitativen Bilanz bearbeitet werden.
 
-Weitere unbekannte Proben und zusätzliche Analyseszenarien sind vorgesehen. Auch der Gaschromatograph wird als eigenes Werkzeug noch ausführlicher in diesen Bereich des Begleitkurses aufgenommen.
+Weitere unbekannte Proben und zusätzliche Analyseszenarien sind vorgesehen. Der virtuelle Gaschromatograph ist bereits als eigener Eintrag direkt im Anschluss an diese Seite in Kapitel 4 verfügbar.
