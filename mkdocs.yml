@@ -49,6 +49,7 @@ nav:
   - Kapitel 4 - Analytische und Physikalische Chemie:
       - Digitales Analytiklabor – vernetzte Analysewege: analytik/digitales-analytiklabor.md
       - GC-LAB – Virtueller Gaschromatograph: analytik/gc-lab.md
+      - STRUKTUR-LAB – Spektren & Strukturaufklärung: analytik/struktur-lab.md
       - TITRATIONS - TOOL: analytik/titrationstool.md
       - SÄUREN_LAB – Säuren in Lebensmitteln:
           - Überblick: analytik/saeuren-lab.md
