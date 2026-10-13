@@ -10,11 +10,9 @@ Das **GC-LAB** ist ein browserbasiertes virtuelles Gaschromatographie-Labor für
 
 [**Quellcode auf GitHub**](https://github.com/ekerzendorfer/GC_LAB){ .md-button }
 
-<!-- ABBILDUNG GC-01
-     DATEI: ../assets/images/analytik/gc-lab/gc01_ueberblick.webp
-     MOTIV: Gesamtansicht des GC-LABs mit Methodenauswahl, Chromatogramm und Messwerten.
-     PRIORITÄT: A
-     EMPFOHLENE BREITE: 1200–1400 px -->
+![Gesamtansicht des GC-LABs mit Methodenauswahl und Chromatogramm](../assets/images/analytik/gc-lab/gc01_ueberblick.webp)
+
+*Gesamtansicht des virtuellen Gaschromatographen mit Methodenparametern, Chromatogramm und Messwerten.*
 
 ## Warum ein virtuelles GC-Labor?
 
@@ -43,12 +41,9 @@ und macht sichtbar, dass die Komponenten die Säule mit unterschiedlichen Retent
 
 Die Darstellung ist bewusst ein didaktisches Modell. Sie zeigt keine maßstäbliche Molekülbewegung und legt sich nicht auf einen einzigen physikalischen Retentionsmechanismus fest.
 
-<!-- GIF GC-02
-     DATEI: ../assets/images/analytik/gc-lab/gc02_trennprozess.gif
-     MOTIV: GC-Lauf mit gleichzeitig sichtbarer Prozessanimation und wachsendem Chromatogramm.
-     PRIORITÄT: A
-     EMPFOHLENE LÄNGE: 10–15 s
-     EMPFOHLENE BREITE: 1200–1400 px -->
+![Trennprozess und wachsendes Chromatogramm im GC-LAB](../assets/images/analytik/gc-lab/gc02_trennprozess.gif)
+
+*Während des Laufs macht das Prinzipmodell den Weg durch die Säule sichtbar; parallel entsteht das Chromatogramm zeitlich Schritt für Schritt.*
 
 ## Was lässt sich verändern?
 
@@ -98,11 +93,9 @@ Die Lernenden vergleichen jeweils Auflösung und Laufzeit. Am Ende werden die L�
 
 [**GC-01 starten – Wie entsteht eine gute Trennung?**](https://ekerzendorfer.github.io/GC_LAB/?task=GC01){ .md-button .md-button--primary }
 
-<!-- GIF GC-03
-     DATEI: ../assets/images/analytik/gc-lab/gc03_gc01_gefuehrt.gif
-     MOTIV: GC-01 – Startlauf, Schrittwechsel und Freigabe eines neuen Parameters; idealerweise anschließend sichtbar verbesserte Trennung.
-     PRIORITÄT: A
-     EMPFOHLENE LÄNGE: 12–18 s -->
+![Geführte Aufgabe GC-01 zur Methodenentwicklung](../assets/images/analytik/gc-lab/gc03_gc01_gefuehrt.gif)
+
+*GC-01 führt vom bewusst ungünstigen Ausgangslauf über gezielte Parameteränderungen zu einer deutlich verbesserten Trennung.*
 
 ### GC-02 · Eine unbekannte Mischprobe untersuchen
 
@@ -129,11 +122,9 @@ Damit wird ein wichtiger analytischer Gedanke sichtbar: Auch ein negativer Refer
 
 [**GC-02 starten – unbekannte Mischprobe**](https://ekerzendorfer.github.io/GC_LAB/?task=GC02){ .md-button .md-button--primary }
 
-<!-- ABBILDUNG GC-04
-     DATEI: ../assets/images/analytik/gc-lab/gc04_gc02_referenzstandards.webp
-     MOTIV: GC-02 nach ausreichender Trennung: unbekanntes Chromatogramm, Referenzstandard-Bereich und Peakzuordnung sichtbar.
-     PRIORITÄT: A
-     EMPFOHLENE BREITE: 1200–1400 px -->
+![GC-02 mit Referenzstandard und Peakzuordnung](../assets/images/analytik/gc-lab/gc04_gc02_referenzstandard.webp)
+
+*Nach erfolgreicher Methodenentwicklung werden Referenzstandards unter unveränderten Bedingungen gemessen und den unbekannten Peaks zugeordnet – oder bewusst als nicht passend erkannt.*
 
 ## Unbekannte Proben und Referenzstandards
 
