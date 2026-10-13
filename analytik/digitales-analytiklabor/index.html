@@ -2471,11 +2471,8 @@
 <p>Der zentrale <strong>Analytik-Hub</strong> verwaltet dabei die Probe und ihre Teilproben, dokumentiert den bisherigen Arbeitsweg und übergibt konkrete Analyseaufträge an spezialisierte Detail-Labore. Deren Ergebnisse werden anschließend wieder in den Hub zurückgeführt und dort mit den bereits vorhandenen Befunden verknüpft.</p>
 <p><a class="md-button md-button--primary" href="https://ekerzendorfer.github.io/CHEMIE_ANALYTIK_HUB/"><strong>Digitales Analytiklabor öffnen</strong></a></p>
 <p><a class="md-button" href="https://github.com/ekerzendorfer/CHEMIE_ANALYTIK_HUB"><strong>Quellcode auf GitHub</strong></a></p>
-<!-- ABBILDUNG DA-01
-     MOTIV: Startansicht des Analytik-Hubs mit unbekannter Ausgangsprobe, Moduswahl und Probenbaum.
-     PRIORITÄT: A
-     EMPFOHLENE BREITE: 1200–1400 px -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/images/analytik/analytik-hub/da01_startansicht.webp" data-desc-position="bottom"><img alt="Startansicht des Digitalen Analytiklabors mit unbekannter Ausgangsprobe" src="../../assets/images/analytik/analytik-hub/da01_startansicht.webp"></a></p>
+<p><em>Startansicht des Analytik-Hubs: Die unbekannte Ausgangsprobe bildet den Ausgangspunkt für den gesamten Analyseweg.</em></p>
 <h2 id="von-der-einzelanwendung-zum-vernetzten-analyselabor">Von der Einzelanwendung zum vernetzten Analyselabor</h2>
 <p>Viele virtuelle Chemie-Labore bilden jeweils einen klar abgegrenzten Arbeitsschritt ab: eine Titration, eine photometrische Messung, eine chromatographische Trennung oder die Auswertung spektroskopischer Daten.</p>
 <p>Das Digitale Analytiklabor verfolgt einen anderen Ansatz.</p>
@@ -2492,10 +2489,8 @@
 <p class="admonition-title">Didaktische Grundidee</p>
 <p>Nicht die Bedienung einzelner Apps steht im Mittelpunkt, sondern das <strong>Planen und Begründen eines vollständigen Analysewegs</strong>. Die Lernenden sollen nachvollziehen, welche experimentelle Evidenz hinter einer Stoffidentifikation oder einer quantitativen Aussage steht.</p>
 </div>
-<!-- ABBILDUNG DA-02
-     MOTIV: Probenbaum nach Filtration und Destillation – mehrere Teilproben/Fraktionen sichtbar.
-     PRIORITÄT: A -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/images/analytik/analytik-hub/da02_probenbaum.webp" data-desc-position="bottom"><img alt="Probenbaum nach Trenn- und Aufbereitungsschritten" src="../../assets/images/analytik/analytik-hub/da02_probenbaum.webp"></a></p>
+<p><em>Der Probenbaum macht sichtbar, wie aus einer Ausgangsprobe Teilproben, Destillationsfraktionen und unterschiedliche Analysezweige entstehen.</em></p>
 <h2 id="die-anwendungen-arbeiten-zusammen">Die Anwendungen arbeiten zusammen</h2>
 <p>Eine Besonderheit des Systems ist die direkte Zusammenarbeit mehrerer unabhängiger Webanwendungen.</p>
 <p>Der Hub übergibt einer Detailanwendung einen <strong>konkreten Analyseauftrag</strong> mit den notwendigen Informationen zur ausgewählten Probe. Die Detail-App führt die Untersuchung durch und erzeugt anschließend ein strukturiertes digitales <strong>RESULT</strong>.</p>
@@ -2508,11 +2503,8 @@
 </ul>
 <p>So können beispielsweise Messdaten aus einem virtuellen Photometer anschließend im Daten-Lab quantitativ ausgewertet oder eine chromatographisch getrennte Fraktion zur Strukturaufklärung an ein Spektroskopie-Labor weitergereicht werden.</p>
 <p>Die beteiligten Anwendungen bleiben trotzdem eigenständig und können weiterhin auch unabhängig vom Hub verwendet werden.</p>
-<!-- GIF DA-03
-     MOTIV: Hub → Detail-Labor → Untersuchung → RESULT zurück an Hub.
-     EMPFOHLENE LÄNGE: 10–15 s
-     PRIORITÄT: A -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/images/analytik/analytik-hub/da03_hubdetailappresultat.gif" data-desc-position="bottom"><img alt="Datenaustausch zwischen Analytik-Hub und Detail-Labor" src="../../assets/images/analytik/analytik-hub/da03_hubdetailappresultat.gif"></a></p>
+<p><em>Ein Analyseauftrag wird an eine Detail-App übergeben; das dort erzeugte RESULT kehrt anschließend in den Hub zurück und wird in den laufenden Fall integriert.</em></p>
 <h2 id="keine-analytische-blackbox">Keine analytische Blackbox</h2>
 <p>Ein zentrales Ziel des Projekts ist, digitale Werkzeuge <strong>nicht zu Ergebnisautomaten</strong> werden zu lassen.</p>
 <p>Messwerte und simulierte Beobachtungen dürfen von einer Anwendung erzeugt werden. Die fachlich entscheidende Interpretation soll jedoch möglichst bei den Lernenden bleiben.</p>
@@ -2538,7 +2530,13 @@
 <li>das Verknüpfen mehrerer Befunde,</li>
 <li>und die quantitative Auswertung.</li>
 </ul>
-<p>Auch die Detail-Labore können auf diesen Modus reagieren. In der Strukturaufklärung muss beispielsweise die Summenformel zunächst aus Molmasse und Elementaranalyse erschlossen werden, bevor die weiteren spektroskopischen Methoden freigeschaltet werden.</p>
+<p>Auch die Detail-Labore können auf diesen Modus reagieren. In der Strukturaufklärung kann die Summenformel aus Molmasse und Elementaranalyse erschlossen werden.</p>
+<p>Für fortgeschrittene Lernende stehen im Expertenmodus zusätzlich zwei bewusste Wahlmöglichkeiten offen:</p>
+<ul>
+<li>Die <strong>klassische organische Feststoff-Voranalyse</strong> kann übersprungen werden. Die instrumentelle Strukturaufklärung beginnt dann ohne die bereits sehr aussagekräftigen Vorbefunde zu funktionellen Gruppen.</li>
+<li>Auch die <strong>Elementaranalyse</strong> kann bewusst ausgelassen werden. MS, IR und ¹H-NMR werden dann ohne vorab bekannte Summenformel interpretiert; die Summenformel ergibt sich erst aus der später begründeten Strukturhypothese.</li>
+</ul>
+<p>Der Verzicht auf diese Informationsquellen wird protokolliert. Damit lässt sich derselbe Analysefall vom schulischen Expertenmodus bis zu einer deutlich offeneren, auch für den Einstieg in FH oder Universität interessanten Variante bearbeiten.</p>
 <!-- ABBILDUNG DA-04
      MOTIV: Vergleich eines Hub-Ausschnitts in Geführt und Expert.
      PRIORITÄT: B -->
@@ -2552,7 +2550,7 @@
 <h3 id="2-fluchtige-organische-komponenten">2. Flüchtige organische Komponenten</h3>
 <p>Das organische Filtrat wird fraktionierend destilliert.</p>
 <p>Die erhaltenen Fraktionen werden anschließend gaschromatographisch untersucht. Ausreichend reine Fraktionen können zur Strukturaufklärung weitergegeben werden. Eine Stoffidentität wird danach zusätzlich mit Referenzstandard und Aufstockung im Gaschromatographen überprüft.</p>
-<p>Der virtuelle Gaschromatograph erhält später noch einen eigenen Eintrag in diesem Begleitkurs.</p>
+<p>Der virtuelle Gaschromatograph wird im nächsten Eintrag dieses Kapitels mit Methodenentwicklung, Lernaufgaben und unbekannten Proben ausführlicher vorgestellt.</p>
 <h3 id="3-nichtfluchtiger-organischer-ruckstand">3. Nichtflüchtiger organischer Rückstand</h3>
 <p>Der Destillationsrückstand wird abgekühlt und der Feststoff isoliert.</p>
 <p>Klassische Vorproben liefern zunächst nur allgemeine Strukturhinweise. Danach folgen die instrumentelle Strukturaufklärung, eine unabhängige Bestätigung über Schmelz- und Mischschmelzpunkt und schließlich eine quantitative Titration.</p>
@@ -2582,10 +2580,8 @@
 <p>unterschieden.</p>
 <p>Erst wenn die vorgesehenen Beweisketten vollständig sind, kann der gesamte Fall abgeschlossen werden.</p>
 <p>Die Abschlussansicht fasst den Analyseweg, die identifizierten Komponenten, die quantitativen Ergebnisse und die zugehörigen Beweisketten zusammen. Sie kann anschließend als weiterbearbeitbarer Bericht gespeichert oder über die Druckfunktion als PDF ausgegeben werden.</p>
-<!-- ABBILDUNG DA-05
-     MOTIV: Abschlussansicht mit drei Zweigen, Beweisketten und quantitativen Ergebnissen.
-     PRIORITÄT: A -->
-
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../assets/images/analytik/analytik-hub/da05_abschlussansicht.webp" data-desc-position="bottom"><img alt="Abschlussansicht des Analysefalls VCÖ-01" src="../../assets/images/analytik/analytik-hub/da05_abschlussansicht.webp"></a></p>
+<p><em>Die Abschlussansicht führt die gesicherten Identitäten, quantitativen Ergebnisse und die zugehörigen analytischen Beweisketten zusammen.</em></p>
 <h2 id="technische-grundidee">Technische Grundidee</h2>
 <p>Technisch basiert das Projekt bewusst auf vergleichsweise einfachen Mitteln:</p>
 <ul>
@@ -2608,7 +2604,7 @@
 <p>Damit rückt eine zentrale Kompetenz analytischer Chemie in den Vordergrund: nicht möglichst schnell einen Stoffnamen zu erhalten, sondern <strong>eine chemische Aussage durch nachvollziehbare Evidenz zu begründen</strong>.</p>
 <h2 id="aktueller-stand-und-ausblick">Aktueller Stand und Ausblick</h2>
 <p>Die Probe <strong>VCÖ-01</strong> kann bereits vollständig vom unbekannten Ausgangsgemisch bis zur abschließenden qualitativen und quantitativen Bilanz bearbeitet werden.</p>
-<p>Weitere unbekannte Proben und zusätzliche Analyseszenarien sind vorgesehen. Auch der Gaschromatograph wird als eigenes Werkzeug noch ausführlicher in diesen Bereich des Begleitkurses aufgenommen.</p>
+<p>Weitere unbekannte Proben und zusätzliche Analyseszenarien sind vorgesehen. Der virtuelle Gaschromatograph ist bereits als eigener Eintrag direkt im Anschluss an diese Seite in Kapitel 4 verfügbar.</p>
 
 
 
